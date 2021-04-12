@@ -7,6 +7,8 @@
 * Each SQL rule can be complex query involving one or more tables on the same source. The source can be Table or File or API. 
   * Note : If multiple data sources are involved in the same query, use MultiSQL tab.
 
+
+
 ![](../../../.gitbook/assets/singlesourcesql.jpg)
 
 
