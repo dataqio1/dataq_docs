@@ -52,7 +52,7 @@ On executing a flow the count is incremented and displayed under the correspondi
 * Select a flow to Publish 
 * Click on Save to publish the flow
 
-![Publish Flow](../.gitbook/assets/image%20%2810%29.png)
+![Publish Flow](../.gitbook/assets/publish_flow.png)
 
 
 
