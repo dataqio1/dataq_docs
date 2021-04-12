@@ -1,8 +1,8 @@
 # Multi Source SQL
 
-User can select one or more connections as Input Source which can be any of File Input, Table Input, 
-
-SQL Input and API INPUT as inputs.
+* This tab is used to create test cases based on sources from multiple connections. The multi connections can be any combination of SQL connections and or file connections and/or API connections.
+* As with SQL rules tab, the test case is considered as passed when the query defined in this tab does not return any results i.e it checks for negation condition.
+* Any number of queries can be defined which will in turn create a test case for each defined query.
 
 To select one or more Input Sources :
 

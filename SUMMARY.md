@@ -44,4 +44,5 @@
       * [Multi Source SQL](flows/untitled-1/data-quality/multi-source-sql.md)
     * [Data Profile](flows/untitled-1/data-profile.md)
   * [Execute flows](flows/execute-flows.md)
+  * [Defining flow settings](flows/defining-flow-settings.md)
 
