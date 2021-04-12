@@ -54,7 +54,7 @@ On executing a flow the count is incremented and displayed under the correspondi
 
 ![Publish Flow](../.gitbook/assets/publish_flow.png)
 
-![](../.gitbook/assets/publish_group.png)
+![Publish Flow to a Group](../.gitbook/assets/publish_group.png)
 
 
 
