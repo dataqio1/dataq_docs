@@ -45,6 +45,7 @@
     * [Data Profile](flows/untitled-1/data-profile.md)
   * [Select Columns](flows/select-columns.md)
   * [Column Type](flows/column-type.md)
+  * [Filter Rows](flows/filter-rows.md)
   * [Execute flows](flows/execute-flows.md)
   * [Defining flow settings](flows/defining-flow-settings.md)
 
