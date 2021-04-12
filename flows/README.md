@@ -47,7 +47,7 @@ On executing a flow the count is incremented and displayed under the correspondi
 
    **6. Import -** This is used to import an existing flow either saved or executed.
 
-   **7. Publish -** This is used to share the selected flow to the current group
+   **7. Publish -** This is used to share the selected flow to all the users in that group
 
 * Select a flow to Publish 
 * Click on Save to publish the flow
