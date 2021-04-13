@@ -18,7 +18,7 @@ cd dataops_server
 
 ### Set License Name and License Key
 
-**Edit .env** file and update following two properties \(from the values you received in the email \)
+**Edit .env** file and update following two properties \(from the values you received in the email \). Replace the default value of the LICENSE\_NAME with the value received in email.
 
 ```text
 LICENSE_NAME=<Name>
