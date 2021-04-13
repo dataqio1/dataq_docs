@@ -37,7 +37,7 @@ If https keys are provided, set the HOST\_URL to **https**://&lt;server URL&gt;
 
 ### Start the server
 
-Start the server with wither sudo or user with admin privileges.
+Start the server either with sudo or user with admin privileges.
 
 ```text
  ./start_server.sh
@@ -45,9 +45,17 @@ Start the server with wither sudo or user with admin privileges.
 
 ### Open the browser and go to the url : http://&lt;HOST\_URL&gt;
 
-Note : host is the server url or the ip address
+Note : Host is the server url or the ip address
+
+### **Login and enable LDAP settings**
+
+Login with default user dataops/dataops2021.  Go to Settings --&gt; Properties to enable LDAP integration.
 
 
 
-Enable 
+![](../.gitbook/assets/image%20%2841%29.png)
+
+
+
+
 
