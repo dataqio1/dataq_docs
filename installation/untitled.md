@@ -49,5 +49,5 @@ If https keys are provided, set the HOST\_URL to **https**://&lt;server URL&gt;
 
 ### Open the browser and go to the url : http://&lt;HOST\_URL&gt;
 
-Note : host is the server ip address
+Note : host is the server url or the ip address
 
