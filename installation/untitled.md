@@ -28,12 +28,8 @@ LICENSE_KEY=<key>
 ### Set Server URL
 
 ```text
-HOST_URL=< URL ex: dv.example.com or if there is no URL can alse set IP addr>
+HOST_URL=< URL ex: dv.example.com or if there is no URL can also set IP addr>
 ```
-
-{% hint style="info" %}
-If testing on a desktop, you do not need to update HOST\_URL.
-{% endhint %}
 
 {% hint style="info" %}
 If https keys are provided, set the HOST\_URL to **https**://&lt;server URL&gt; 
@@ -41,8 +37,10 @@ If https keys are provided, set the HOST\_URL to **https**://&lt;server URL&gt;
 
 ### Start the server
 
+Start the server with wither sudo or user with admin privileges.
+
 ```text
-./start_server.sh
+ ./start_server.sh
 ```
 
 ### Open the browser and go to the url : http://&lt;HOST\_URL&gt;

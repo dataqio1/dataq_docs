@@ -1,8 +1,11 @@
 # Improve the server
 
-We collect execution metrics to improve our process and optimize the code. The following metrics are collected \(job duration, compute resourcess allocated, type of job, size of job\). 
+We collect execution metric to improve our process and optimize the code. 
+
+The following metric are collected \(job duration, compute resourcess allocated, type of job, size of job\)
 
 ```text
+
 startTime
 endTime
 executorCores
