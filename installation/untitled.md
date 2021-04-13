@@ -7,7 +7,7 @@
 
 wget url
 
-eg : wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
+eg : wget https://dataops-store.s3.amazonaws.com/dataops_v2.0_server.zip
 ```
 
 ```text
