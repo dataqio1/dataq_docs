@@ -49,13 +49,13 @@ Note : Host is the server url or the ip address
 
 ### **Login and enable LDAP settings**
 
-Login with default user dataops/dataops2021.  Go to Settings --&gt; Properties to enable LDAP integration.
+Login with default users sent in the email along with the License key. 
+
+Note : For LDAP integration  Go to Settings --&gt; Properties and fill up the LDAP server details. Restart the server using ./restart\_server.sh for the changes to take effect.
 
 
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
-
-
-
+![](../.gitbook/assets/image%20%2843%29.png)
 
