@@ -15,9 +15,5 @@
 | Memory | Minimum 8G | Minimum 32G |
 | Disk Space | Minimum 30G | Minimum 50gb |
 
-{% hint style="info" %}
-Before proceeding ensure you have the license key
-{% endhint %}
-
 
 
