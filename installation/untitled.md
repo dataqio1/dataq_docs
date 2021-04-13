@@ -18,7 +18,7 @@ cd dataops_server
 
 ### Set License Name and License Key
 
-Edit **.env** file and update following two properties \(from the values you received in the email \)
+**Edit .env** file and update following two properties \(from the values you received in the email \)
 
 ```text
 LICENSE_NAME=<Name>
@@ -45,9 +45,11 @@ If https keys are provided, set the HOST\_URL to **https**://&lt;server URL&gt;
 ./start_server.sh
 ```
 
-### 
-
 ### Open the browser and go to the url : http://&lt;HOST\_URL&gt;
 
 Note : host is the server url or the ip address
+
+
+
+Enable 
 

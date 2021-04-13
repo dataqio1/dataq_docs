@@ -5,6 +5,7 @@
   * [Prerequisites](installation/prerequisites.md)
   * [Windows Install](installation/dataq-installation.md)
   * [Linux Server](installation/untitled.md)
+  * [Improve the server](installation/improve-the-server.md)
   * [Post Installation](installation/post-installation.md)
 * [Create Data Connections](untitled/README.md)
   * [Redshift](untitled/redshift.md)
