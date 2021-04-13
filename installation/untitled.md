@@ -3,7 +3,11 @@
 ## Download software
 
 ```text
-wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
+# url will be sent in the email along with license key.
+
+wget url
+
+eg : wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
 ```
 
 ```text
