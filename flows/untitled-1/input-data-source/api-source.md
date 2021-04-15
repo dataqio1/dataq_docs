@@ -19,7 +19,7 @@ import json
  
 API_KEY = "d25a07df6199416b87816551ebf80b0744c50b8c2fa385909c0820cfde80a3c5"
 PDL_VERSION = "v5"
-PDL_URL = "https://dataq-testing-data.s3.amazonaws.com/conversation.json"
+PDL_URL = "https://dataops-store.s3.amazonaws.com/conversation.json"
  
  
 params = {
