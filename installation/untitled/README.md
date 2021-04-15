@@ -1,4 +1,4 @@
-# Linux Server
+# Linux Install
 
 ## Download software
 

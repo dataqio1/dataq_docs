@@ -1,5 +1,5 @@
 ---
-description: This is optional and only required if setting up https
+description: 'To setup Server timezone,'
 ---
 
 # https setup
