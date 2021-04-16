@@ -37,6 +37,8 @@ f.close()
 
 
 
+![](../../../.gitbook/assets/api_input.png)
+
 {% file src="../../../.gitbook/assets/conversation.json" caption="Sample API output file\(json\)" %}
 
 
