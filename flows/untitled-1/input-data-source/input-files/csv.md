@@ -13,7 +13,7 @@ Upload files limit is 50mb.
 
 
 
-![](../../../../.gitbook/assets/screen-shot-2021-03-05-at-4.35.17-pm.png)
+![](../../../../.gitbook/assets/csvfileinput.png)
 
 * Provide delimiter option if the CSV option is selected.
 * Select header from the drop down
