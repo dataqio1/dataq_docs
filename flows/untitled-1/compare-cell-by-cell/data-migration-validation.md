@@ -32,7 +32,7 @@ We can compare the selected source and destination tables to view
 
 
 
-![Data Migration Validation Summary Results](../../../.gitbook/assets/dmv_summary.png)
+![Data Migration Validation Summary Results](../../../.gitbook/assets/dmv_summary%20%281%29.png)
 
 
 

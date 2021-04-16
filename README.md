@@ -10,5 +10,3 @@ description: >-
 * DataQ helps in ETL process validation by applying test rules and mappings on source data and compare against the target data.
 * Data migration can be validated with DataQ with minimal configuration.
 
-
-

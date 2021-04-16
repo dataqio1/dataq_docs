@@ -21,11 +21,7 @@
 ]
 ```
 
-
-
-
-
-![](../../../../.gitbook/assets/json.jpg)
+![](../../../../.gitbook/assets/json-file_input.png)
 
 {% hint style="info" %}
 Root level Columns can be selected above in a multi-root JSON structure. For selection of nested columns use select columns shape from the palette.
