@@ -14,7 +14,7 @@ Compares the data or columns of source and destination tables on various checks.
 * By default the primary key is selected for the tables. If the key is not selected, system shows a warning sign for the user to select the Primary Key.
 * Save and Execute the flow
 
-[Data Compare Options](https://app.gitbook.com/@dataq/s/docs/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation)
+[Data Compare Options](https://app.gitbook.com/@TestingWhizPro/s/docs/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation)
 
 ![ETL Testing/Cell By Cell Compare](../../../../.gitbook/assets/cellbycell.png)
 
