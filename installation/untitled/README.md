@@ -1,6 +1,6 @@
 # Linux Install
 
-## Download software
+## 54VVG-872U7-75CC4-3CC18-60882-D6837Download software
 
 ```text
 # url will be sent in the email along with license key.
@@ -49,7 +49,13 @@ Start the server either with sudo or user with admin privileges.
 
 ### Open the browser and go to the url : http://&lt;HOST\_URL&gt;
 
-Note : Host is the server url or the ip address
+Note : Host is the server url or the ip address.
+
+
+
+{% hint style="warning" %}
+Do not use localhost in the url.
+{% endhint %}
 
 ### **Login and enable LDAP settings**
 
