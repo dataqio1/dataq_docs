@@ -22,9 +22,10 @@ cd dataops_server
 
 ### Set License Name and License Key
 
-Edit **.env** file and update following two properties \(from the values you received in the email \). Replace the default value of the LICENSE\_NAME with the value received in email.
+Edit **.env** file and update following three properties \(from the values you received in the email \). Replace the default value of the LICENSE\_NAME with the value received in email.
 
 ```text
+LICENSE_COMPANY_NAME=<Name>
 LICENSE_NAME=<Name>
 LICENSE_KEY=<key>
 ```
@@ -32,6 +33,8 @@ LICENSE_KEY=<key>
 ### Set Server URL
 
 ```text
+# default value is http://dq-nginx
+# set it to the the server url if executing the jobs on hadoop clusters.
 HOST_URL=< URL ex: dv.example.com or if there is no URL can also set IP addr>
 ```
 
