@@ -7,7 +7,7 @@
 
 wget url
 
-eg : wget https://dataops-store.s3.amazonaws.com/dataops_v2.0_server.zip
+eg : wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
 ```
 
 ```text
@@ -22,7 +22,7 @@ cd dataops_server
 
 ### Set License Name and License Key
 
-**Edit .env** file and update following two properties \(from the values you received in the email \). Replace the default value of the LICENSE\_NAME with the value received in email.
+Edit **.env** file and update following two properties \(from the values you received in the email \). Replace the default value of the LICENSE\_NAME with the value received in email.
 
 ```text
 LICENSE_NAME=<Name>
