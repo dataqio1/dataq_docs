@@ -1,6 +1,6 @@
 # Linux Install
 
-## 54VVG-872U7-75CC4-3CC18-60882-D6837Download software
+## Download software
 
 ```text
 # url will be sent in the email along with license key.
