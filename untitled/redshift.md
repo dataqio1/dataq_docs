@@ -12,6 +12,8 @@ Provide JDBC URL, User name and password
 
 Optionally provide **s3TempDir** and **s3AwsIamRole** for better performance. 
 
+\([https://awsdba.cloud/2019/05/10/redshift-iam-role-for-copy-unload-to-s3/](https://awsdba.cloud/2019/05/10/redshift-iam-role-for-copy-unload-to-s3/)\)
+
 > **s3TempDir**
 >
 > s3n://**&lt;S3\_Bucket&gt;**/
