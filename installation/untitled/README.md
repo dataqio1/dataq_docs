@@ -34,7 +34,7 @@ LICENSE_KEY=<key>
 
 ```text
 # default value is http://dq-nginx
-# set it to the the server url if executing the jobs on hadoop clusters.
+# set it to the the server url if cluster(Hadoop, EMR, Databricks) is being used for jobs processing.
 HOST_URL=< URL ex: dv.example.com or if there is no URL can also set IP addr>
 ```
 
