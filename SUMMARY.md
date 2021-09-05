@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Dataq](README.md)
+* [DataQ Overview](README.md)
 * [Installation](installation/README.md)
   * [Prerequisites](installation/prerequisites.md)
   * [Windows Install](installation/dataq-installation.md)
