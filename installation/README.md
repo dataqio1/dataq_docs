@@ -1,10 +1,8 @@
 ---
 description: >-
-  Use the links shown here to direct you to the installation document that best
-  suits your needs.
+  This section provides information on all the requirements and procedures for
+  the proper installation of DataQ.
 ---
 
 # Installation
-
-Use the links shown here to direct you to the installation document that best suits your needs.
 
