@@ -10,7 +10,7 @@
     * [GCP](installation/cloud-installation/gcp.md)
     * [AWS](installation/cloud-installation/aws.md)
     * [Azure](installation/cloud-installation/azure.md)
-  * [Post Install](installation/post-install.md)
+  * [Post Installation Setup](installation/post-install.md)
   * [Improve the server](installation/improve-the-server.md)
 * [Create Data Connections](untitled/README.md)
   * [Redshift](untitled/redshift.md)
