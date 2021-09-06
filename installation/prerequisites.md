@@ -1,6 +1,6 @@
 # Prerequisites
 
-## To install Dataq following software are required.
+## To install DataQ, the following requirements need to be fulfilled.
 
 ### Software Requirements
 
@@ -16,7 +16,7 @@
 | Disk Space | Minimum 30G | Minimum 200gb |
 
 {% hint style="info" %}
-Before proceeding ensure you have the license key
+Before proceeding, make sure you have a license key.
 {% endhint %}
 
 
