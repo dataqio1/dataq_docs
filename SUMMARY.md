@@ -4,7 +4,7 @@
 * [Installation](installation/README.md)
   * [Prerequisites](installation/prerequisites.md)
   * [Windows Installation](installation/dataq-installation.md)
-  * [Linux Install](installation/untitled/README.md)
+  * [Linux Installation](installation/untitled/README.md)
     * [https setup](installation/untitled/https-setup.md)
   * [Cloud Installation](installation/cloud-installation/README.md)
     * [GCP](installation/cloud-installation/gcp.md)
