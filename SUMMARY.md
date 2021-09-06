@@ -3,7 +3,7 @@
 * [DataQ Overview](README.md)
 * [Installation](installation/README.md)
   * [Prerequisites](installation/prerequisites.md)
-  * [Windows Install](installation/dataq-installation.md)
+  * [Windows Installation](installation/dataq-installation.md)
   * [Linux Install](installation/untitled/README.md)
     * [https setup](installation/untitled/https-setup.md)
   * [Cloud Installation](installation/cloud-installation/README.md)
