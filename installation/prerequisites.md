@@ -1,6 +1,6 @@
 # Prerequisites
 
-## To install DataQ, the following requirements need to be fulfilled.
+To properly install DataQ, the following requirements need to be fulfilled.
 
 ### Software Requirements
 
