@@ -21,5 +21,5 @@ IPAddress
 **We never collect your organization's raw data.** 
 {% endhint %}
 
-If your organization would like to opt out of this process, set the flag _STORE\_CENTRAL\_FLAG=2_ in the _**.env file.**_
+If your organization would like to opt out of this process, open the _.env_ file and set the flag _STORE\_CENTRAL\_FLAG=2_.
 

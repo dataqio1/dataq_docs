@@ -1,19 +1,19 @@
-# Linux Installation
+# Linux Install
 
-## Software Download and Installation
+## Download software
 
 ```text
-The #URL will be sent to you through email, along with your license key.
+# url will be sent in the email along with license key.
 
-Use wget to retrieve URL.
+wget url
 
-E.g. : wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
+eg : wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
 ```
 
 ```text
-Unzip the zip file
+#unzip the zip file
+unzip dataops_server.zip
 
-Unzip dataops_server.zip
 ```
 
 ```text
@@ -22,7 +22,7 @@ cd dataops_server
 
 ### Set License Name and License Key
 
-Edit the ****_**.env**_ file and update the following three properties \(using the values you received in the email\). Replace the default value of the LICENSE\_NAME with the value shown in the email.
+Edit **.env** file and update following three properties \(from the values you received in the email \). Replace the default value of the LICENSE\_NAME with the value received in email.
 
 ```text
 LICENSE_COMPANY_NAME=<Name>
@@ -33,36 +33,38 @@ LICENSE_KEY=<key>
 ### Set Server URL
 
 ```text
-# Default value is http://dq-nginx
-# Set it to the server's URL if cluster (Hadoop, EMR, Databricks) is being used for jobs processing.
-HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP addrress>
+# default value is http://dq-nginx
+# set it to the the server url if cluster(Hadoop, EMR, Databricks) is being used for jobs processing.
+HOST_URL=< URL ex: dv.example.com or if there is no URL can also set IP addr>
 ```
 
 {% hint style="info" %}
 If https keys are provided, set the HOST\_URL to **https**://&lt;server URL&gt; 
 {% endhint %}
 
-## Starting the server
+### Start the server
 
-Start the server either with the _sudo_ command, or by logging in as a user with admin privileges.
+Start the server either with sudo or user with admin privileges.
 
 ```text
  ./start_server.sh
 ```
 
-Open an internet browser and go to the following URL : http://&lt;HOST\_URL&gt;
+### Open the browser and go to the url : http://&lt;HOST\_URL&gt;
 
-**Note**: Host is the server's URL or the IP address.
+Note : Host is the server url or the ip address.
+
+
 
 {% hint style="warning" %}
-Do not use localhost in the URL.
+Do not use localhost in the url.
 {% endhint %}
 
 ### **Login and enable LDAP settings**
 
-Login with default credentials sent in the email. 
+Login with default users sent in the email along with the License key. 
 
-**Note**: For LDAP integration, go to the _Settings_ tab and click on _Properties._ Fill up the LDAP server details, and restart the server by using _./restart\_server.sh_ for the changes to take effect.
+Note : For LDAP integration  Go to Settings --&gt; Properties and fill up the LDAP server details. Restart the server using ./restart\_server.sh for the changes to take effect.
 
 
 
