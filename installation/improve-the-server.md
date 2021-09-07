@@ -1,6 +1,6 @@
-# Improve the server
+# Improving the Server
 
-We collect execution metrics to improve our process and optimize the code. The following metrics are collected \(job duration, compute resourcess allocated, type of job, size of job\). 
+DataQ collects execution metrics to improve processes and optimize the code. The following metrics are collected \(job duration, compute resources allocated, type of job, size of job\). 
 
 ```text
 startTime
@@ -19,11 +19,11 @@ IPAddress
 
 
 
-{% hint style="warning" %}
+{% hint style="info" %}
 **We never collect your organization's raw data.** 
 {% endhint %}
 
 
 
-If your organization would like to opt out of this process, set the flag STORE\_CENTRAL\_FLAG=2 in **.env file**
+If your organization would like to opt out of this process, set the flag _STORE\_CENTRAL\_FLAG=2_ in the _**.env file.**_
 

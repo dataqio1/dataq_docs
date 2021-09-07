@@ -11,7 +11,7 @@
     * [AWS](installation/cloud-installation/aws.md)
     * [Azure](installation/cloud-installation/azure.md)
   * [Post Installation Setup](installation/post-install.md)
-  * [Improve the server](installation/improve-the-server.md)
+  * [Improving the Server](installation/improve-the-server.md)
 * [Create Data Connections](untitled/README.md)
   * [Redshift](untitled/redshift.md)
   * [SQL Server](untitled/sql-server.md)
