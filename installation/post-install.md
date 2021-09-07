@@ -1,28 +1,25 @@
 ---
-description: >-
-  This section includes information on how to setup the Server Default Time
-  Zone, Email Server, Slack, Teams, and LDAP.
+description: 'To setup Server default timezone, Email Server, Slack, Teams, LDAP'
 ---
 
-# Post Installation Setup
+# Post Install
 
-This interface can be accessed by going to the _Settings tab and then clicking on Properties,_ where the following details can be entered.
+Go to Settings --&gt; Properties and fill up the details. 
 
-## Setup Email Server
+## To setup Email Server
 
-To setup the email server, you will have to provide the following information.
+Provide the following properties
 
 ![](../.gitbook/assets/screen-shot-2021-04-14-at-3.54.12-pm.png)
 
-## Setup Server Default Time Zone
+## To setup Server Default Time Zone
 
-The default time zone can be changed by selecting your choice from the drop-down list that is located under "Default Timezone".
+Select the drop down from "Default Timezone"
 
-## Setup LDAP
+## To setup LDAP
 
-1. Select the LDAP option in the "User Manager" section, under "Authentication Manager". 
-2. Fill up all the required details for the LDAP protocol. 
-3. Restart the server using _./restart\_server.sh_ for the LDAP changes to take effect.
+1. Select LDAP in "User Manager" and fill up the details 
+2. Restart the server using ./restart\_server.sh for the LDAP changes to take effect.
 
 
 
