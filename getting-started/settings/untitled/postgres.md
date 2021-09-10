@@ -14,7 +14,7 @@ When ssl is enabled additional parameters are required for the jdbc url.
 
 
 
-![Postgres Configuration](../.gitbook/assets/postgres1.png)
+![Postgres Configuration](../../../.gitbook/assets/postgres1.png)
 
 
 

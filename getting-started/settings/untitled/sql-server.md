@@ -10,7 +10,7 @@ Provide JDBC URL, User name and Password
 
 
 
-![SQL Server Configuration](../.gitbook/assets/sql-server2.png)
+![SQL Server Configuration](../../../.gitbook/assets/sql-server2.png)
 
 Validate the connection by clicking on **TEST CONNECTION** and then **CREATE SOURCE**
 

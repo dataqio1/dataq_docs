@@ -10,5 +10,5 @@ Provide Cluster Details
 
 
 
-![Databricks Configuration](../.gitbook/assets/dbricks.png)
+![Databricks Configuration](../../../.gitbook/assets/dbricks.png)
 

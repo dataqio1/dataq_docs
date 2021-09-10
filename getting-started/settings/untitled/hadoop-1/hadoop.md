@@ -7,7 +7,7 @@
 * Provide the connection name
 * Provide the details as shown below
 
-![](../../.gitbook/assets/screen-shot-2021-04-21-at-9.23.17-pm.png)
+![](../../../../.gitbook/assets/screen-shot-2021-04-21-at-9.23.17-pm.png)
 
 Configuring on demand cluster enables jobs to leverage EMR cluster on demand. EMR cluster is launched on the fly and terminated on completing the job. 
 
@@ -29,5 +29,5 @@ Configuring on demand cluster enables jobs to leverage EMR cluster on demand. EM
 
 
 
-![Hadoop Configuration](../../.gitbook/assets/hadoop2.png)
+![Hadoop Configuration](../../../../.gitbook/assets/hadoop2.png)
 
