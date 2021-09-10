@@ -4,7 +4,7 @@ description: >-
   of test cases.
 ---
 
-# Flows
+# Designing and Executing Flows
 
 The Flows page displays all the user saved and executed flows.
 

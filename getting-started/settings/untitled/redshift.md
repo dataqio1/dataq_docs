@@ -11,9 +11,11 @@ To add a Redshift connection, you will have to provide:
 
 
 
-Optionally, you may provide _s3TempDir_ and _s3AwsIamRole_ for better performance. 
+Optionally, you may provide _s3TempDir_ and _s3AwsIamRole_ for better performance, as explained in the following link. 
 
-\([https://awsdba.cloud/2019/05/10/redshift-iam-role-for-copy-unload-to-s3/](https://awsdba.cloud/2019/05/10/redshift-iam-role-for-copy-unload-to-s3/)\)
+{% embed url="https://awsdba.cloud/2019/05/10/redshift-iam-role-for-copy-unload-to-s3/" %}
+
+
 
 > **s3TempDir**
 >

@@ -1,16 +1,15 @@
 # SQL Server
 
-Provide Connection Name 
+To add an SQL Server connection, you will have to provide:
 
-Provide JDBC URL, User name and Password
+* Connection name, which you will assign to this connection for internal use.
+* A JDBC URL. A sample JDBC URL is shown under this text.
 
-> Sample JDBC URL
->
 > jdbc:sqlserver://XXXXXX:1433;databaseName=XXXXXXX;
+
+* Credentials, which will be a username and a password that will provide access to this database. 
 
 
 
 ![SQL Server Configuration](../../../.gitbook/assets/sql-server2.png)
-
-Validate the connection by clicking on **TEST CONNECTION** and then **CREATE SOURCE**
 

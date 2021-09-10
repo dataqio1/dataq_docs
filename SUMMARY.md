@@ -25,7 +25,7 @@
         * [AWS EMR Cluster on demand](getting-started/settings/untitled/hadoop-1/hadoop.md)
       * [Snowflake](getting-started/settings/untitled/snowflake.md)
 * [Dashboard](dashboard.md)
-* [Flows](flows/README.md)
+* [Designing and Executing Flows](flows/README.md)
   * [Create Flows](flows/untitled-1/README.md)
     * [Define data sinks\(Source and Target\)](flows/untitled-1/input-data-source/README.md)
       * [Configure Table/s from Database](flows/untitled-1/input-data-source/input-table-s-from-database.md)
