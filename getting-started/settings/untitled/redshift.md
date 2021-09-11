@@ -78,3 +78,5 @@ To add a Snowflake connection, you will have to provide:
 
 * Credentials, which will be a username and a password that will provide access to this database.
 
+![Snowflake Configuration](../../../.gitbook/assets/snowflake%20%281%29.png)
+
