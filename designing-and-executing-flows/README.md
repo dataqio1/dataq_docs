@@ -1,4 +1,4 @@
 # Designing and Executing Flows
 
-This section incorporate all the 
+This section incorporates all the necessary information to create and execute flows, which is the main purpose of DataQ.
 

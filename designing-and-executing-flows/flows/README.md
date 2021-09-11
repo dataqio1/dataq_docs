@@ -1,16 +1,16 @@
 ---
 description: >-
-  Flows are the processes which  can be defined on a canvas to auto create group
-  of test cases.
+  Flows are the processes which can be defined on a canvas to auto-generate
+  groups of test cases.
 ---
 
 # Flows
 
-The Flows page displays all the user saved and executed flows.
+The _Flows_ page displays all the user-saved and executed flows.
 
 ![Flows](../../.gitbook/assets/flows2.png)
 
-On executing a flow the count is incremented and displayed under the corresponding Comparisons
+When a flow is executed, the count is increased and displayed under the corresponding Comparisons
 
 * **Search**  enables to search the flows with Flow Name, Job Type, Creator Name, Created Date,          Last Executed Time and Last Executed Status
 * **Import Flow** is used to upload a JSON file
