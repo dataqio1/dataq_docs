@@ -12,7 +12,7 @@
 
 To Create a new Flow , click on Create Flow " + "  icon which is placed at the top right 
 
-![Create a new Flow](../../../.gitbook/assets/screen-shot-2021-02-19-at-11.39.59-pm.png)
+![Create a new Flow](../../../../.gitbook/assets/screen-shot-2021-02-19-at-11.39.59-pm.png)
 
 
 
@@ -20,7 +20,7 @@ To Create a new Flow , click on Create Flow " + "  icon which is placed at the t
 * Drag Target component to the canvas
 * Drag Data Compare component to the canvas and join the connections
 
-![Placing Components](../../../.gitbook/assets/components.png)
+![Placing Components](../../../../.gitbook/assets/components.png)
 
 
 

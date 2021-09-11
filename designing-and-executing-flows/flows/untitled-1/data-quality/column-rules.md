@@ -13,7 +13,7 @@
   * Regular expression : This builds a test case when given on a column, every value of the corresponding column should comply with the regular expression.
   * Prebuilt rules : Prebuilt rules can be added to apply at column level of each row. If any of the row does not satisfy the condition of the prebuilt rule, the test case will be failed.
 
-![](../../../.gitbook/assets/columnrules.jpg)
+![](../../../../.gitbook/assets/columnrules.jpg)
 
 * Auto Suggest : The above mentioned rules under Column rules will be auto suggested by the system except for SQL where condition and regular expression. Once the rules are auto suggested, user can edit them to customize specific scenarios.
 

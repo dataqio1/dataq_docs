@@ -20,7 +20,7 @@ To select one or more Input Sources :
 
 
 
-![Multi Source SQL](../../../.gitbook/assets/multi_source_sql.png)
+![Multi Source SQL](../../../../.gitbook/assets/multi_source_sql.png)
 
  
 

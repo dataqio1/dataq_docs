@@ -4,6 +4,8 @@ You can also add connections that run on Hadoop Cluster and Databricks.
 
 ## Hadoop Cluster 
 
+_Upcoming section_
+
 ## AWS EMR Cluster On Demand
 
 * Add a _Hadoop Cluster_ connection.

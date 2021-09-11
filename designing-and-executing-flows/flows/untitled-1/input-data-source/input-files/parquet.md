@@ -11,7 +11,7 @@ Upload files limit is 50mb.
 
 
 
-![](../../../../.gitbook/assets/avro.jpg)
+![](../../../../../.gitbook/assets/avro.jpg)
 
 
 

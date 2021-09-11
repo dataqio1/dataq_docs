@@ -3,13 +3,13 @@
 * **Random Input Sample** : User can provide no. of sample records for Comparison and it allows maximum of 1000 records
   * Select no. of records to be compared under Random Input Sample
 
-![Random Input Sample](../../../../.gitbook/assets/ris.png)
+![Random Input Sample](../../../../../.gitbook/assets/ris.png)
 
 * **Compare Type** **:** TO DO
 
 
 
-![Compare Type](../../../../.gitbook/assets/comparetypeab.png)
+![Compare Type](../../../../../.gitbook/assets/comparetypeab.png)
 
 \*\*\*\*
 
@@ -20,11 +20,11 @@
 
  
 
-![Compare Data Profile](../../../../.gitbook/assets/cell_dataprofile.png)
+![Compare Data Profile](../../../../../.gitbook/assets/cell_dataprofile.png)
 
 
 
-![Compare Data Profile Result](../../../../.gitbook/assets/image%20%288%29.png)
+![Compare Data Profile Result](../../../../../.gitbook/assets/image%20%288%29.png)
 
 
 

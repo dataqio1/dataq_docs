@@ -16,11 +16,11 @@ Data Migration Validation is used to compare same type of Schema
 
 
 
-![Data Migration Validation Comparison](../../../.gitbook/assets/dmv1.png)
+![Data Migration Validation Comparison](../../../../.gitbook/assets/dmv1.png)
 
 
 
-![Data Migration Validation Mapping](../../../.gitbook/assets/dmv_mapping.png)
+![Data Migration Validation Mapping](../../../../.gitbook/assets/dmv_mapping.png)
 
 
 
@@ -32,17 +32,17 @@ We can compare the selected source and destination tables to view
 
 
 
-![Data Migration Validation Summary Results](../../../.gitbook/assets/dmv_summary%20%281%29.png)
+![Data Migration Validation Summary Results](../../../../.gitbook/assets/dmv_summary%20%281%29.png)
 
 
 
 
 
-![Data Migration Validation Summary Results](../../../.gitbook/assets/dmv_result.png)
+![Data Migration Validation Summary Results](../../../../.gitbook/assets/dmv_result.png)
 
 
 
-![Data Migration Validation Test Case Report](../../../.gitbook/assets/dmv_tstcases.png)
+![Data Migration Validation Test Case Report](../../../../.gitbook/assets/dmv_tstcases.png)
 
 
 

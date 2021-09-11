@@ -15,11 +15,11 @@ Compares the total source and destination columns record count.
 
 
 
-![Table Counts Comapre](../../../.gitbook/assets/tabcounts.png)
+![Table Counts Comapre](../../../../.gitbook/assets/tabcounts.png)
 
 
 
-![Table Counts Compare Tables Mapping](../../../.gitbook/assets/tabcounts%20%281%29.png)
+![Table Counts Compare Tables Mapping](../../../../.gitbook/assets/tabcounts%20%281%29.png)
 
 \*\*\*\*
 
@@ -30,13 +30,13 @@ Compares the total source and destination columns record count.
 
 
 
-![Table Count Compare Summary result](../../../.gitbook/assets/image%20%2830%29.png)
+![Table Count Compare Summary result](../../../../.gitbook/assets/image%20%2830%29.png)
 
 
 
-![Table Counts Compare Details](../../../.gitbook/assets/image%20%2816%29.png)
+![Table Counts Compare Details](../../../../.gitbook/assets/image%20%2816%29.png)
 
 There is an option to the top right corner to ****Share the link and send to other team to examine the results
 
-![ ](../../../.gitbook/assets/image%20%2836%29.png)
+![ ](../../../../.gitbook/assets/image%20%2836%29.png)
 

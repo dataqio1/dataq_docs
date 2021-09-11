@@ -4,11 +4,11 @@ description: >-
   of test cases.
 ---
 
-# Designing and Executing Flows
+# Flows
 
 The Flows page displays all the user saved and executed flows.
 
-![Flows](../.gitbook/assets/flows2.png)
+![Flows](../../.gitbook/assets/flows2.png)
 
 On executing a flow the count is incremented and displayed under the corresponding Comparisons
 
@@ -21,13 +21,13 @@ On executing a flow the count is incremented and displayed under the correspondi
   * A message is displayed to inform the user that the Flow is imported successfully 
 * User can sort the flows by clicking on the columns Flow Name, Job Type, Creator Name, Created Date, Last Executed Time and  Last Executed Status
 
-![Import Flow](../.gitbook/assets/import2.png)
+![Import Flow](../../.gitbook/assets/import2.png)
 
 * Each flow under Action Column  has seven states
 
        **1. Edit**  - On click of Edit, system redirects the user to the particular flow and can modify the existing flow
 
-![Edit Flow](../.gitbook/assets/editflow2.png)
+![Edit Flow](../../.gitbook/assets/editflow2.png)
 
    **2. Clone -** On click of Clone user can duplicate the flow
 
@@ -52,9 +52,9 @@ On executing a flow the count is incremented and displayed under the correspondi
 * Select a flow to Publish 
 * Click on Save to publish the flow
 
-![Publish Flow](../.gitbook/assets/publish_flow.png)
+![Publish Flow](../../.gitbook/assets/publish_flow.png)
 
-![Publish Flow to a Group](../.gitbook/assets/publish_group.png)
+![Publish Flow to a Group](../../.gitbook/assets/publish_group.png)
 
 
 

@@ -15,7 +15,7 @@ If data types don't match then its a failure.
 * In Mapping tab, the tables with same name are auto mapped. Map the tables and columns to compare the schema 
 * Save and Execute the flow
 
-![Schema Compare Mapping](../../../.gitbook/assets/schemacompare2.png)
+![Schema Compare Mapping](../../../../.gitbook/assets/schemacompare2.png)
 
 **Schema Compare Result** shows
 
@@ -23,9 +23,9 @@ If data types don't match then its a failure.
 
 **Details**  arranges the total tables matched and mismatched information based on the Column Data Type
 
-![Schema Compare Summary Result](../../../.gitbook/assets/image%20%282%29.png)
+![Schema Compare Summary Result](../../../../.gitbook/assets/image%20%282%29.png)
 
-![Schema Compare Details ](../../../.gitbook/assets/image%20%284%29.png)
+![Schema Compare Details ](../../../../.gitbook/assets/image%20%284%29.png)
 
 
 

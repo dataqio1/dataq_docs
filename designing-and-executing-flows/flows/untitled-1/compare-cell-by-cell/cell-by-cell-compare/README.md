@@ -16,9 +16,9 @@ Compares the data or columns of source and destination tables on various checks.
 
 [Data Compare Options](https://app.gitbook.com/@dataq/s/docs/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation)
 
-![ETL Testing/Cell By Cell Compare](../../../../.gitbook/assets/cellbycell.png)
+![ETL Testing/Cell By Cell Compare](../../../../../.gitbook/assets/cellbycell.png)
 
-![Cell By Cell Compare Tables Mapping](../../../../.gitbook/assets/mapping.png)
+![Cell By Cell Compare Tables Mapping](../../../../../.gitbook/assets/mapping.png)
 
 We can compare the selected source and destination tables to view
 
@@ -26,9 +26,9 @@ We can compare the selected source and destination tables to view
 * Source and Destination Record Matching 
 * Source and Destination key Distribution
 
-![Cell By Cell Compare Summary Results](../../../../.gitbook/assets/image%20%2811%29.png)
+![Cell By Cell Compare Summary Results](../../../../../.gitbook/assets/image%20%2811%29.png)
 
-![Cell and Row Level Validation Results](../../../../.gitbook/assets/cell_row_level_validation_results.png)
+![Cell and Row Level Validation Results](../../../../../.gitbook/assets/cell_row_level_validation_results.png)
 
-![Keys Level Validation Results](../../../../.gitbook/assets/keys_level_validation_results.png)
+![Keys Level Validation Results](../../../../../.gitbook/assets/keys_level_validation_results.png)
 

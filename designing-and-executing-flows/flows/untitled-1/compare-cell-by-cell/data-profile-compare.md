@@ -19,13 +19,13 @@ Data Profile Compare Flow
 
 
 
-![Data Profile Compare](../../../.gitbook/assets/dpc%20%281%29.png)
+![Data Profile Compare](../../../../.gitbook/assets/dpc%20%281%29.png)
 
 
 
 
 
-![ Data Profile Compare Mapping](../../../.gitbook/assets/dpc_mapping.png)
+![ Data Profile Compare Mapping](../../../../.gitbook/assets/dpc_mapping.png)
 
 
 
@@ -35,7 +35,7 @@ Data Profile Compare Flow
 * The columns with same name are shown under Common Columns
 * Click on the Columns to view the detailed information of Source and Destination together
 
-![Data Profile Compare Result](../../../.gitbook/assets/image%20%2827%29.png)
+![Data Profile Compare Result](../../../../.gitbook/assets/image%20%2827%29.png)
 
 
 

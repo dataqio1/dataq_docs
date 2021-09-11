@@ -7,7 +7,7 @@ To select one or more tables :
 * Select the checkbox for all the tables that need to be validated
 * Click on "Add selected" at the bottom 
 
-![](../../../.gitbook/assets/screen-shot-2021-03-05-at-3.07.09-pm.png)
+![](../../../../.gitbook/assets/screen-shot-2021-03-05-at-3.07.09-pm.png)
 
 **Advanced Options** : For large tables, it is recommended to provide partition column so Dataq can pull the data in parallel. 
 

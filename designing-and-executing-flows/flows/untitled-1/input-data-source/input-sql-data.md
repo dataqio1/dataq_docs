@@ -8,5 +8,5 @@ To provide one or more SQL/s
 * Click on validate
 * If the sql is valid, the sql is added on the right side list.
 
-![](../../../.gitbook/assets/screen-shot-2021-03-05-at-4.25.16-pm.png)
+![](../../../../.gitbook/assets/screen-shot-2021-03-05-at-4.25.16-pm.png)
 

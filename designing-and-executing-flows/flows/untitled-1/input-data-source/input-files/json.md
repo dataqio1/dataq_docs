@@ -21,7 +21,7 @@
 ]
 ```
 
-![](../../../../.gitbook/assets/json-file_input.png)
+![](../../../../../.gitbook/assets/json-file_input.png)
 
 
 
