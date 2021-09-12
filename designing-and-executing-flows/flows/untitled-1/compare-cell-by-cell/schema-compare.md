@@ -1,6 +1,6 @@
 # Schema Compare
 
-Compares the table schema or we can say compares the columns with their data types.
+This type of comparison will compare the table schema, which is to say, compares the columns with their data types.
 
 If data types don't match then its a failure.
 

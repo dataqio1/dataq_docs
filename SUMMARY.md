@@ -38,8 +38,6 @@
         * [Counts Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/counts-compare.md)
         * [Data Profile Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-profile-compare.md)
         * [Data Migration Validation](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-migration-validation.md)
-        * [Data Compare Options](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/tolerance.md)
-        * [Data Compare Mapping](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-compare-mapping.md)
       * [Data Quality](designing-and-executing-flows/flows/untitled-1/data-quality/README.md)
         * [Config](designing-and-executing-flows/flows/untitled-1/data-quality/config.md)
         * [Column rules](designing-and-executing-flows/flows/untitled-1/data-quality/column-rules.md)
