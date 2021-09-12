@@ -1,14 +1,16 @@
-# Define data sinks\(Source and Target\)
+# Define Data Source and Target
 
-Source and Target shapes from the palette can be used to configure source and destination data stores. There are 4 tabs in these shapes.
+To make use of the data that comes from the _Data Connections_, __users can make use of the _Source_ and _Target_ shapes from the palette, which can be used to configure source and destination data stores.
 
-\*\*\*\*[**Table Input** ](https://app.gitbook.com/@dv-dataq/s/docs/flows/untitled-1/input-data-source/input-table-s-from-database)**:** This is used to configure a data store which is a from a database.
+After dropping any of these two shapes into the canvas and clicking on them, a window will appear at the bottom of the screen. This window will show two main tabs, one named _Config,_ and the other _Sample Data._  The _Config_ tab will provide four tabs from which the user can choose the type of data input. These options are:
 
-\*\*\*\*[**SQL Input**](https://docs.dataq.io/untitled-1/input-data-source/input-sql-data) **:** Custom SQL queries can be defined in this tab to extract data from multiple tables. These queries can be nested queries to chain the SQL statements.
+[**Table Input** ](https://app.gitbook.com/@dv-dataq/s/docs/flows/untitled-1/input-data-source/input-table-s-from-database)**:** This is used to configure a data store which is a from a database.
 
-\*\*\*\*[**File Input**](https://app.gitbook.com/@dv-dataq/s/docs/flows/untitled-1/input-data-source/input-files/csv) **:** This tab can be used if the data has to be taken from a file which is in one of the Parquet, AVRO, JSON, CSV and Excel formats.
+[**SQL Input**](https://docs.dataq.io/untitled-1/input-data-source/input-sql-data) **:** Custom SQL queries can be defined in this tab to extract data from multiple tables. These queries can be nested queries to chain the SQL statements.
 
-\*\*\*\*[**API Input**](https://app.gitbook.com/@dv-dataq/s/docs/~/drafts/-MWDdJCn7MseECKQbjcr/flows/untitled-1/input-data-source/api-source) **:** API input tab can be used to call an API to extract data. This is a request response pattern where API calls can be scheduled to extract data.
+[**File Input**](https://app.gitbook.com/@dv-dataq/s/docs/flows/untitled-1/input-data-source/input-files/csv) **:** This tab can be used if the data has to be taken from a file which is in one of the Parquet, AVRO, JSON, CSV and Excel formats.
+
+[**API Input**](https://app.gitbook.com/@dv-dataq/s/docs/~/drafts/-MWDdJCn7MseECKQbjcr/flows/untitled-1/input-data-source/api-source) **:** API input tab can be used to call an API to extract data. This is a request response pattern where API calls can be scheduled to extract data.
 
 **Note :** Currently table/s input and SQL input tabs can be used together as source or target datastores.
 

@@ -22,7 +22,7 @@
 * [Designing and Executing Flows](designing-and-executing-flows/README.md)
   * [Flows](designing-and-executing-flows/flows/README.md)
     * [Create Flows](designing-and-executing-flows/flows/untitled-1/README.md)
-      * [Define data sinks\(Source and Target\)](designing-and-executing-flows/flows/untitled-1/input-data-source/README.md)
+      * [Define Data Source and Target](designing-and-executing-flows/flows/untitled-1/input-data-source/README.md)
         * [Configure Table/s from Database](designing-and-executing-flows/flows/untitled-1/input-data-source/input-table-s-from-database.md)
         * [Input SQL Data](designing-and-executing-flows/flows/untitled-1/input-data-source/input-sql-data.md)
         * [Input Files](designing-and-executing-flows/flows/untitled-1/input-data-source/input-files/README.md)
