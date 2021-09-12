@@ -10,47 +10,47 @@ The _Flows_ page displays all the user-saved and executed flows.
 
 ![Flows](../../.gitbook/assets/flows2.png)
 
-When a flow is executed, the count is increased and displayed under the corresponding Comparisons
+Some important features of this page are:
 
-* **Search**  enables to search the flows with Flow Name, Job Type, Creator Name, Created Date,          Last Executed Time and Last Executed Status
-* **Import Flow** is used to upload a JSON file
-  *  Click on the Import Flow button which is placed above the table. 
-  * This allows to name the imported JSON file
-  *  click on Save to import the flow under the Flows table
-  * Click Cancel to stop the import process 
-  * A message is displayed to inform the user that the Flow is imported successfully 
-* User can sort the flows by clicking on the columns Flow Name, Job Type, Creator Name, Created Date, Last Executed Time and  Last Executed Status
+* **Search:** Allows users to search in the displayed flows for a specific flow by _Flow Name_, _Job Type_, _Creator Name_, _Created Date_, _Last Executed Time,_ or _Last Executed Status._
+* **Import Flow:** This feature permits users to upload a JSON file with information to create a flow. To do this, follow these instructions:
+  * Click on the _Import Flow_ button which is located above the table, to the right. 
+  * Find and select the JSON file to be imported from your documents.
+  * Click on _Save_ to import the flow under the flows table.
+  * Click on _Cancel_ to stop the import process.
+  * A message is displayed to inform the user that the flow has been successfully imported. 
+* The flows' list can be sorted by clicking on the columns' titles, i.e., _Flow Name, Job Type, Creator Name, Created Date, Last Executed Time,_ and _Last Executed Status._
 
 ![Import Flow](../../.gitbook/assets/import2.png)
 
-* Each flow under Action Column  has seven states
+Each flow under the _Action_ column has seven available actions, which can be accessed by clicking on the three-dots icon next to the check box. These actions are:  
 
-       **1. Edit**  - On click of Edit, system redirects the user to the particular flow and can modify the existing flow
+       **1. Edit**  - By clicking on this action the system redirects the user to the edit canvas of this particular flow, and can then modify it. 
 
 ![Edit Flow](../../.gitbook/assets/editflow2.png)
 
-   **2. Clone -** On click of Clone user can duplicate the flow
+   **2. Clone -** By clicking on this action a user can duplicate the corresponding flow:
 
-* Select Clone option
-* Provide the Flow Name 
-* Click on save to clone the flow       
+* Select the _Clone_ option.
+* Provide the flow's name. 
+* Click on _Save_ to clone the flow.       
 
-   **3. Delete -** This allows the user to delete the selected flow
+   **3. Delete -** This action allows the user to delete the selected flow.
 
-   **4. Rename -** This is used to rename the selected flow  
+   **4. Rename -** This action is used to rename the selected flow. To rename a flow:  
 
-* Select Rename option 
-* Modify the Flow Name
-* Click on save to rename the flow
+* Select the _Rename_ option. 
+* Modify the flow's Name.
+* Click on S_ave_ to rename the flow.
 
-   **5. Export -** The selected flow can be downloaded as a file
+   **5. Export -** This action can be used to download selected flow as a JSON file.
 
-   **6. Import -** This is used to import an existing flow either saved or executed.
+   **6. Import -** This action is used to import an existing flow, either saved or executed.
 
-   **7. Publish -** This is used to share the selected flow to all the users in that group
+   **7. Publish -** This action is used to share the selected flow to all the users in that group. To publish a flow:
 
-* Select a flow to Publish 
-* Click on Save to publish the flow
+* Select a flow to publish. 
+* Click on _Save_ to publish the flow.
 
 ![Publish Flow](../../.gitbook/assets/publish_flow.png)
 
