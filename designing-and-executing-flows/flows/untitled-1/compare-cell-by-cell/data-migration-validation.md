@@ -1,6 +1,6 @@
 # Data Migration Validation
 
-Data Migration Validation is used to compare same type of Schema
+This comparison option is used to compare same type of schema.
 
 **Data Migration Validation Flow** 
 
@@ -13,6 +13,17 @@ Data Migration Validation is used to compare same type of Schema
   * If the column type differs then system shows the red icon with a message to the user as "Schema should be same for data migration compare"  beside the table mapping.                                            Remove the column/table if different type of column is mapped
   * Data Types should be same for “Data Migration“ validation.
 * Save and Execute the flow
+
+
+
+* Drag a _Source_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables for _Data Migration Validation_.
+* Drag a _Target_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables for _Data Migration Validation_. 
+* Drag a _Data Compare_ component and join the connections. 
+* Select _Data Profile Compare_ from the drop-down menu that appears at the bottom of the screen.
+* In the _Mapping_ tab, the tables with the same name are auto mapped. You can manually map the other tables and the corresponding columns. 
+* Save and execute the flow.
 
 
 

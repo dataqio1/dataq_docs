@@ -7,10 +7,7 @@ This compare option compares the _Data Profiles_ of the _Source_ and _Target_ ta
 * Drag a _Source_ component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for data profile compare.
 * Drag a _Target_ component from the palette to the canvas.
-* Choose the _Input Source Configuration_ and select the tables for data profile
-
-   compare. 
-
+* Choose the _Input Source Configuration_ and select the tables for data profile compare. 
 * Drag a _Data Compare_ component and join the connections. 
 * Select _Data Profile Compare_ from the drop-down menu that appears at the bottom of the screen.
 * In the _Mapping_ tab, the tables with the same name are auto mapped. You can manually map the other tables and the corresponding columns. 
