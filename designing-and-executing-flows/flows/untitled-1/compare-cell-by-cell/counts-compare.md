@@ -1,17 +1,17 @@
-# Counts Compare
+# Table Counts Compare
 
-Compares the total source and destination columns record count.
+This comparison type compares the total source and destination total count of column records.
 
 **Table Counts Compare Flow**
 
-* Drag Source component from left to the canvas
-* Choose Input Source Configuration and select the tables for Counts compare 
-* Drag Target component from left to the canvas
-* Choose Input Source Configuration and select the tables for Counts compare
-* Drag Data Compare component and join the connections
-* Select Table Counts Comparison 
-* In Mapping tab, the tables with same name are auto mapped. Map the other tables to compare table counts 
-* Save and Execute the flow
+* Drag a _Source_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables for table counts compare.
+* Drag a _Target_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables for table counts compare. 
+* Drag a _Data Compare_ component and join the connections. 
+* Select _Table Counts Comparison_ from the drop-down menu that appears at the bottom of the screen.
+* In the _Mapping_ tab, the tables with the same name are auto mapped. You can manually map the other tables and the corresponding columns. 
+* Save and execute the flow.
 
 
 
@@ -25,8 +25,8 @@ Compares the total source and destination columns record count.
 
 **Table Counts Compare Result** 
 
-* Summary shows the percentage of matched and mismatched counts 
-* Details shows Source and Destination tables matched and mismatched count
+* _Summary_ shows the percentage of matched and mismatched table counts.
+* _Details_ shows _Source_ and _Target_ count of matched and mismatched tables count.
 
 
 
@@ -36,7 +36,9 @@ Compares the total source and destination columns record count.
 
 ![Table Counts Compare Details](../../../../.gitbook/assets/image%20%2816%29.png)
 
-There is an option to the top right corner to ****Share the link and send to other team to examine the results
+{% hint style="info" %}
+There is an option to the top right corner to ****share the link for this flow, and send it to other team members to examine the results.
+{% endhint %}
 
 ![ ](../../../../.gitbook/assets/image%20%2836%29.png)
 

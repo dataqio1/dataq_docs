@@ -35,7 +35,7 @@
           * [Data Compare Options](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation.md)
           * [Data Compare Mapping](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/untitled.md)
         * [Schema Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/schema-compare.md)
-        * [Counts Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/counts-compare.md)
+        * [Table Counts Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/counts-compare.md)
         * [Data Profile Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-profile-compare.md)
         * [Data Migration Validation](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-migration-validation.md)
       * [Data Quality](designing-and-executing-flows/flows/untitled-1/data-quality/README.md)
