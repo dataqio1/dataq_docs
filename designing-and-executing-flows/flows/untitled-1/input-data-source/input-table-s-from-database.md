@@ -2,14 +2,14 @@
 
 To select one or more tables :
 
-* Select the Connection Name from the drop down
-* Select the schema
-* Select the checkbox for all the tables that need to be validated
-* Click on "Add selected" at the bottom 
+* Select the _Connection Name_ from the drop down menu.
+* Select the schema.
+* Select the checkboxes for all the tables that need to be validated.
+* Click on _Add Selected_ at the bottom 
 
 ![](../../../../.gitbook/assets/screen-shot-2021-03-05-at-3.07.09-pm.png)
 
-**Advanced Options** : For large tables, it is recommended to provide partition column so Dataq can pull the data in parallel. 
+**Advanced Options** : For large tables, it is recommended to provide a partition column so DataQ can pull the data in parallel. 
 
 Dataq can autodetect the partition column however it is recomended for user to provide this.
 
