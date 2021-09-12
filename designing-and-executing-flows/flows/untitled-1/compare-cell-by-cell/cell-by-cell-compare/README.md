@@ -1,18 +1,18 @@
-# Cell By Cell Compare
+# ETL Testing/Cell By Cell Compare
 
-Compares the data or columns of source and destination tables on various checks.
+This compare option will compare the data, or columns, of the source and target tables on various checks.
 
-**Cell By Cell Compare Flow**
+To create a _Cell By Cell Compare_ flow:
 
-* Drag Source component from left to the canvas
-* Choose the Input Source Configuration and select the tables to compare
-* Drag Target component from left to the canvas 
-* Choose the Input Source Configuration and select the tables to compare 
-* Drag Data Compare component and join the connections 
-* Select ETL Testing/Cell By Cell Comparison 
-* In Mapping tab, the tables with same name are auto mapped. Map the other tables and the corresponding columns. Select the primary key.
-* By default the primary key is selected for the tables. If the key is not selected, system shows a warning sign for the user to select the Primary Key.
-* Save and Execute the flow
+* Drag a _Source_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables to compare.
+* Drag a _Target_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables to compare 
+* Drag a _Data Compare_ component and join the connections. 
+* Select _ETL Testing/Cell By Cell Comparison_ from the drop-down menu that appears at the bottom of the screen.
+* In _Mapping_ tab, the tables with the same name are auto mapped. You can manually map the other tables and the corresponding columns. 
+* Select the primary key. By default, the primary key is selected for the tables. If the key is not selected, the system shows a warning sign for the user to select the _Primary Key_.
+* Save and execute the flow.
 
 [Data Compare Options](https://app.gitbook.com/@dataq/s/docs/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation)
 
@@ -20,11 +20,11 @@ Compares the data or columns of source and destination tables on various checks.
 
 ![Cell By Cell Compare Tables Mapping](../../../../../.gitbook/assets/mapping.png)
 
-We can compare the selected source and destination tables to view
+DataQ can compare the selected source and destination tables to view:
 
-* Cell Level Validation Results
-* Source and Destination Record Matching 
-* Source and Destination key Distribution
+* _Cell Level Validation Results._
+* _Source and Destination Record Matching._ 
+* _Source and Destination key Distributions._
 
 ![Cell By Cell Compare Summary Results](../../../../../.gitbook/assets/image%20%2811%29.png)
 

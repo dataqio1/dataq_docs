@@ -1,24 +1,20 @@
 # Data Reconciliation/Compare
 
-### Compare two data sources \(tables/SQL/files/API output\)
+### Compare two data sources \(Tables/SQL/files/API output\)
 
 The _Data Compare_ shape can be used to compare the following four options of two or more data sources/targets:
 
 * **ETL Testing/Cell by Cell Compare** : Compares every cell from the configured source with the corresponding cell of the configured target. 
-* **Counts compare** : Compares the counts of source and target tables. 
-* **Schema compare** : Compare the schema of source and target. 
-* **Data Profile compare** : Compares the data profile of the source and target.
-* **Data Migration Validation** : Compares same type of Schema
+* **Table Counts Compare** : Compares the counts of source and target tables. 
+* **Schema Compare** : Compares the schema of source and target. 
+* **Data Profile Compare** : Compares the data profile of the source and target.
+* **Data Migration Validation** : Compares same type of schema.
 
-To Create a new Flow , click on Create Flow " + "  icon which is placed at the top right 
+To create a new compare flow:
 
-![Create a new Flow](../../../../.gitbook/assets/screen-shot-2021-02-19-at-11.39.59-pm.png)
-
-
-
-* Drag Source component to the canvas
-* Drag Target component to the canvas
-* Drag Data Compare component to the canvas and join the connections
+* Drag a _Source_ component from the palette to the canvas and configure it as explained in the _Define Data Source and Target_ section. 
+* Drag a _Target_ component from the palette to the canvas and configure it as explained in the _Define Data Source and Target_ section.
+* Drag a _Data Compare_ component from the palette to the canvas. Join the connections by clicking on the dark circles next to each component and dragging your pointer to the other component's circle.  
 
 ![Placing Components](../../../../.gitbook/assets/components.png)
 

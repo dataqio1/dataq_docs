@@ -1,6 +1,8 @@
 # Data Compare Options
 
-* **Random Input Sample** : User can provide no. of sample records for Comparison and it allows maximum of 1000 records
+These are some of the options present in the configuration page for _ETL Testing/Cell by Cell Compare._
+
+* **Random Input Sample** : User can provide a number of sample records for comparison, which allows a maximum of 1000 records.
   * Select no. of records to be compared under Random Input Sample
 
 ![Random Input Sample](../../../../../.gitbook/assets/ris.png)
