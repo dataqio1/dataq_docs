@@ -1,21 +1,20 @@
 # Data Profile Compare
 
-Compare the Data Profiles of the Source and Target tables.
+This compare option compares the _Data Profiles_ of the _Source_ and _Target_ tables.
 
-Data Profile Compare Flow
+**Data Profile Compare Flow**
 
-* Drag Source component from left to the canvas
-* Choose Input Source Configuration and select the tables for Data Profile Compare
-* After adding the tables check the Sample data of the selected tables 
-* Drag Target component from left to the canvas
-* Choose Input Source Configuration and select the tables for Data Profile Compare
-* Drag Data Compare component and join the connections 
-* Select Data Profile Compare 
-* In Mapping tab, the tables with same name are auto mapped. 
+* Drag a _Source_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables for data profile compare.
+* Drag a _Target_ component from the palette to the canvas.
+* Choose the _Input Source Configuration_ and select the tables for data profile
 
-  Map the other tables and corresponding columns to do Data Profile compare 
+   compare. 
 
-* Save and Execute the flow
+* Drag a _Data Compare_ component and join the connections. 
+* Select _Data Profile Compare_ from the drop-down menu that appears at the bottom of the screen.
+* In the _Mapping_ tab, the tables with the same name are auto mapped. You can manually map the other tables and the corresponding columns. 
+* Save and execute the flow.
 
 
 
@@ -31,9 +30,9 @@ Data Profile Compare Flow
 
 **Data Profile Compare Result**
 
-* Select the table from the dropdown to get the detailed information of the tables data
-* The columns with same name are shown under Common Columns
-* Click on the Columns to view the detailed information of Source and Destination together
+* Select the table from the dropdown menu to get the detailed information of the table's data.
+* The columns with the same name are shown under _Common Columns._
+* Click on the columns to view the detailed information of _Source_ and _Target_ together.
 
 ![Data Profile Compare Result](../../../../.gitbook/assets/image%20%2827%29.png)
 
