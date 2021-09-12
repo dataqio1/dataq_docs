@@ -1,12 +1,12 @@
 # Input SQL Data
 
-To provide one or more SQL/s 
+To provide one or more SQLs:
 
-* Select the Connection Name from the drop down
-* Select the schema
-* Provide the sql and a name \(the name should not have spacess\)
-* Click on validate
-* If the sql is valid, the sql is added on the right side list.
+* Select the _Connection Name_ from the drop down menu.
+* Select the desired schema.
+* Provide the SQL and a name \(the name should not have spaces\).
+* Click on _validate._
+* If the SQL is valid, the SQL will be added to the list on the right side.
 
 ![](../../../../.gitbook/assets/screen-shot-2021-03-05-at-4.25.16-pm.png)
 

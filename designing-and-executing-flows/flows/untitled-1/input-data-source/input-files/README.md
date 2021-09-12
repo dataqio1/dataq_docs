@@ -1,6 +1,6 @@
 # Input Files
 
-File inputs tab is used to take many formats of files as input source. Excel, CSV, JSON, Parquet, AVRO are the formats supported currently.
+The _File Input_ tab can be used to take many formats of files as an input source. _Excel, CSV, JSON, Parquet,_ and _AVRO_ are the formats currently supported by DataQ.
 
 
 
