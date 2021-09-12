@@ -1,20 +1,21 @@
 # Json
 
+JSON files can be used as data input by uploading a file, specifying an _s3_ path \(**s3a**://&lt;file\_path&gt;\), or providing an HDFS location. 
 
+* Multiline options can be set to false if the JSON structure is in single line. Default value for this is set to _True._
+* JSON can be flattened, by checking the _Flatten Data_ checkbox, if the JSON structure is in hierarchical format. 
+* JSON elements can be selected by specifying element names in the columns section and can be renamed using them as keywords. E.g. if _id_, first\__name_ and _last\_name_ are the only three elements to be selected from a JSON with many distinct elements: _isbn_ as _id, author.firstName_ as _first\_name_ and  _author._lastName as last\_name.
 
-* JSON files can be added by choosing a file using upload option or specifying a s3 path  \(**s3a**://&lt;file\_path&gt;\) or HDFS location.
-* Multiline option can be set to false if the JSON structure is in single line. Default value for this is set to true
-* JSON can be flattened if the JSON structure is in hierarchical format. Flatten data check box should be selected to enable this option.
-* JSON elements can be selected by specifying element names in the columns section and can be renamed using  as keyword. For eg if id, first\__name and last\_name are the only three elements to be selected from a JSON with many distinct elements: isbn as id, author.firstName as first\_name and  author._lastName as last\_name
+Multi-line _False_ sample:
 
 ```text
-#multi line false
 { "isbn": "123-456-222","lastname": "Doe","firstname": "Jane"}
 {"isbn": "123-456-777","lastname": "Smith","firstname": "Jane"}
 ```
 
+Multi-line _True_ sample:
+
 ```text
-#multi line true
 [
 	{ "isbn": "123-456-222","lastname": "Doe","firstname": "Jane"},
 	{"isbn": "123-456-777","lastname": "Smith","firstname": "Jane"}
@@ -26,6 +27,6 @@
 
 
 {% hint style="info" %}
-Root level Columns can be selected above in a multi-root JSON structure. For selection of nested columns use select columns shape from the palette.
+Root level columns can be selected above in a multi-root JSON structure. For selection of nested columns, use the _Select Columns_ shape from the palette.
 {% endhint %}
 

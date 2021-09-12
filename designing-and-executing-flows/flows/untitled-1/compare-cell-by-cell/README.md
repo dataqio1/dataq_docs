@@ -1,10 +1,10 @@
 # Data Reconciliation/Compare
 
-### To compare two data sources \(tables/sql/files/API ouput\)
+### Compare two data sources \(tables/SQL/files/API output\)
 
-### This shape can be used to compare the following four options
+The _Data Compare_ shape can be used to compare the following four options of two or more data sources/targets:
 
-* **Cell by cell compare** : Compares every cell from configured source with the corresponding cell of the target. 
+* **ETL Testing/Cell by Cell Compare** : Compares every cell from the configured source with the corresponding cell of the configured target. 
 * **Counts compare** : Compares the counts of source and target tables. 
 * **Schema compare** : Compare the schema of source and target. 
 * **Data Profile compare** : Compares the data profile of the source and target.

@@ -1,4 +1,0 @@
-# Kafka Source
-
-Coming soon ...
-
