@@ -1,4 +1,4 @@
-# Json
+# JSON
 
 JSON files can be used as data input by uploading a file, specifying an _s3_ path \(**s3a**://&lt;file\_path&gt;\), or providing an HDFS location. 
 

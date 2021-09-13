@@ -1,16 +1,16 @@
 # API Input
 
-To provide an _API_ as data input: 
+To provide an API as data input: 
 
-* Provide a _Python_ script which can execute one or more _APIs_ to get the output.
-* The final _API_ should write the output to a specific location, e.g., _**/tmp/dq\_output\_file\_name.json**_**.**
+* Provide a Python script which can execute one or more APIs to get the output.
+* The final API should write the output to a specific location, e.g., _**/tmp/dq\_output\_file\_name.json**_**.**
 * Provide a sample output JSON for the schema.
 
 {% hint style="warning" %}
 Ensure the sample output \(few records\) represents all of the columns.
 {% endhint %}
 
-Sample _Python_ code snippet for an _API:_
+Sample Python code snippet for an API_:_
 
 ```text
 import requests
