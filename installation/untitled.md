@@ -18,7 +18,7 @@ cd dataops_server
 
 ### Set License Name and License Key
 
-Edit the ****_.env_ file and update the following three properties \(using the values you received in the email\). Replace the default value of the LICENSE\_NAME with the value shown in the email.
+Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchaseing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
 ```text
 LICENSE_COMPANY_NAME=<Name>
