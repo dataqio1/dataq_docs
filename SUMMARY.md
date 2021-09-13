@@ -18,7 +18,6 @@
     * [Create Data Connections](getting-started/settings/untitled/README.md)
       * [Databases/Warehouses](getting-started/settings/untitled/redshift.md)
       * [Run On](getting-started/settings/untitled/databricks.md)
-* [Dashboard](dashboard.md)
 * [Designing and Executing Flows](designing-and-executing-flows/README.md)
   * [Flows](designing-and-executing-flows/flows/README.md)
     * [Create Flows](designing-and-executing-flows/flows/untitled-1/README.md)
@@ -50,4 +49,5 @@
     * [Filter Rows](designing-and-executing-flows/flows/filter-rows.md)
     * [Execute flows](designing-and-executing-flows/flows/execute-flows.md)
     * [Defining flow settings](designing-and-executing-flows/flows/defining-flow-settings.md)
+* [Dashboard](dashboard.md)
 

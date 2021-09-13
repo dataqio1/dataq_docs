@@ -15,7 +15,7 @@ _Upcoming section_
 
 ![AWS EMR Cluster Connection Configuration](../../../.gitbook/assets/aws_hadoop.png)
 
-Configuring with On Demand Cluster enables jobs to leverage EMR cluster on demand. EMR cluster is launched on the fly and terminated on completing the job.
+Configuring on demand cluster enables jobs to leverage EMR cluster on demand. EMR cluster is launched on the fly and terminated on completing the job.
 
 * AWS\_EMR\_SERVICE\_ROLE=EMR\_DefaultRole  \([Service role for Amazon EMR](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-iam-role.html)\)
 * AWS\_EMR\_EC2\_SERVICE\_ROLE=EMR\_EC2\_DefaultRole  \([Service Role for Cluster EC2 Instances](https://docs.amazonaws.cn/en_us/emr/latest/ManagementGuide/emr-iam-role-for-ec2.html) \)

@@ -16,7 +16,7 @@ For large tables, it is recommended to provide a partition column so DataQ can p
 **Rules for selecting the partition column :**
 
 * The column should have an index.
-* The column should be numeric or a date-column.
+* The column should be numeric or date-column.
 * If the column is of string-type, ensure the bucket size is not too low for a distinct value.
   * Example : If you have to choose between city and person\_name, select city as partition column, as person\_name is highly unique.
 
