@@ -2,10 +2,10 @@
 
 The _Data Quality_ shape is used to validate input data against rules which are defined by the user.
 
-* There are four tabs to configure the _Data Quality_ shape:
+* There are five tabs to configure the _Data Quality_ shape:
   * **Config**
     * When the _Data Profile_ checkbox is checked, the flow will validate the data profile of the input data against the profile created during the flow creation.
-    * The _Import Rules_ and E_xport Rules_ options on this tab can be used to import or export the user-defined rules. 
+    * The _Import Rules_ and _Export Rules_ options on this tab can be used to import or export the user-defined rules. 
   * **Column rules**
     * This tab is used to define any conditions/rules at column level manually. What follows are the different rules which can be defined at the column level:
       * Empty check rule : Rule to create a test case which checks if the column is empty. If the checkbox for this rule is checked, during execution of the flow if the corresponding column has empty value in any row during the execution of the flow, this test case will have failed. 
