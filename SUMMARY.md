@@ -43,6 +43,6 @@
     * [Column Type](designing-and-executing-flows/flows/column-type.md)
     * [Filter Rows](designing-and-executing-flows/flows/filter-rows.md)
     * [Execute flows](designing-and-executing-flows/flows/execute-flows.md)
-    * [Defining flow settings](designing-and-executing-flows/flows/defining-flow-settings.md)
+    * [Defining Flow Settings](designing-and-executing-flows/flows/defining-flow-settings.md)
 * [Dashboard](dashboard.md)
 
