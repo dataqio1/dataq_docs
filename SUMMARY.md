@@ -39,6 +39,7 @@
         * [Data Migration Validation](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-migration-validation.md)
       * [Data Quality](designing-and-executing-flows/flows/untitled-1/data-quality.md)
       * [Select Columns](designing-and-executing-flows/flows/untitled-1/select-columns.md)
+      * [Remove Duplicate](designing-and-executing-flows/flows/untitled-1/remove-duplicate.md)
       * [Filter Rows](designing-and-executing-flows/flows/untitled-1/filter-rows.md)
       * [Column Type](designing-and-executing-flows/flows/untitled-1/column-type.md)
       * [Data Profile](designing-and-executing-flows/flows/untitled-1/data-profile.md)

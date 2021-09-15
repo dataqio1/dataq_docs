@@ -1,6 +1,6 @@
 # Select Columns
 
-The _Select Columns_ shape can be used to select only certain columns from the table or tables that have been selected in the _Source_ or _Target_ components. This component has to be connected between the data _Source_ or _Target_ and the _Data Compare_ component.
+The _Select Columns_ shape can be used to select only certain columns from the table or tables that have been selected in the _Source_ or _Target_ components. This component has to be connected between the data _Source_ or _Target_ and another component.
 
 * Click on this component, after connection a data component to the dot on the left, to open the menu at the bottom.
 * Select a table from the dropdown menu to see the columns from that table listed.
