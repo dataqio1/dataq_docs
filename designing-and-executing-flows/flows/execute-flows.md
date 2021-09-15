@@ -1,4 +1,4 @@
-# Execute flows
+# Execute Flows
 
 There are two main ways to execute flows in DataQ:
 

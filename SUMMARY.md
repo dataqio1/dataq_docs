@@ -43,7 +43,8 @@
       * [Column Type](designing-and-executing-flows/flows/untitled-1/column-type.md)
       * [Filter Rows](designing-and-executing-flows/flows/untitled-1/filter-rows.md)
       * [Data Profile](designing-and-executing-flows/flows/untitled-1/data-profile.md)
-    * [Execute flows](designing-and-executing-flows/flows/execute-flows.md)
+    * [Execute Flows](designing-and-executing-flows/flows/execute-flows.md)
     * [Defining Flow Settings](designing-and-executing-flows/flows/defining-flow-settings.md)
+  * [Executions](designing-and-executing-flows/executions.md)
 * [Dashboard](dashboard.md)
 
