@@ -26,12 +26,6 @@ Data connections are used as a link to a database \(DB\) to retrieve data for te
 
 
 
-{% hint style="info" %}
-If the DB you are looking for is not available, and the DB has the JDBC driver, select _Other_ at the bottom and upload the JDBC driver and the URL.
-{% endhint %}
-
-![Database Connections](../../../.gitbook/assets/db-conns.png)
-
 
 
 

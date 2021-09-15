@@ -46,7 +46,7 @@ Start the server either with the _sudo_ command, or by logging in as a user with
  ./start_server.sh
 ```
 
-Open an internet browser and go to the following URL : http://&lt;HOST\_URL&gt;
+Open an internet browser and go to your own host's URL : http://&lt;HOST\_URL&gt;
 
 **Note**: Host is the server's URL or the IP address.
 
