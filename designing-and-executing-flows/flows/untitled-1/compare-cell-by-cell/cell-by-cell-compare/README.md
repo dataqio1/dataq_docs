@@ -10,7 +10,6 @@ To create a _Cell By Cell Compare_ flow:
 * Choose the _Input Source Configuration_ and select the tables to compare 
 * Drag a _Data Compare_ component and join the connections. 
 * Select _ETL Testing/Cell By Cell Comparison_ from the drop-down menu that appears at the bottom of the screen.
-* In _Mapping_ tab, the tables with the same name are auto mapped. You can manually map the other tables and the corresponding columns. 
 * Select the primary key. By default, the primary key is selected for the tables. If the key is not selected, the system shows a warning sign for the user to select the _Primary Key_.
 * Save and execute the flow.
 
