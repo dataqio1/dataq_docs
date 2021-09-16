@@ -1,5 +1,5 @@
 ---
-description: DataQ addresses data quality issues in the process flow of any organization.
+description: DataQ automates Data Testing.
 ---
 
 # DataQ Overview
