@@ -1,4 +1,4 @@
-# Data Reconciliation/Compare
+# Data Compare
 
 ### Compare two data sources \(Tables/SQL/files/API output\)
 
