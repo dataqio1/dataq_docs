@@ -10,7 +10,7 @@
     * [AWS](installation/cloud-installation/aws.md)
     * [Azure](installation/cloud-installation/azure.md)
   * [Post Installation Setup](installation/post-install.md)
-  * [Improving the Server](installation/improve-the-server.md)
+  * [Collecting stats to Improve Server](installation/improve-the-server.md)
 * [Getting Started](getting-started/README.md)
   * [Managing Groups and Projects](getting-started/managing-groups-and-projects/README.md)
     * [Projects](getting-started/managing-groups-and-projects/projects.md)

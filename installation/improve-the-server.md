@@ -1,4 +1,4 @@
-# Improving the Server
+# Collecting stats to Improve Server
 
 DataQ collects execution metrics to improve processes and optimize the code. The following metrics are collected \(job duration, compute resources allocated, type of job, size of job\). 
 
