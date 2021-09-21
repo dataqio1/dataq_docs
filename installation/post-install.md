@@ -12,7 +12,7 @@ This interface can be accessed by going to the _Settings_ tab and then clicking 
 
 To setup the email server, you will have to provide the following information.
 
-![](../.gitbook/assets/screen-shot-2021-04-14-at-3.54.12-pm.png)
+![](../.gitbook/assets/mail.png)
 
 ## Setup Server Default Time Zone
 
