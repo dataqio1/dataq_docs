@@ -5,7 +5,7 @@
 Enable linux containers \([Documentation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)\).
 
 {% hint style="info" %}
-Validate docker linux containers is enabled by executing the following commands
+Validate docker linux containers is enabled by executing the below commands
 {% endhint %}
 
 ```text
