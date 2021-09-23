@@ -1,5 +1,9 @@
 # Windows Installation
 
+### Windows Requirements
+
+Enable linux containers \([Documentation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)\).
+
 ### Installation Procedure
 
 1. Download the _dataops\_server.zip_ file from this [URL](https://dataops-store.s3.amazonaws.com/dataops_server.zip).
