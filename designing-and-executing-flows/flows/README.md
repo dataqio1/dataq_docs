@@ -45,9 +45,7 @@ Each flow under the _Action_ column has seven available actions, which can be ac
 
    **5. Export -** This action can be used to download selected flow as a JSON file.
 
-   **6. Import -** This action is used to import an existing flow, either saved or executed.
-
-   **7. Publish -** This action is used to share the selected flow to all the users in that group. A flow belongs only to the user that created it until the user has published the flow. To publish a flow:
+   **6. Publish -** This action is used to share the selected flow to all the users in that group. A flow belongs only to the user that created it until the user has published the flow. To publish a flow:
 
 * Select a flow to publish. 
 * Click on _Save_ to publish the flow.
