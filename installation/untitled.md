@@ -26,7 +26,7 @@ LICENSE_NAME=<Name>
 LICENSE_KEY=<key>
 ```
 
-### Set Server URL
+### Set Server URL \(optional\)
 
 The default value for the server is _**http**://dq-nginx_. Set it to the server's URL if cluster \(Hadoop, EMR, Databricks\) is being used for jobs processing.
 
