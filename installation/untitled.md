@@ -48,6 +48,8 @@ Start the server either with the _sudo_ command, or by logging in as a user with
 
 Open an internet browser and go to your own host's URL : http://&lt;HOST\_URL&gt;
 
+If installing on the local machine, URL will be http://127.0.0.1
+
 **Note**: Host is the server's URL or the IP address.
 
 {% hint style="warning" %}
