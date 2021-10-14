@@ -1,5 +1,7 @@
 # Windows Installation
 
+###
+
 ### Windows Requirements
 
 Enable linux containers ([Documentation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)).
@@ -59,11 +61,22 @@ HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP ad
 If https keys are provided, set the HOST_URL to **https**://\<server URL> 
 {% endhint %}
 
+### Increase Docker Memory and Cores (Running docker first time)
+
+
+
+on Windows 10 using Docker Desktop, I could not get the `--memory=` and `--cpus=`options to work. Here's what does work:
+
+1. Right click on the Docker whale in the system tray and choose "Settings"
+2. Go to "Advanced" on the left
+3. Set  CPUs and  memory is available to containers here.
+4. Refer to [link](prerequisites.md) for memory and cpu settings.
+
 ### Start the server 
 
-To start the server : start_server
+To start the server : start_server.bat
 
-To stop the server : stop_server
+To stop the server : stop_server.bat
 
 
 
