@@ -61,11 +61,11 @@ HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP ad
 If https keys are provided, set the HOST_URL to **https**://\<server URL> 
 {% endhint %}
 
-### Increase Docker Memory and Cores (Running docker first time)
+### Increase  Memory, CPU, Swap space for better performance (Running docker first time)
 
 
 
-on Windows 10 using Docker Desktop, I could not get the `--memory=` and `--cpus=`options to work. Here's what does work:
+on Windows 10 using Docker Desktop, To update memory and CPU for docker containers:
 
 1. Right click on the Docker whale in the system tray and choose "Settings"
 2. Go to "Advanced" on the left
