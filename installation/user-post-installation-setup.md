@@ -6,7 +6,13 @@ description: >-
 
 # User Post Installation Setup
 
-##  Login using credentials.
+##  URL
+
+Running in local Desktop : URL is http://127.0.0.1 
+
+Running on Server : URL is http://\<server address>
+
+## Login using credentials.
 
 ![](<../.gitbook/assets/image (22).png>)
 
