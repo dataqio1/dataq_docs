@@ -6,7 +6,7 @@ This comparison type compares the total source and destination total count of co
 
 * Drag a _Source_ component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for table counts compare.
-* Drag a _Target_ component from the palette to the canvas.
+* Drag a _Target _component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for table counts compare. 
 * Drag a _Data Compare_ component and join the connections. 
 * Select _Table Counts Comparison_ from the drop-down menu that appears at the bottom of the screen.
@@ -19,26 +19,25 @@ This comparison type compares the total source and destination total count of co
 
 
 
-![Table Counts Compare Tables Mapping](../../../../.gitbook/assets/tabcounts%20%281%29.png)
+![Table Counts Compare Tables Mapping](<../../../../.gitbook/assets/tabcounts (1).png>)
 
-\*\*\*\*
+****
 
-**Table Counts Compare Result** 
+**Table Counts Compare Result **
 
 * _Summary_ shows the percentage of matched and mismatched table counts.
-* _Details_ shows _Source_ and _Target_ count of matched and mismatched tables count.
+* _Details _shows _Source_ and _Target_ count of matched and mismatched tables count.
 
 
 
-![Table Count Compare Summary result](../../../../.gitbook/assets/image%20%2830%29.png)
+![Table Count Compare Summary result](<../../../../.gitbook/assets/image (30).png>)
 
 
 
-![Table Counts Compare Details](../../../../.gitbook/assets/image%20%2816%29.png)
+![Table Counts Compare Details](<../../../../.gitbook/assets/image (16).png>)
 
 {% hint style="info" %}
-There is an option to the top right corner to ****share the link for this flow, and send it to other team members to examine the results.
+There is an option to the top right corner to** **share the link for this flow, and send it to other team members to examine the results.
 {% endhint %}
 
-![ ](../../../../.gitbook/assets/image%20%2836%29.png)
-
+![ ](<../../../../.gitbook/assets/image (36).png>)

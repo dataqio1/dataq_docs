@@ -2,11 +2,11 @@
 
 This comparison option is used to compare the same type of schema.
 
-**Data Migration Validation Flow** 
+**Data Migration Validation Flow **
 
 * Drag a _Source_ component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for _Data Migration Validation_.
-* Drag a _Target_ component from the palette to the canvas.
+* Drag a _Target _component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for _Data Migration Validation_. 
 * Drag a _Data Compare_ component and join the connections. 
 * Select _Data Migration Validation_ from the drop-down menu that appears at the bottom of the screen.
@@ -34,7 +34,7 @@ We can compare the selected source and destination tables to view
 
 
 
-![Data Migration Validation Summary Results](../../../../.gitbook/assets/dmv_summary%20%281%29.png)
+![Data Migration Validation Summary Results](<../../../../.gitbook/assets/dmv_summary (1).png>)
 
 
 
@@ -45,6 +45,4 @@ We can compare the selected source and destination tables to view
 
 
 ![Data Migration Validation Test Case Report](../../../../.gitbook/assets/dmv_tstcases.png)
-
-
 

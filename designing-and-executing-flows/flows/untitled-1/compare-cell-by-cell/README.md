@@ -1,6 +1,6 @@
 # Data Compare
 
-### Compare two data sources \(Tables/SQL/files/API output\)
+### Compare two data sources (Tables/SQL/files/API output)
 
 The _Data Compare_ shape can be used to compare the following four options of two or more data sources/targets:
 
@@ -13,7 +13,7 @@ The _Data Compare_ shape can be used to compare the following four options of tw
 To create a new compare flow:
 
 * Drag a _Source_ component from the palette to the canvas and configure it as explained in the _Define Data Source and Target_ section. 
-* Drag a _Target_ component from the palette to the canvas and configure it as explained in the _Define Data Source and Target_ section.
+* Drag a _Target _component from the palette to the canvas and configure it as explained in the _Define Data Source and Target_ section.
 * Drag a _Data Compare_ component from the palette to the canvas. Join the connections by clicking on the dark circles next to each component and dragging your pointer to the other component's circle.  
 
 ![Placing Components](../../../../.gitbook/assets/components.png)
@@ -26,6 +26,4 @@ To create a new compare flow:
 
 
 
-  
-
-
+\

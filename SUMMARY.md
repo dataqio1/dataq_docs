@@ -9,7 +9,8 @@
     * [GCP](installation/cloud-installation/gcp.md)
     * [AWS](installation/cloud-installation/aws.md)
     * [Azure](installation/cloud-installation/azure.md)
-  * [Post Installation Setup](installation/post-install.md)
+  * [Admin Post Installation Setup](installation/post-install.md)
+  * [User Post Installation Setup](installation/user-post-installation-setup.md)
   * [Server Improvement](installation/improve-the-server.md)
 * [Getting Started](getting-started/README.md)
   * [Managing Groups and Projects](getting-started/managing-groups-and-projects/README.md)
@@ -47,4 +48,3 @@
     * [Defining Flow Settings](designing-and-executing-flows/flows/defining-flow-settings.md)
   * [Executions](designing-and-executing-flows/executions.md)
 * [Dashboard](dashboard.md)
-

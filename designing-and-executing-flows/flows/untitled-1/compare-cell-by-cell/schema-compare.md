@@ -2,11 +2,11 @@
 
 This type of comparison will compare the table schema, which is to say, compares the columns with their data types. If data types don't match, then the test is considered as failed.
 
-**Schema Compare Flow** 
+**Schema Compare Flow **
 
 * Drag a _Source_ component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for schema compare.
-* Drag a _Target_ component from the palette to the canvas.
+* Drag a _Target _component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for schema compare. 
 * Drag a _Data Compare_ component and join the connections. 
 * Select _Schema Comparison_ from the drop-down menu that appears at the bottom of the screen.
@@ -21,9 +21,7 @@ _Summary_ presents the  matched/mismatched tables count and the total matched/mi
 
 _Details_ arranges the total tables matched and mismatched information based on the _Column Data Type._
 
-![Schema Compare Summary Result](../../../../.gitbook/assets/image%20%282%29.png)
+![Schema Compare Summary Result](<../../../../.gitbook/assets/image (2).png>)
 
-![Schema Compare Details ](../../../../.gitbook/assets/image%20%284%29.png)
-
-
+![Schema Compare Details ](<../../../../.gitbook/assets/image (4).png>)
 

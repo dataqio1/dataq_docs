@@ -11,7 +11,6 @@ The _Column Type_ shape can be used to change the type of the information of the
 * Byte
 * Boolean
 * String
-* Extract\_JSON\_flatten
+* Extract_JSON_flatten
 
-This component has to be connected between the data _Source_ or _Target_ whose column type is to be changed, and another component.
-
+This component has to be connected between the data _Source _or _Target_ whose column type is to be changed, and another component.

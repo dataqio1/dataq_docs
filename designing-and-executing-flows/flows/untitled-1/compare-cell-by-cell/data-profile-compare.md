@@ -6,7 +6,7 @@ This compare option compares the _Data Profiles_ of the _Source_ and _Target_ ta
 
 * Drag a _Source_ component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for data profile compare.
-* Drag a _Target_ component from the palette to the canvas.
+* Drag a _Target _component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for data profile compare. 
 * Drag a _Data Compare_ component and join the connections. 
 * Select _Data Profile Compare_ from the drop-down menu that appears at the bottom of the screen.
@@ -15,7 +15,7 @@ This compare option compares the _Data Profiles_ of the _Source_ and _Target_ ta
 
 
 
-![Data Profile Compare](../../../../.gitbook/assets/dpc%20%281%29.png)
+![Data Profile Compare](<../../../../.gitbook/assets/dpc (1).png>)
 
 
 
@@ -29,11 +29,9 @@ This compare option compares the _Data Profiles_ of the _Source_ and _Target_ ta
 
 * Select the table from the dropdown menu to get the detailed information of the table's data.
 * The columns with the same name are shown under _Common Columns._
-* Click on the columns to view the detailed information of _Source_ and _Target_ together.
+* Click on the columns to view the detailed information of _Source_ and _Target _together.
 
-![Data Profile Compare Result](../../../../.gitbook/assets/image%20%2827%29.png)
-
-
+![Data Profile Compare Result](<../../../../.gitbook/assets/image (27).png>)
 
 
 

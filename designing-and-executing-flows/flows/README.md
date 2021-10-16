@@ -6,14 +6,14 @@ description: >-
 
 # Flows
 
-The _Flows_ page displays all the user-saved and executed flows.
+The _Flows _page displays all the user-saved and executed flows.
 
 ![Flows](../../.gitbook/assets/flows2.png)
 
 Some important features of this page are:
 
-* **Search:** Allows users to search in the displayed flows for a specific flow by _Flow Name_, _Job Type_, _Creator Name_, _Created Date_, _Last Executed Time,_ or _Last Executed Status._
-* **Import Flow:** This feature permits users to upload a JSON file with information to create a flow. To do this, follow these instructions:
+* **Search: **Allows users to search in the displayed flows for a specific flow by _Flow Name_, _Job Type_, _Creator Name_, _Created Date_, _Last Executed Time,_ or _Last Executed Status._
+* **Import Flow: **This feature permits users to upload a JSON file with information to create a flow. To do this, follow these instructions:
   * Click on the _Import Flow_ button which is located above the table, to the right. 
   * Find and select the JSON file to be imported from your documents.
   * Click on _Save_ to import the flow under the flows table.
@@ -29,30 +29,28 @@ Each flow under the _Action_ column has seven available actions, which can be ac
 
 ![Edit Flow](../../.gitbook/assets/editflow2.png)
 
-   **2. Clone -** By clicking on this action a user can duplicate the corresponding flow:
+**   2. Clone - **By clicking on this action a user can duplicate the corresponding flow:
 
 * Select the _Clone_ option.
 * Provide the flow's name. 
 * Click on _Save_ to clone the flow.       
 
-   **3. Delete -** This action allows the user to delete the selected flow.
+**   3. Delete - **This action allows the user to delete the selected flow.
 
-   **4. Rename -** This action is used to rename the selected flow. To rename a flow:  
+**   4. Rename - **This action is used to rename the selected flow. To rename a flow:  
 
-* Select the _Rename_ option. 
+* Select the_ Rename_ option. 
 * Modify the flow's Name.
 * Click on S_ave_ to rename the flow.
 
-   **5. Export -** This action can be used to download selected flow as a JSON file.
+**   5. Export - **This action can be used to download selected flow as a JSON file.
 
-   **6. Publish -** This action is used to share the selected flow to all the users in that group. A flow belongs only to the user that created it until the user has published the flow. To publish a flow:
+**   6. Publish - **This action is used to share the selected flow to all the users in that group. A flow belongs only to the user that created it until the user has published the flow. To publish a flow:
 
 * Select a flow to publish. 
-* Click on _Save_ to publish the flow.
+* Click on_ Save_ to publish the flow.
 
 ![Publish Flow](../../.gitbook/assets/publish_flow.png)
 
 ![Publish Flow to a Group](../../.gitbook/assets/publish_group.png)
-
-
 
