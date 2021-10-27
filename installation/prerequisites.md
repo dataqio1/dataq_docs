@@ -21,3 +21,9 @@ description: To properly install DataQ, the following requirements need to be fu
 Before proceeding, make sure you have a license key.
 {% endhint %}
 
+### Ports
+
+Ensure port 80 is open for HTTP
+
+Ensure port 443 is open for https
+
