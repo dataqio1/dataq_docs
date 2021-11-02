@@ -16,9 +16,9 @@ Unzip dataops_server.zip
 cd dataops_server
 ```
 
-### Set License Name and License Key
+### Set License Name and License Key (Optional)
 
-Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchaseing DataQ. Be certain to update the default value of the LICENSE_NAME with the value shown in the email.
+Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchaseing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
 ```
 LICENSE_COMPANY_NAME=<Name>
@@ -26,7 +26,11 @@ LICENSE_NAME=<Name>
 LICENSE_KEY=<key>
 ```
 
-### Set Server URL (optional)
+{% hint style="success" %}
+Setting License Key and Name are not required for Starter\_Version
+{% endhint %}
+
+### Set Server URL (Optional)
 
 The default value for the server is _**http**://dq-nginx_. Set it to the server's URL if cluster (Hadoop, EMR, Databricks) is being used for jobs processing.
 
@@ -35,7 +39,7 @@ HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP ad
 ```
 
 {% hint style="info" %}
-If https keys are provided, set the HOST_URL to **https**://\<server URL> 
+If https keys are provided, set the HOST\_URL to **https**://\<server URL>&#x20;
 {% endhint %}
 
 ## Starting the server
@@ -46,7 +50,7 @@ Start the server either with the _sudo_ command, or by logging in as a user with
  ./start_server.sh
 ```
 
-Open an internet browser and go to your own host's URL : http://\<HOST_URL>
+Open an internet browser and go to your own host's URL : http://\<HOST\_URL>
 
 If installing on the local machine, URL will be http://127.0.0.1
 
@@ -60,6 +64,6 @@ Do not use localhost in the URL.
 
 You will need to have https [certificate and keys](https://www.knownhost.com/wiki/security/ssl).
 
-1. Rename the _.crt_ file to secure_.crt,_ and move it to _\<server_folder>/my_data/keys/_.
-2. Rename the _.key_ file to secure_.key_ and move it to _\<server_folder>/my_data/keys/._
+1. Rename the _.crt_ file to secure_.crt,_ and move it to _\<server\_folder>/my\_data/keys/_.
+2. Rename the _.key_ file to secure_.key_ and move it to _\<server\_folder>/my\_data/keys/._
 
