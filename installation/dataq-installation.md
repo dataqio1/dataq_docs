@@ -29,15 +29,19 @@ docker run --rm busybox echo hello_world
 
 ### Installation Procedure
 
-1. Download the _dataops_server.zip_ file from this [URL](https://dataops-store.s3.amazonaws.com/dataops_server.zip).
+1. Download the _dataops\_server.zip_ file from this [URL](https://dataops-store.s3.amazonaws.com/dataops\_server.zip).
 2. Extract (unzip) the file.
-3. Run the _start_server.bat_ file.
+3. Run the _start\_server.bat_ file.
 
 
+
+###
+
+{% embed url="https://app.gitbook.com/o/-MVP9rQRMIOetkrTI4oQ/s/-MQYdOF_qK6pP93zAEed/c/YQdGc0BWEW8azPbEKcII/installation/untitled" %}
 
 ### Set License Name and License Key
 
-Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchaseing DataQ. Be certain to update the default value of the LICENSE_NAME with the value shown in the email.
+Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchaseing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
 ```
 LICENSE_COMPANY_NAME=<Name>
@@ -58,7 +62,7 @@ HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP ad
 ```
 
 {% hint style="info" %}
-If https keys are provided, set the HOST_URL to **https**://\<server URL> 
+If https keys are provided, set the HOST\_URL to **https**://\<server URL>&#x20;
 {% endhint %}
 
 ### Increase  Memory, CPU, Swap space for better performance (Running docker first time)
@@ -72,11 +76,11 @@ on Windows 10 using Docker Desktop, To update memory and CPU for docker containe
 3. Set  CPUs and  memory is available to containers here.
 4. Refer to [link](prerequisites.md) for memory and cpu settings.
 
-### Start the server 
+### Start the server&#x20;
 
-To start the server : start_server.bat
+To start the server : start\_server.bat
 
-To stop the server : stop_server.bat
+To stop the server : stop\_server.bat
 
 
 
@@ -88,8 +92,8 @@ Do not use localhost in the URL.
 
 You will need to have https [certificate and keys](https://www.knownhost.com/wiki/security/ssl).
 
-1. Rename the _.crt_ file to secure_.crt,_ and move it to _\<server_folder>/my_data/keys/_.
-2. Rename the _.key_ file to secure_.key_ and move it to _\<server_folder>/my_data/keys/._
+1. Rename the _.crt_ file to secure_.crt,_ and move it to _\<server\_folder>/my\_data/keys/_.
+2. Rename the _.key_ file to secure_.key_ and move it to _\<server\_folder>/my\_data/keys/._
 
 
 
