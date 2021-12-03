@@ -37,9 +37,7 @@ docker run --rm busybox echo hello_world
 
 ###
 
-{% embed url="https://app.gitbook.com/o/-MVP9rQRMIOetkrTI4oQ/s/-MQYdOF_qK6pP93zAEed/c/YQdGc0BWEW8azPbEKcII/installation/untitled" %}
-
-### Set License Name and License Key
+### Set License Name and License Key (Optional -for paid subscription) <a href="#mickey" id="mickey"></a>
 
 Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchaseing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
@@ -53,7 +51,7 @@ LICENSE_KEY=<key>
 
 
 
-### Set Server URL (optional)
+### Set Server URL (Optional -If running jobs on Hadoop cluster/Kubernetes)
 
 The default value for the server is _**http**://dq-nginx_. Set it to the server's URL if cluster (Hadoop, EMR, Databricks) is being used for jobs processing.
 
