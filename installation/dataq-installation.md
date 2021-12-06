@@ -12,7 +12,7 @@ Validate docker linux containers is enabled by executing the below commands
 Run below command to validate linux containers are enabled. Below command should ouput "Hello World"
 
 ```
-docker run hello-world
+docker run --rm busybox echo hello_world
 ```
 {% endhint %}
 
