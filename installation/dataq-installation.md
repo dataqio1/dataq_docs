@@ -6,6 +6,10 @@
 
 Enable linux containers ([Documentation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)).
 
+[Switch to Linux containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10-linux)
+
+
+
 {% hint style="info" %}
 Validate docker linux containers is enabled by executing the below commands
 
