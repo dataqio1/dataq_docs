@@ -11,8 +11,9 @@ wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
 After retrieving the file, unzip it with the _unzip_ command.
 
 ```
-Unzip dataops_server.zip
-
+# unzip the folder
+unzip dataops_server.zip
+# change to the folder 
 cd dataops_server
 ```
 
