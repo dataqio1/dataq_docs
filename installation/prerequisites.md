@@ -6,12 +6,12 @@ description: To properly install DataQ, the following requirements need to be fu
 
 ### Software Requirements
 
-* Docker
-* Docker-compose
+* Docker (Docker engine version >= 20.10)
+* Docker-compose(Docker-compose version >=  1.25.0)
 
 ### Hardware Requirements
 
-| **Hardware** | **Local Desktop** | **Server (Multi-User) ** |
+| **Hardware** | **Local Desktop** | **Server (Multi-User)**  |
 | ------------ | ----------------- | ------------------------ |
 | CPU          | Minimum 4 core    | Minimum 12 core          |
 | Memory       | Minimum 8GB       | Minimum 32GB             |
