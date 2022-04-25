@@ -5,21 +5,21 @@
 The URL will be sent to you through email, along with your license key. After receiving it, use the _wget_ command to retrieve the URL.
 
 ```
-wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
+wget https://dataops-store.s3.amazonaws.com/dataops_server_V3_61.zip
 ```
 
 After retrieving the file, unzip it with the _unzip_ command.
 
 ```
 # unzip the folder
-unzip dataops_server.zip
+unzip dataops_server_V3_61.zip
 # change to the folder 
 cd dataops_server
 ```
 
-### Set License Name and License Key (Optional -for paid subscription) <a href="#mickey" id="mickey"></a>
+### Set License Name and License Key (**Optional** -for paid subscription) <a href="#mickey" id="mickey"></a>
 
-Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchaseing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
+Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchasing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
 ```
 LICENSE_COMPANY_NAME=<Name>
@@ -40,7 +40,7 @@ HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP ad
 ```
 
 {% hint style="info" %}
-If https keys are provided, set the HOST\_URL to **https**://\<server URL>&#x20;
+If https keys are provided, set the HOST\_URL to **https**://\<server URL>
 {% endhint %}
 
 ## Starting the server
@@ -65,6 +65,5 @@ Do not use localhost in the URL.
 
 You will need to have https [certificate and keys](https://www.knownhost.com/wiki/security/ssl).
 
-1. Rename the _.crt_ file to secure_.crt,_ and move it to _\<server\_folder>/my\_data/keys/_.
-2. Rename the _.key_ file to secure_.key_ and move it to _\<server\_folder>/my\_data/keys/._
-
+1. Rename the _.crt_ file to secure\_.crt,\_ and move it to _\<server\_folder>/my\_data/keys/_.
+2. Rename the _.key_ file to secure\_.key\_ and move it to _\<server\_folder>/my\_data/keys/._
