@@ -17,7 +17,7 @@ description: CFN(Cloud Formation) Scripts are provided for easy installation
 
 ```
 //clone the CFN scripts.
-git clone git@bitbucket.org:fireman10/dq_devops.git
+git clone https://bitbucket.org/fireman10/dq_devops.git
 
 // cd to ec2_cfn 
 cd dq_devops/ec2_cfn
