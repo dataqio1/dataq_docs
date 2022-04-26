@@ -55,7 +55,9 @@ If creating the server in dev environment, the new file name can be : **dev.acco
     * ACMCertificateArn\
       Note: PublicSubnets are coma separated values used by load balancer.&#x20;
 2. Update the CFN Stack Tags File as needed in ./cfn/cfn\_templates\_parameters/common/env.account.region.cfn-stack.tags.json
-3. Update both the Parameter and Stack Tags files name ( env.account.region.emr-infra.cfn.parameters.json and env.account.region.cfn-stack.tags.json ) with corresponding env/account/region values you need.&#x20;
+3. Update both the Parameter and Stack Tags files name ( env.account.region.emr-infra.cfn.parameters.json and env.account.region.cfn-stack.tags.json ) with corresponding env/account/region values you need. \
+   File should be like this\
+   dq\_devops/ec2\_cfn/cfn/cfn\_templates_parameters/infrastructure/\<ENV>.\<ACCOUNT_>.\<REGION>.region.cfn-stack.tags.json
 4.  Update **sed** command under **replace\_template\_parameters()** function in the script(ec2\_cfn/shell\_scripts/ec2\_infra\_deploy.sh) as below,
 
 
