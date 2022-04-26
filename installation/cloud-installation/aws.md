@@ -72,10 +72,3 @@ cd dq_devops/ec2_cfn
 
 
 
-
-
-Below five properties are mandatory.
-
-[Follow the read me file in the git repo](https://bitbucket.org/fireman10/dq\_devops/src/master/ec2\_cfn/)
-
-Download&#x20;
