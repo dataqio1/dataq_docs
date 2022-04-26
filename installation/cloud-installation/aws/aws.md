@@ -1,8 +1,10 @@
 ---
-description: CFN(Cloud Formation) Scripts are provided for easy installation
+description: >-
+  Recommended when installation needs to be automated or have large number of
+  DataQ servers to be deployed.
 ---
 
-# AWS
+# Cloud Formation Scripts (CFN)
 
 ## CFN(Cloud Formation) Scripts Download
 
