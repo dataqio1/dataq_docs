@@ -47,13 +47,28 @@ cd dq_devops/ec2_cfn
 
 
 
-    * If running the scripts in Mac, UPDATE all 'sed' commands in below Format: > sed -i '' "s/ParameterNameValue/${PARAMETER\_NAME}/g" $PARAMETER\_FILE
-    * If running the scripts in LINUX, UPDATE all 'sed' commands in below Format: > sed -i "s/ParameterNameValue/${PARAMETER\_NAME}/g" $PARAMETER\_FILE
+    *   If running the scripts in Mac, UPDATE all 'sed' commands in below Format: >
+
+        &#x20;sed -i '' "s/ParameterNameValue/${PARAMETER\_NAME}/g" $PARAMETER\_FILE
+    *   If running the scripts in LINUX, UPDATE all 'sed' commands in below Format: >&#x20;
+
+        sed -i "s/ParameterNameValue/${PARAMETER\_NAME}/g" $PARAMETER\_FILE
 
     \
 
+6.  &#x20;Execute Infrastructure Shell Script:
+
+    Below example will create infra for **dev** environment and account **dataq** with **internet-facing (public)** Application Load Balancer and **http** protocol
 
 
+
+```
+// Execute below command to launch.
+./ec2_infra_deploy.sh --stack-tag <STACK_NAME> --subsystem app --env <ENV_TEMPLATE> --account dataq --region us-east-1 --ec2-ami-id 'ami-0947d2ba12ee1ff75' --alb-scheme 'internet-facing' --alb-protocol 'http' --create-r53 'false' --r53-hosted-zone-id '' --r53-record-set-name ''
+
+// example command 
+./ec2_infra_deploy.sh --stack-tag dataq --subsystem app --env dev --account dataq --region us-east-1 --ec2-ami-id 'ami-0947d2ba12ee1ff75' --alb-scheme 'internet-facing' --alb-protocol 'http' --create-r53 'false' --r53-hosted-zone-id '' --r53-record-set-name ''
+```
 
 
 
