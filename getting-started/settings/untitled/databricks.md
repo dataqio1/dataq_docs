@@ -31,6 +31,31 @@ Configuring with On Demand Cluster enables jobs to leverage EMR cluster on deman
 * AWS\_EMR\_EC2\_SLAVE\_INSTANCE\_TYPE=m5.2xlarge
 * AWS\_NETWORK\_VPC=vpc-XYZ (VPC id)
 
+You can copy paste below contenet and the last four properties need to be changed. The description for the four propeerties is defined above.
+
+```
+AWS_EMR_SERVICE_ROLE=EMR_DefaultRole
+AWS_EMR_EC2_SERVICE_ROLE=EMR_EC2_DefaultRole
+AWS_REGION=us-east-1
+AWS_SERVICE_NAME=elasticmapreduce
+AWS_EMR_CLUSTER_APPLICATION_NAMES=Spark,Livy,Hive
+AWS_EMR_RELEASE_LABEL=emr-5.31.0
+AWS_EMR_CLUSTER_CREATE_JOBNAME=DataQSparkCluster
+AWS_EMR_EC2_SERVICE_ROLE=EMR_EC2_DefaultRole
+AWS_EMR_EC2_MASTER_INSTANCE_TYPE=m5a.xlarge
+AWS_EMR_EC2_SLAVE_INSTANCE_TYPE=m5a.xlarge
+
+
+AWS_EMR_CLUSTER_TAGS=<Name:customer_name,Project:DataQ>
+AWS_NETWORK_VPC=<vps_id>
+AWS_EC2_INSTANCE_SUBNET=<subnet-072956387c3bc1383>
+AWS_EMR_S3_LOG_URI=<s3://aws-logs-865515016503-us-east-1/elasticmapreduce/>
+```
+
+
+
+
+
 ## Databricks
 
 There are primarily two ways Databricks can be used.
