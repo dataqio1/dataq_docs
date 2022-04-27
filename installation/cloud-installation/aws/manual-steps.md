@@ -6,7 +6,7 @@ description: Recommended for single server.
 
 #### Steps to create DataQ server in AWS Cloud
 
-* Create ec2 instance of type T3.xlarge to support upto five concurrent jobs.(Select T3.2xlarge to support upto 10 concurrent jobs. )
+* Create ec2 instance of type **T3.xlarge** to support upto five concurrent jobs.(Select **T3.2xlarge** to support upto 10 concurrent jobs. )
 * EC2 Instance should be launched in private subnet.
 * Follow the steps in [untitled.md](../../untitled.md "mention") for installing DataQ server.
 * Create AWS Load Balancer and route http traffic to the ec2 instance created above.&#x20;
