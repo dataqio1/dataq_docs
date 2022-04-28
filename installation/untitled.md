@@ -61,6 +61,16 @@ If installing on the local machine, URL will be http://127.0.0.1
 Do not use localhost in the URL.
 {% endhint %}
 
+## Update the software
+
+Follow the steps below to update the software with patches and upgrades.
+
+1. Update the file app.properties with the new version provided. (ex VERSION=3.6 --> VERSION=3.7)
+2. Stop the server (./stop\_server.sh)
+3. Start the server (./start\_server.sh)
+
+
+
 ## HTTPS Setup
 
 You will need to have https [certificate and keys](https://www.knownhost.com/wiki/security/ssl).
