@@ -89,7 +89,9 @@ If creating the server in dev environment, the new file name can be : **dev.acco
 
 
 
-Proceed with the following steps after successful installation.
+
+
+### Proceed with the following steps after successful installation
 
 1. Login to the aws web console under cloud formation to confirm the stack is created successful.
 2. Click on the stack name-> Outputs ->  corresponding to the key "LoadBalancerDnsName", there will be a load balancer url. Click on the URL to login to DataQ application.&#x20;
