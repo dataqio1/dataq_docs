@@ -35,6 +35,7 @@ Below properties can be copied and require no change
 * AWS\_EMR\_CLUSTER\_CREATE\_JOBNAME=EMRSparkCluster
 * AWS\_EMR\_EC2\_MASTER\_INSTANCE\_TYPE=m5.2xlarge
 * AWS\_EMR\_EC2\_SLAVE\_INSTANCE\_TYPE=m5.2xlarge
+* EC2\_INSTANCE\_COST\_TYPE=SPOT Or ON\_DEMAND
 
 
 
@@ -56,8 +57,9 @@ AWS_EMR_CLUSTER_APPLICATION_NAMES=Spark,Livy,Hive
 AWS_EMR_RELEASE_LABEL=emr-5.31.0
 AWS_EMR_CLUSTER_CREATE_JOBNAME=DataQSparkCluster
 AWS_EMR_EC2_SERVICE_ROLE=EMR_EC2_DefaultRole
-AWS_EMR_EC2_MASTER_INSTANCE_TYPE=m5a.xlarge
-AWS_EMR_EC2_SLAVE_INSTANCE_TYPE=m5a.xlarge
+AWS_EMR_EC2_MASTER_INSTANCE_TYPE=m5a.2xlarge
+AWS_EMR_EC2_SLAVE_INSTANCE_TYPE=m5a.2xlarge
+EC2_INSTANCE_COST_TYPE=ON_DEMAND
 
 
 AWS_REGION=us-east-1
@@ -69,7 +71,13 @@ AWS_EMR_S3_LOG_URI=<s3://aws-logs-865515016503-us-east-1/elasticmapreduce/>
 
 
 
-
+{% hint style="info" %}
+```
+EC2_INSTANCE_COST_TYPE can be SPOT if cost is important 
+however it is recommended to have it ON_DEMAND for time
+critical jobs.
+```
+{% endhint %}
 
 ## Databricks
 
