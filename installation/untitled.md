@@ -5,7 +5,7 @@
 The URL will be sent to you through email, along with your license key. After receiving it, use the _wget_ command to retrieve the URL.
 
 ```
-wget https://dataops-store.s3.amazonaws.com/dataops_server_V3_61.zip
+wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
 ```
 
 After retrieving the file, unzip it with the _unzip_ command.
