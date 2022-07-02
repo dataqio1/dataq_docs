@@ -21,6 +21,7 @@
     * [Create Data Connections](getting-started/settings/untitled/README.md)
       * [Databases/Warehouses](getting-started/settings/untitled/redshift.md)
       * [Run On](getting-started/settings/untitled/databricks.md)
+      * [Integrations](getting-started/settings/untitled/integrations.md)
 * [Designing and Executing Flows](designing-and-executing-flows/README.md)
   * [Flows](designing-and-executing-flows/flows/README.md)
     * [Create Flows](designing-and-executing-flows/flows/untitled-1/README.md)
