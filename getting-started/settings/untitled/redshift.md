@@ -57,6 +57,22 @@ If SSL is enabled, additional parameters will be required for the JDBC URL as sh
 
 ![Postgres Configuration](../../../.gitbook/assets/postgres.png)
 
+
+
+#### Create a new read only user for Postgres Testing
+
+The user id should only have read permission on the data. Also, DataQ needs permission to read metadata. The user id should have read only permissions on the following system tables
+
+```
+pg_class
+information_schema.table_constraints
+information_schema.columns
+pg_namespace
+pg_catalog
+```
+
+
+
 ## Snowflake
 
 To add a Snowflake connection, you will have to provide:
