@@ -9,7 +9,7 @@ description: Recommended for single server.
 * Create ec2 instance of type **T3.xlarge** to support upto five concurrent jobs.(Select **T3.2xlarge** to support upto 10 concurrent jobs. )
 * OPTIONAL STEP : If jobs need to be processed in EMR cluster, create the role  [#grant-permission-to-ec2-instance-to-launch-emr-clusters](manual-steps.md#grant-permission-to-ec2-instance-to-launch-emr-clusters "mention") and attache the role to the ec2 instance.&#x20;
 * EC2 Instance should be launched in private subnet.
-* Follow the steps in [untitled](../../untitled/ "mention") for installing DataQ server.
+* Follow the steps in [untitled.md](../../untitled.md "mention") for installing DataQ server.
 * Create AWS Load Balancer and route http traffic to the ec2 instance created above.&#x20;
 * [Create SSL Certificate](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/ssl-server-cert.html) and expose only HTTPS traffic to the load balancer.
 

@@ -24,4 +24,6 @@ run below command to restart the server
 
 _Command :_ `./restart.sh`
 
-__
+{% hint style="info" %}
+Run the command from dataops\_server folder
+{% endhint %}
