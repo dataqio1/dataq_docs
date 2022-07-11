@@ -27,6 +27,13 @@ Optionally, you may provide _s3TempDir_ and _s3AwsIamRole_ for better performanc
 
 ![Redshift Configuration](../../../.gitbook/assets/redshift\_config.png)
 
+
+
+It is recommended to create a read only user account in Redshift. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
+
+1. svv\_table\_info
+2. information\_schema.views
+
 ## SQL Server
 
 To add an SQL Server connection, you will have to provide:
@@ -39,6 +46,20 @@ To add an SQL Server connection, you will have to provide:
 * Credentials, which will be a username and a password that will provide access to this database.
 
 ![SQL Server Configuration](../../../.gitbook/assets/sql\_connection.png)
+
+
+
+It is recommended to create a read only user account in Sql Server. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
+
+1. sys.objects&#x20;
+2. sys.columns&#x20;
+3. sys.types&#x20;
+4. sys.indexes&#x20;
+5. sys.index\_columns&#x20;
+6. sys.columns&#x20;
+7. sys.key\_constraints&#x20;
+8. sys.tables&#x20;
+9. sys.all\_columns
 
 ## Postgres
 
@@ -86,9 +107,10 @@ To add a Snowflake connection, you will have to provide:
 
 ![Snowflake Configuration](<../../../.gitbook/assets/snowflake (1).png>)
 
+It is recommended to create a read only user account in Snowflake. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 
-
-
+1. information\_schema.columns
+2. information\_schema.tables
 
 ## Oracle <a href="#snowflake" id="snowflake"></a>
 
@@ -103,5 +125,31 @@ It is recommended to create a read only user account in Oracle. The user id need
 7. all\_cons\_columns
 8. all\_constraints
 
-​
+## **Maria**​
 
+It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
+
+1. information\_schema.tables&#x20;
+2. information\_schema.columns&#x20;
+3. information\_schema.table\_constraints&#x20;
+4. information\_schema.key\_column\_usage&#x20;
+5. information\_schema.referential\_constraints&#x20;
+6. information\_schema.statistics
+
+## DB2
+
+It is recommended to create a read only user account in DB2. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
+
+1. syscat.tables&#x20;
+2. syscat.columns&#x20;
+3. sysibmadm.admintabinfo&#x20;
+4. syscat.tabconst&#x20;
+5. syscat.keycoluse
+
+## Bigquery
+
+It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
+
+1. INFORMATION\_SCHEMA.SCHEMATA&#x20;
+2. INFORMATION\_SCHEMA.TABLES&#x20;
+3. INFORMATION\_SCHEMA.COLUMNS

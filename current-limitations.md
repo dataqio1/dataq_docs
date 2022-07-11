@@ -12,5 +12,10 @@ INTERVAL YEAR TO MONTH
 
 INTERVAL DAY TO SECOND
 
+### Data Quality&#x20;
+
+1. Column names with spacess are not supported for data quality and Good-Bad Split.
+2.
+
 ###
 

@@ -15,7 +15,7 @@ from the location dataops\_server/my\_data/current\_version.txt
 Command : `rm my_data/current_version.txt`&#x20;
 
 {% hint style="info" %}
-my_data exists inside dataops\_server folder._
+mydata exists inside dataops\_server folder.
 {% endhint %}
 
 #### 2.   Restart the server
