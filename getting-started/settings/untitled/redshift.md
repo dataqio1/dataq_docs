@@ -49,7 +49,7 @@ To add an SQL Server connection, you will have to provide:
 
 
 
-It is recommended to create a read only user account in Sql Server. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
+It is recommended to create a read only user in Sql Server. The read only user id should have read only access on the databases/schemas where data resides and also have access to the following system tables to read the metadata of all the tables.&#x20;
 
 1. sys.objects&#x20;
 2. sys.columns&#x20;
@@ -60,6 +60,8 @@ It is recommended to create a read only user account in Sql Server. The user id 
 7. sys.key\_constraints&#x20;
 8. sys.tables&#x20;
 9. sys.all\_columns
+
+
 
 ## Postgres
 

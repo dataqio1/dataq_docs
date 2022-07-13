@@ -12,6 +12,15 @@ INTERVAL YEAR TO MONTH
 
 INTERVAL DAY TO SECOND
 
+
+
+### SQL Server
+
+Some of the non standard column types are not supported out of the box. an example of these columns are :&#x20;
+
+1. sql\_variant
+2. json&#x20;
+
 ### Data Quality&#x20;
 
 1. Column names with spacess are not supported for data quality and Good-Bad Split.
