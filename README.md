@@ -53,7 +53,7 @@ DataQ validates the BI reports with the source data to ensure the reports are pr
 9. Support for data validation across different data types.&#x20;
 10. Ability to add tolerance when comparing data with some differences (milliseconds timestamp difference or Decimal rounding).
 
-### What does DataQ NOT do
+## What does DataQ NOT do
 
 DataQ does not migrate data.&#x20;
 
