@@ -61,6 +61,3 @@ DataQ is not an ETL/ELT solution.&#x20;
 
 
 
-
-
-DataQ is not&#x20;
