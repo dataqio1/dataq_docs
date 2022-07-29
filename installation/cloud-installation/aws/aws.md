@@ -14,6 +14,9 @@ description: >-
 
 1. Ensure jq and "aws cli" are installed
 2. Permissions for aws account to create ec2 instance, load balancer.&#x20;
+3. Ensure the private subnet where DataQ server is installed has out going traffic enabled.
+
+
 
 ### Download CFN Scripts&#x20;
 
