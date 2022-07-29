@@ -34,6 +34,10 @@ Verify the Data Warehouse landscape for data accuracy and completeness by implem
 
 Use the power of Spark cluster to test data in your data lake or Hadoop ecosystem at scale.
 
+#### **BI Testing**
+
+DataQ validates the BI reports with the source data to ensure the reports are presenting accurate metric.
+
 
 
 ## Features
@@ -48,3 +52,15 @@ Use the power of Spark cluster to test data in your data lake or Hadoop ecosyste
 8. Optional, AI-based optimization of compute resources utilization to keep the cost of validation jobs low (automated provisioning & deprovisioning of cloud instances while running validation jobs on Hadoop).&#x20;
 9. Support for data validation across different data types.&#x20;
 10. Ability to add tolerance when comparing data with some differences (milliseconds timestamp difference or Decimal rounding).
+
+### What does DataQ NOT do
+
+DataQ does not migrate data.&#x20;
+
+DataQ is not an ETL/ELT solution.&#x20;
+
+
+
+
+
+DataQ is not&#x20;
