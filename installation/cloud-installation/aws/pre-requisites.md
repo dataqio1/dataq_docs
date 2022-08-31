@@ -1,4 +1,4 @@
-# Pre-requisite
+# Pre-requisites
 
 Ensure all the pre-requisites are satisfied before proceeding with the installation.
 
@@ -16,8 +16,8 @@ Ensure all the pre-requisites are satisfied before proceeding with the installat
     * Create entries in secrets manager (for database passwords)
 
 
-
-
+* Permissions to white list&#x20;
+  * For integrating with external systems like Email, Jira, Slack, and Teams the network should be white-listed for DataQ to access these services.  &#x20;
 
 ### AWS Required information to create DataQ stack
 
@@ -29,4 +29,14 @@ Ensure all the pre-requisites are satisfied before proceeding with the installat
   * Ensure the two subnets are in two different availability zones. This is required for the load balancer.&#x20;
 * [ssh key pair ](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
   * &#x20;This key pair will be used to login to the DataQ server.
+
+
+
+
+
+<figure><img src="../../../.gitbook/assets/Dataq_without_internet_security_architecture_diagram.drawio.png" alt=""><figcaption><p>Deployment with out Internet Access</p></figcaption></figure>
+
+
+
+
 
