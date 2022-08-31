@@ -2,12 +2,12 @@
 description: Recommended for single server.
 ---
 
-# Manual Steps
+# Manual Install on ec2
 
 #### Steps to create DataQ server in AWS Cloud
 
 * Create ec2 instance of type **T3.xlarge** to support upto five concurrent jobs.(Select **T3.2xlarge** to support upto 10 concurrent jobs. )
-* OPTIONAL STEP : If jobs need to be processed in EMR cluster, create the role  [#grant-permission-to-ec2-instance-to-launch-emr-clusters](manual-steps.md#grant-permission-to-ec2-instance-to-launch-emr-clusters "mention") and attache the role to the ec2 instance.&#x20;
+* OPTIONAL STEP : If jobs need to be processed in EMR cluster, create the role  [#grant-permission-to-ec2-instance-to-launch-emr-clusters](manual-install-on-ec2.md#grant-permission-to-ec2-instance-to-launch-emr-clusters "mention") and attache the role to the ec2 instance.&#x20;
 * EC2 Instance should be launched in private subnet.
 * Follow the steps in [untitled.md](../../untitled.md "mention") for installing DataQ server.
 * Create AWS Load Balancer and route http traffic to the ec2 instance created above.&#x20;
