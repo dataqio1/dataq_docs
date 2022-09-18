@@ -12,12 +12,12 @@ After retrieving the file, unzip it with the _unzip_ command.
 
 ```
 # unzip the folder
-unzip dataops_server_V3_61.zip
+unzip dataops_server.zip
 # change to the folder 
 cd dataops_server
 ```
 
-### Set License Name and License Key (**Optional** -for paid subscription) <a href="#mickey" id="mickey"></a>
+### Set License Name and License Key (<mark style="color:blue;">**Optional**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">-for paid subscription</mark>) <a href="#mickey" id="mickey"></a>
 
 Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchasing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
