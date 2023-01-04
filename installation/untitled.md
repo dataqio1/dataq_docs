@@ -77,5 +77,5 @@ Follow the steps below to update the software with patches and upgrades.
 
 You will need to have https [certificate and keys](https://www.knownhost.com/wiki/security/ssl).
 
-1. Rename the _.crt_ file to secure\_.crt,\_ and move it to _\<server\_folder>/my\_data/keys/_.
-2. Rename the _.key_ file to secure\_.key\_ and move it to _\<server\_folder>/my\_data/keys/._
+1. Rename the _.crt_ file to secure.crt and move it to _\<server\_folder>/my\_data/keys/_.
+2. Rename the _.key_ file to secure.key and move it to _\<server\_folder>/my\_data/keys/._
