@@ -8,7 +8,7 @@ description: Update DataQ Software
 
 
 
-#### 1.   Delete the file **current\_version.txt** __&#x20;
+#### 1.   Delete the file **current\_version.txt**&#x20;
 
 from the location dataops\_server/my\_data/current\_version.txt
 
