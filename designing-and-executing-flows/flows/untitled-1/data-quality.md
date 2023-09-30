@@ -4,20 +4,11 @@
 
 Target-only validation, as the name suggests, focuses solely on validating the data in the target system without comparing it to a source system. This type of validation is useful when there is no direct source system available for reconciliation or when performing an initial data load into a new system. This document describes how to write source/target only data quality rules.
 
-
-
 ## Writing data quality rules:
 
 Data quality rules are a set of predefined criteria or conditions that data must adhere to in order to be considered valid and of high quality. These rules help identify and flag any data that doesn't meet the specified standards. When writing data quality rules, you define conditions that the data should satisfy, such as format, data type, range, uniqueness, and referential integrity. By implementing and executing these rules, you can detect and address data quality issues and ensure the accuracy and reliability of the data.
 
-\
-
-
 It's important to note that the specific approaches and tools used for data testing, source target reconciliation, and target-only validation can vary depending on the context and the technology stack involved.
-
-\
-\
-
 
 Click “New Test Case and Data Quality” as shown in the screenshot. DataQ.io supports two types of data quality rules and they are&#x20;
 
