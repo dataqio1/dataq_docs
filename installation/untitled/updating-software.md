@@ -1,10 +1,10 @@
 ---
-description: Update DataQ Software
+description: Update Vexdata Software
 ---
 
 # Updating Software
 
-### Steps to update the DataQ Softare
+### Steps to update the Vexdata Softare
 
 
 

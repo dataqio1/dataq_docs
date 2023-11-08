@@ -19,7 +19,7 @@ cd dataops_server
 
 ### Set License Name and License Key (<mark style="color:blue;">**Optional**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">-for paid subscription</mark>) <a href="#mickey" id="mickey"></a>
 
-Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchasing DataQ. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
+Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchasing Vexdata. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
 ```
 LICENSE_COMPANY_NAME=<Name>

@@ -11,7 +11,7 @@ To select one or more tables:
 
 #### Advanced Options
 
-For large tables, it is recommended to provide a partition column so DataQ can pull the data in parallel. DataQ can autodetect the partition column; however, it is recommended that users provide this partition.
+For large tables, it is recommended to provide a partition column so Vexdata can pull the data in parallel. Vexdata can autodetect the partition column; however, it is recommended that users provide this partition.
 
 **Rules for selecting the partition column :**
 

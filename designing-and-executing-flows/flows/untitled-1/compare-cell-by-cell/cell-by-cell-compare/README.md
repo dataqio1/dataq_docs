@@ -13,7 +13,7 @@ To create a _Cell By Cell Compare_ flow:
 * Select the primary key. By default, the primary key is selected for the tables. If the key is not selected, the system shows a warning sign for the user to select the _Primary Key_.
 * Save and execute the flow.
 
-[Data Compare Options](https://app.gitbook.com/@dataq/s/docs/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation)
+[Data Compare Options](https://app.gitbook.com/@Vexdata/s/docs/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation)
 
 
 
@@ -25,7 +25,7 @@ To create a _Cell By Cell Compare_ flow:
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot (419).png" alt=""><figcaption><p>Cell By Cell Compare Columns Mapping</p></figcaption></figure>
 
-DataQ can compare the selected source and destination tables to view:
+Vexdata can compare the selected source and destination tables to view:
 
 * _Cell Level Validation Results._
 * \_Source and Destination Record Matching. \_

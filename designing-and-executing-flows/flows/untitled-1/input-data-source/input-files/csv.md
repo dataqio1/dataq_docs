@@ -6,7 +6,7 @@ There are two ways to provide an _Excel_ or _CSV_ file as the input files:
 * Provide an _s3_ location : **s3a**://\<file\_path>.
 
 {% hint style="warning" %}
-If you're providing an _s3_ file path, ensure that the DataQ server _IAMRole_ has permission to read from the _s3_ bucket. The file size limit for uploads is 50MB.
+If you're providing an _s3_ file path, ensure that the Vexdata server _IAMRole_ has permission to read from the _s3_ bucket. The file size limit for uploads is 50MB.
 {% endhint %}
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot (483) (1).png" alt=""><figcaption><p>Excel File</p></figcaption></figure>

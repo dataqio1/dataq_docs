@@ -1,6 +1,6 @@
 # Server Improvement
 
-DataQ collects execution metrics to improve processes and optimize the code. The following metrics are collected (job duration, compute resources allocated, type of job, size of job). 
+Vexdata collects execution metrics to improve processes and optimize the code. The following metrics are collected (job duration, compute resources allocated, type of job, size of job). 
 
 ```
 startTime

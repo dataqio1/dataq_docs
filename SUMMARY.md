@@ -1,9 +1,9 @@
 # Table of contents
 
-* [DataQ Overview](README.md)
+* [Vexdata Overview](README.md)
 * [Installation](installation/README.md)
   * [System Requirements](installation/prerequisites.md)
-  * [Windows Installation](installation/dataq-installation.md)
+  * [Windows Installation](installation/Vexdata-installation.md)
   * [Linux Installation](installation/untitled/README.md)
     * [Updating Software](installation/untitled/updating-software.md)
   * [Cloud Installation](installation/cloud-installation/README.md)

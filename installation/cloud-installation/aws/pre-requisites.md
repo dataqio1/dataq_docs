@@ -16,26 +16,26 @@ Ensure all the pre-requisites are satisfied before proceeding with the installat
     * Create entries in secrets manager (for database passwords)
 
 
-*   Permissions to white list external services so DataQ server can integrate with LDAP, Email, Jira, Slack and Teams.
+*   Permissions to white list external services so Vexdata server can integrate with LDAP, Email, Jira, Slack and Teams.
 
 
 
-### **Information Required to create DataQ stack in AWS**
+### **Information Required to create Vexdata stack in AWS**
 
 
 
-* VPC  : VPC in which DataQ server will be installed.
+* VPC  : VPC in which Vexdata server will be installed.
   * Ensure the VPC has at least two private subnets in two different availability zones.&#x20;
 * Two private subnets in same VPC.&#x20;
   * Ensure the two subnets are in two different availability zones. This is required for the load balancer.&#x20;
 * [ssh key pair ](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
-  * &#x20;This key pair will be used to login to the DataQ server.
+  * &#x20;This key pair will be used to login to the Vexdata server.
 
 
 
 
 
-<figure><img src="../../../.gitbook/assets/Dataq_without_internet_security_architecture_diagram.drawio.png" alt=""><figcaption><p>Deployment with out Internet Access</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Vexdata_without_internet_security_architecture_diagram.drawio.png" alt=""><figcaption><p>Deployment with out Internet Access</p></figcaption></figure>
 
 
 

@@ -10,7 +10,7 @@ These are some of the options present in the configuration page for _ETL Testing
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot (423).png" alt=""><figcaption><p>Compare Type</p></figcaption></figure>
 
-* **Compare Data Profile** : This allows the user to compare the selected tables in both [Cell By Cell Compare](https://app.gitbook.com/@dataq/s/docs/\~/drafts/-MWNZNqGnn1zbZL4vVWr/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare) and [Data Profile Compare](https://app.gitbook.com/@dataq/s/docs/\~/drafts/-MWNZNqGnn1zbZL4vVWr/flows/untitled-1/compare-cell-by-cell/data-profile-compare). This means that DataQ will generate statistical information for each of the columns of the selected tables, such as average, standard deviation, minimum, maximum, etc., for both _Source_ and _Target_, and it will compare the data profiles.
+* **Compare Data Profile** : This allows the user to compare the selected tables in both [Cell By Cell Compare](https://app.gitbook.com/@Vexdata/s/docs/\~/drafts/-MWNZNqGnn1zbZL4vVWr/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare) and [Data Profile Compare](https://app.gitbook.com/@Vexdata/s/docs/\~/drafts/-MWNZNqGnn1zbZL4vVWr/flows/untitled-1/compare-cell-by-cell/data-profile-compare). This means that Vexdata will generate statistical information for each of the columns of the selected tables, such as average, standard deviation, minimum, maximum, etc., for both _Source_ and _Target_, and it will compare the data profiles.
   * Check the _Compare Data Profile_ checkbox to compare the data profile of the source and target.
 
 ![Compare Data Profile](../../../../../.gitbook/assets/cell\_dataprofile.png)

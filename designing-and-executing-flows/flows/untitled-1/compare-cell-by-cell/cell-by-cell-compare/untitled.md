@@ -9,7 +9,7 @@ On the right side of the screen, a list will show how the columns have been pair
     * Click on the icon under the _SQL_ column.
     * Provide the _SQL_ function in the _Text Field_ and click on _Done,_ or...
     * Slide the toggle and add predefined rules.
-    * Go to Settings for [Add New Rule](https://app.gitbook.com/@dataq/s/docs/\~/drafts/-MWOAN922BH54Ft3iFk\_/settings) functionality.
+    * Go to Settings for [Add New Rule](https://app.gitbook.com/@Vexdata/s/docs/\~/drafts/-MWOAN922BH54Ft3iFk\_/settings) functionality.
 
 
 

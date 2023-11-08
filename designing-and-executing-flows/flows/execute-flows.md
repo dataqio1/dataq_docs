@@ -4,7 +4,7 @@ description: Executing a Test case
 
 # Execute Test Case
 
-There are two ways to execute Test Cases in DataQ:
+There are two ways to execute Test Cases in Vexdata:
 
 
 

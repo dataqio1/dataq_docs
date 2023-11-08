@@ -41,10 +41,10 @@ Below properties can be copied and require no change
 
 Below five properties needs to be provided.
 
-* AWS\_REGION=us-east-1 (Region, It is recommended to be in same subnet where DataQ server is running otherwise network connectivity needs to be established. )
-* AWS\_EMR\_CLUSTER\_TAGS=Name:XYZ,Project:DataQ AWS\_NETWORK\_VPC=vpc-vpcid (Tags for auditing)
+* AWS\_REGION=us-east-1 (Region, It is recommended to be in same subnet where Vexdata server is running otherwise network connectivity needs to be established. )
+* AWS\_EMR\_CLUSTER\_TAGS=Name:XYZ,Project:Vexdata AWS\_NETWORK\_VPC=vpc-vpcid (Tags for auditing)
 * AWS\_EMR\_S3\_LOG\_URI=s3://aws-logs-XYZ-us-east-1/elasticmapreduce/ (The S3 bucket should have the write access from the EMR Cluster. )
-* AWS\_EC2\_INSTANCE\_SUBNET=subnet-XYZ (private subnet id where emr cluster will be launched.  It is recommended to be in same subnet where DataQ server is running otherwise network connectivity needs to be established.)
+* AWS\_EC2\_INSTANCE\_SUBNET=subnet-XYZ (private subnet id where emr cluster will be launched.  It is recommended to be in same subnet where Vexdata server is running otherwise network connectivity needs to be established.)
 * AWS\_NETWORK\_VPC=vpc-XYZ (VPC id)
 
 You can copy paste below contenet and the last five properties need to be changed. The description for the five propeerties is defined above.
@@ -55,7 +55,7 @@ AWS_EMR_EC2_SERVICE_ROLE=EMR_EC2_DefaultRole
 AWS_SERVICE_NAME=elasticmapreduce
 AWS_EMR_CLUSTER_APPLICATION_NAMES=Spark,Livy,Hive
 AWS_EMR_RELEASE_LABEL=emr-5.31.0
-AWS_EMR_CLUSTER_CREATE_JOBNAME=DataQSparkCluster
+AWS_EMR_CLUSTER_CREATE_JOBNAME=VexdataSparkCluster
 AWS_EMR_EC2_SERVICE_ROLE=EMR_EC2_DefaultRole
 AWS_EMR_EC2_MASTER_INSTANCE_TYPE=m5a.2xlarge
 AWS_EMR_EC2_SLAVE_INSTANCE_TYPE=m5a.2xlarge
@@ -63,7 +63,7 @@ EC2_INSTANCE_COST_TYPE=ON_DEMAND
 
 
 AWS_REGION=us-east-1
-AWS_EMR_CLUSTER_TAGS=<Name:customer_name,Project:DataQ>
+AWS_EMR_CLUSTER_TAGS=<Name:customer_name,Project:Vexdata>
 AWS_NETWORK_VPC=<vps_id>
 AWS_EC2_INSTANCE_SUBNET=<subnet-072956387c3bc1383>
 AWS_EMR_S3_LOG_URI=<s3://aws-logs-865515016503-us-east-1/elasticmapreduce/>

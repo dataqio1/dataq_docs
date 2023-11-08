@@ -1,7 +1,7 @@
 ---
 description: >-
   Flows, or test cases, are the main procedure through which data is compared in
-  DataQ. A flow can be created by dropping shapes from a palette containing
+  Vexdata. A flow can be created by dropping shapes from a palette containing
   different icons onto a canvas, which are then c
 ---
 
