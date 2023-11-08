@@ -15,7 +15,7 @@ A new cluster is created for each job and is terminated after completion of the 
 * Type a connection name, which you will assign to this connection for internal use.
 * Provide the details as shown below
 
-![AWS EMR Cluster Connection Configuration](../../../.gitbook/assets/aws\_hadoop.png)
+<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption><p>Hadoop Configuration</p></figcaption></figure>
 
 Configuring with On Demand Cluster enables jobs to leverage EMR cluster on demand. EMR cluster is launched on the fly and terminated on completing the job.
 
@@ -95,4 +95,4 @@ To add a Databricks Cluster as a connection:
 >
 > DATABRICKS\_INSTANCE=\<XXXXXXXXXXXXXX.cloud.databricks.com>
 
-![Databricks Configuration](../../../.gitbook/assets/dbricks.png)
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Databricks Configuration</p></figcaption></figure>

@@ -8,22 +8,24 @@ description: Update DataQ Software
 
 
 
-#### 1.   Delete the file **current\_version.txt**&#x20;
+#### 1.   Update the server to latest patch
 
-from the location dataops\_server/my\_data/current\_version.txt
+run below command to update the server
 
-Command : `rm my_data/current_version.txt`&#x20;
+_Command :_ `./update_software.sh <version>`
 
-{% hint style="info" %}
-mydata exists inside dataops\_server folder.
+{% hint style="warning" %}
+Depending on the permission granted to the current user, sudo may have to be prepended to all the commands.&#x20;
+
+ex : sudo `./update_software.sh`
 {% endhint %}
-
-#### 2.   Restart the server
-
-run below command to restart the server
-
-_Command :_ `./restart.sh`
 
 {% hint style="info" %}
 Run the command from dataops\_server folder
 {% endhint %}
+
+#### 2.   Start the server
+
+run below command to restart the server
+
+_Command :_ `./start_server.sh`

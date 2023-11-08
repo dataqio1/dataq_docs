@@ -6,19 +6,19 @@ description: >-
 
 # User Post Installation Setup
 
-##  URL
+## URL
 
-Running in local Desktop : URL is http://127.0.0.1 
+Running in local Desktop : URL is http://127.0.0.1
 
 Running on Server : URL is http://\<server address>
 
 ## Login using credentials.
 
-![](<../.gitbook/assets/image (22).png>)
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>Login Screen</p></figcaption></figure>
 
-##  Dashboard after successful login
+## Dashboard after successful login
 
-![](<../.gitbook/assets/image (15).png>)
+<figure><img src="../.gitbook/assets/Screenshot (448).png" alt=""><figcaption><p>Dashboard</p></figcaption></figure>
 
 ## Creating New Project
 
@@ -26,8 +26,8 @@ Click on “Create New Project”
 
 Add “Name” and “Description” of the project to create a new project.
 
-![](<../.gitbook/assets/image (47).png>)
-
 A new project will be created and shown as a tab.
 
-![](<../.gitbook/assets/image (14).png>)
+<figure><img src="../.gitbook/assets/Screenshot (449).png" alt=""><figcaption><p>Create New Project</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot (450).png" alt=""><figcaption><p>New Project</p></figcaption></figure>

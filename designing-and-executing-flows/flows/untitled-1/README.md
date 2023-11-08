@@ -5,31 +5,28 @@ description: >-
   different icons onto a canvas, which are then c
 ---
 
-# Create Flows
+# Create Test Cases
 
 ## Select a project by clicking on the project.
 
-![](<../../../.gitbook/assets/image (48).png>)
+<figure><img src="../../../.gitbook/assets/select_pjt.PNG" alt=""><figcaption><p>Select Project</p></figcaption></figure>
 
-## Create a new flow.
+## Create a new test case.
 
-To create a new flow, click on the circular _Plus_ icon visible on the top-right of your screen, next to the name of the currently logged-in user. After clicking on this button, a white canvas will open, with the action's palette visible on the left edge. 
+To create a new flow, click on the circular _Plus_ icon visible on the top-right of your screen, next to the name of the currently logged-in user. After clicking on this button, a white canvas will open, with the action's palette visible on the left edge.
 
-![](<../../../.gitbook/assets/image (3).png>)
+<figure><img src="../../../.gitbook/assets/new_tc.PNG" alt=""><figcaption><p>New Test Case</p></figcaption></figure>
 
-## Save the flow
+## Save the test case
 
 After Configuring all the components in the flow, provide a proper name and Save the flow. The message shows “Flow Successfully Submitted”.
 
-![](<../../../.gitbook/assets/image (13).png>)
 
-## Execute the flow.
+
+<figure><img src="../../../.gitbook/assets/save.PNG" alt=""><figcaption><p>Save Test Case</p></figcaption></figure>
+
+## Execute the test case.
 
 After Saving the flow, click on the "Execute" to start execution of the flow.
 
-![](<../../../.gitbook/assets/image (46).png>)
-
-
-
-
-
+<figure><img src="../../../.gitbook/assets/Screenshot (476).png" alt=""><figcaption><p>Execute Test Case</p></figcaption></figure>

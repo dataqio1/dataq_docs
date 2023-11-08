@@ -4,11 +4,11 @@ description: >-
   groups of test cases.
 ---
 
-# Flows
+# Test Case
 
 The \_Flows \_page displays all the user-saved and executed flows.
 
-![Flows](../../.gitbook/assets/flows2.png)
+<figure><img src="../../.gitbook/assets/testcases_l.PNG" alt=""><figcaption><p>Test Cases</p></figcaption></figure>
 
 Some important features of this page are:
 
@@ -21,21 +21,24 @@ Some important features of this page are:
   * A message is displayed to inform the user that the flow has been successfully imported.
 * The flows' list can be sorted by clicking on the columns' titles, i.e., _Flow Name, Job Type, Creator Name, Created Date, Last Executed Time,_ and _Last Executed Status._
 
-![Import Flow](../../.gitbook/assets/import2.png)
+<figure><img src="../../.gitbook/assets/import_tc.PNG" alt=""><figcaption><p>Import Test Case</p></figcaption></figure>
 
 Each flow under the _Action_ column has seven available actions, which can be accessed by clicking on the three-dots icon next to the check box. These actions are:
 
 ```
-   **1. Edit**  - By clicking on this action the system redirects the user to the edit canvas of this particular flow, and can then modify it. 
+   **1. Edit**  - By clicking on this action the system redirects the user to the edit c
+   anvas of this particular flow, and can then modify it. 
 ```
 
-![Edit Flow](../../.gitbook/assets/editflow2.png)
+<figure><img src="../../.gitbook/assets/edit (1).PNG" alt=""><figcaption><p>Edit Test Case</p></figcaption></figure>
 
 \*\* 2. Clone - \*\*By clicking on this action a user can duplicate the corresponding flow:
 
 * Select the _Clone_ option.
 * Provide the flow's name.
 * Click on _Save_ to clone the flow.
+
+<figure><img src="../../.gitbook/assets/clone.PNG" alt=""><figcaption><p>Clone Test Case</p></figcaption></figure>
 
 \*\* 3. Delete - \*\*This action allows the user to delete the selected flow.
 
@@ -52,4 +55,6 @@ Each flow under the _Action_ column has seven available actions, which can be ac
 * Select a flow to publish.
 * Click on\_ Save\_ to publish the flow.
 
-![Publish Flow](../../.gitbook/assets/publish\_flow.png)
+
+
+<figure><img src="../../.gitbook/assets/publish_tc.PNG" alt=""><figcaption><p>Publish Test Case to a Group</p></figcaption></figure>

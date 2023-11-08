@@ -25,7 +25,7 @@ Optionally, you may provide _s3TempDir_ and _s3AwsIamRole_ for better performanc
 >
 > arn:aws:iam::**XYZ**:role/Redshift\_Role
 
-![Redshift Configuration](../../../.gitbook/assets/redshift\_config.png)
+<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Redshift Configuration</p></figcaption></figure>
 
 
 
@@ -45,7 +45,7 @@ To add an SQL Server connection, you will have to provide:
 
 * Credentials, which will be a username and a password that will provide access to this database.
 
-![SQL Server Configuration](../../../.gitbook/assets/sql\_connection.png)
+<figure><img src="../../../.gitbook/assets/Screenshot (456) (1).png" alt=""><figcaption><p>SQL Server Configuration</p></figcaption></figure>
 
 
 
@@ -60,8 +60,6 @@ It is recommended to create a read only user in Sql Server. The read only user i
 7. sys.key\_constraints&#x20;
 8. sys.tables&#x20;
 9. sys.all\_columns
-
-
 
 ## Postgres
 
@@ -78,7 +76,7 @@ If SSL is enabled, additional parameters will be required for the JDBC URL as sh
 
 > jdbc:postgresql://\<jdbcHost>:XXXX/\<jdbcDatabaseName>\&ssl=true\*\*\&sslmode=require\&sslfactory=org.postgresql.ssl.NonValidatingFactory\*\*
 
-![Postgres Configuration](../../../.gitbook/assets/postgres.png)
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Postgres configuration</p></figcaption></figure>
 
 
 
@@ -107,7 +105,7 @@ To add a Snowflake connection, you will have to provide:
 
 * Credentials, which will be a username and a password that will provide access to this database.
 
-![Snowflake Configuration](<../../../.gitbook/assets/snowflake (1).png>)
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Snowflake Configuraiotn</p></figcaption></figure>
 
 It is recommended to create a read only user account in Snowflake. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 

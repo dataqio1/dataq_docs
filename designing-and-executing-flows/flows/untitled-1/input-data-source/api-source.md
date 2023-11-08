@@ -1,18 +1,18 @@
 # API Input
 
-To provide an API as data input: 
+To provide an API as data input:
 
 * Provide a Python script which can execute one or more APIs to get the output.
 * The final API should write the output to a specific location, e.g., _**/tmp/dq\_output\_file\_name.json**_**.**
 * Provide a sample output JSON for the schema.
 
 {% hint style="warning" %}
-Ensure the sample output \(few records\) represents all of the columns.
+Ensure the sample output (few records) represents all of the columns.
 {% endhint %}
 
-Sample Python code snippet for an API_:_
+Sample Python code snippet for an API\_:\_
 
-```text
+```
 import requests
 import json
 
@@ -35,11 +35,6 @@ f.write(json_text)
 f.close()
 ```
 
-
-
-![](../../../../.gitbook/assets/api_input.png)
-
-{% file src="../../../../.gitbook/assets/conversation.json" caption="Sample API output file\(json\)" %}
-
-
-
+{% file src="../../../../.gitbook/assets/conversation.json" %}
+Sample API output file(json)
+{% endfile %}

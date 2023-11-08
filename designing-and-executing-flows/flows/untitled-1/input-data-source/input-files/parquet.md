@@ -6,7 +6,4 @@ Parquet or AVRO can also be used as file options for the data sources and target
 If you're providing an _s3_ file path, ensure that the DataQ server _IAMRole_ has permission to read from the _s3_ bucket. The file size limit for uploads 50MB.
 {% endhint %}
 
-![](../../../../../.gitbook/assets/avro.jpg)
-
-
-
+<figure><img src="../../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>

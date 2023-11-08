@@ -4,28 +4,18 @@ Data connections are used as a link to a database (DB) to retrieve data for test
 
 * Click on the _Settings tab_ from the top menu.
 
-![](../../../.gitbook/assets/screen-shot-2021-02-19-at-11.22.51-pm.png)
-
-
+<figure><img src="../../../.gitbook/assets/settings.PNG" alt=""><figcaption><p>Settings</p></figcaption></figure>
 
 * Click on the _Add New Connection_ button.
 
-![](../../../.gitbook/assets/screen-shot-2021-02-19-at-11.24.28-pm.png)
+<figure><img src="../../../.gitbook/assets/add_new_conn.PNG" alt=""><figcaption><p>Add New Connection</p></figcaption></figure>
 
 * Select the type of DB from the shown options to use as data source.
-*   Provide the required details for the connection, such as:
-
-    * **Connection Name : ** This name is used to connect to this data source.
-    * **JDBC Connection String : **JDBC Connection URL.
-    * **User : **User Name.
-    * **Password : **Password.
-
-
+* Provide the required details for the connection, such as:
+  * \*\*Connection Name : \*\* This name is used to connect to this data source.
+  * \*\*JDBC Connection String : \*\*JDBC Connection URL.
+  * \*\*User : \*\*User Name.
+  * \*\*Password : \*\*Password.
 * Click on _Test Connection_ and then _Create Source_ when the connection's details have been validated.
 
-![Adding a new Connection](../../../.gitbook/assets/screen-shot-2021-02-19-at-11.27.03-pm.png)
-
-
-
-
-
+<figure><img src="../../../.gitbook/assets/Screenshot (455).png" alt=""><figcaption><p>Create Connection</p></figcaption></figure>
