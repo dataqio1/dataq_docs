@@ -3,7 +3,7 @@
 * [Vexdata Overview](README.md)
 * [Installation](installation/README.md)
   * [System Requirements](installation/prerequisites.md)
-  * [Windows Installation](installation/Vexdata-installation.md)
+  * [Windows Installation](installation/windows-installation.md)
   * [Linux Installation](installation/untitled/README.md)
     * [Updating Software](installation/untitled/updating-software.md)
   * [Cloud Installation](installation/cloud-installation/README.md)
