@@ -4,7 +4,9 @@ description: Static and dynamic variables are two types of variables used in tes
 
 # Variables
 
-It is important to understand the concepts of static and dynamic variables within the context of test cases. Test cases frequently involve the use of variables to store and manipulate data specific to the Vexdata.io platform.
+It is important to understand the concepts of static and dynamic variables within the context of test cases. Test cases frequently involve the use of variables to store and manipulate data specific to the DataQ.io platform.
+
+
 
 ### When to use variables :
 
@@ -12,23 +14,25 @@ It is important to understand the concepts of static and dynamic variables withi
 2. Migrating the same test cases to different environments: When migrating test cases from the development environment to the QA environment, the database schema name may differ between the two environments. To accommodate this difference, variables can be used to store the schema name dynamically. By using variables, the test cases can be easily adapted to work in different environments without the need for manual modification of the schema references in each test case.
 3. To execute test cases on different set of tables in a same environment. Instead of changing the test case, we can set parameters and
 
-## Static Variable -
 
-Static variables, in the context of Vexdata.io, refer to those that retain their value throughout the execution of a test case. These variables are typically declared and initialized at the beginning of the test case or provided at the beginning of a 'test run,' and they maintain their value until the end.
+
+## Static Variable -&#x20;
+
+Static variables, in the context of DataQ.io, refer to those that retain their value throughout the execution of a test case. These variables are typically declared and initialized at the beginning of the test case or provided at the beginning of a 'test run,' and they maintain their value until the end.
 
 #### Example
 
 Variable name : id
 
-Initial value : 20 , The initial value will be used by default. When executing test cases as a batch, user can over write the variables and the new overwritten value will be used for that test run.
+Initial value : 20  ,  The initial value will be used by default. When executing test cases as a batch, user can over write the variables and the new overwritten value will be used for that test run.
 
 For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on daily run.
 
 <figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
-## **Dynamic Variable** -
+## **Dynamic Variable** -&#x20;
 
-On the other hand, dynamic variables within the Vexdata.io platform are initialized by executing a SQL query. The query is executed as a first step before executing the test case. The SQL query should produce only one value which is initialized to the parameter.
+On the other hand, dynamic variables within the DataQ.io platform are initialized by executing a SQL query. The query is executed as a first step before executing the test case. The SQL query should produce only one value which is initialized to the parameter.&#x20;
 
 To use a variable in a test case, we have to rap the variable name in ${variable\_name}
 
@@ -40,7 +44,7 @@ Query : `select max(batch_id) from sales_tbl`
 
 To use the variable in the test case, use <mark style="color:blue;">${id5}</mark>
 
-The variable can be used as a table name, inside a sql query, schema name.
+The variable can be used as a table name, inside a sql query, schema name.&#x20;
 
 {% hint style="info" %}
 The SQL query should output only one value.
@@ -50,8 +54,14 @@ The SQL query should output only one value.
 
 The validate button validates the sql query and ensure the sql query is returning only one value. If the sql query is returning multiple records or multiple columns, the error message is displayed and sql query has to be fixed.
 
+
+
 **How to create and use Static and Dynamic Variable in a test case**
+
+
 
 {% embed url="https://vimeo.com/831207546/9803611d77?share=copy" %}
 
-\\
+
+
+\
