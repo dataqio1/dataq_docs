@@ -1,7 +1,7 @@
 ---
 description: >-
   Flows, or test cases, are the main procedure through which data is compared in
-  Vexdata. A flow can be created by dropping shapes from a palette containing
+  DataQ. A flow can be created by dropping shapes from a palette containing
   different icons onto a canvas, which are then c
 ---
 
@@ -20,8 +20,6 @@ To create a new flow, click on the circular _Plus_ icon visible on the top-right
 ## Save the test case
 
 After Configuring all the components in the flow, provide a proper name and Save the flow. The message shows “Flow Successfully Submitted”.
-
-
 
 <figure><img src="../../../.gitbook/assets/save.PNG" alt=""><figcaption><p>Save Test Case</p></figcaption></figure>
 

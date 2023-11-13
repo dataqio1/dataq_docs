@@ -17,7 +17,7 @@ unzip dataops_server.zip
 cd dataops_server
 ```
 
-### Set License Name and License Key (<mark style="color:blue;">**Optional**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">-for paid subscription</mark>) <a href="#mickey" id="mickey"></a>
+### Set License Name and License Key (<mark style="color:blue;">**Optional**</mark> <mark style="color:blue;">-for paid subscription</mark>) <a href="#mickey" id="mickey"></a>
 
 Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchasing Vexdata. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
@@ -45,6 +45,12 @@ If https keys are provided, set the HOST\_URL to **https**://\<server URL>
 
 ## Starting the server
 
+When running for the first time, get the latest software by running below command
+
+```
+ ./update_software.sh
+```
+
 Start the server either with the _sudo_ command, or by logging in as a user with admin privileges.
 
 ```
@@ -65,13 +71,12 @@ Do not use localhost in the URL.
 
 Follow the steps below to update the software with patches and upgrades.
 
-1.  Update the file app.properties with the new updated version provided.&#x20;
+1.  Update the file app.properties with the new updated version provided.
 
     (To update version to 3.7 from 3.6 : ex SERVER\_VERSION=3.6 --> SERVER\_VERSION=3.7)
-2. Stop the server (./stop\_server.sh)
-3. Start the server (./start\_server.sh)
-
-
+2. Stop the server (`./stop_server.sh`)
+3. Update the software (`./update_software.sh`)
+4. Start the server (`./start_server.s`h)
 
 ## HTTPS Setup
 

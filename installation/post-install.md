@@ -12,11 +12,17 @@ This interface can be accessed by going to the \_Settings _tab and then clicking
 
 To setup the email server, you will have to provide the following information.
 
+{% embed url="https://player.vimeo.com/progressive_redirect/playback/883940152/rendition/240p/file.mp4?loc=external&log_user=0&signature=965c88fff2bdc07af1b8ec36da7561eee7cec7b288f8269d0fcbe9b27dd97d13" %}
+
 <figure><img src="../.gitbook/assets/Screenshot (444).png" alt=""><figcaption><p>Email Setup</p></figcaption></figure>
 
 ## Setup Server Default Time Zone
 
 The default time zone can be changed by selecting your choice from the drop-down list that is located under "Default Timezone".
+
+{% embed url="https://player.vimeo.com/progressive_redirect/playback/883948543/rendition/source/file.mp4?loc=external&log_user=0&signature=198be6c5f8cec73364bb01c2cfe805971d75bd7f2d90feab1a04ac148139d611" %}
+
+
 
 ## Setup LDAP
 
