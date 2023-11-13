@@ -2,7 +2,7 @@
 
 This type of comparison will compare the table schema, which is to say, compares the columns with their data types. If data types don't match, then the test is considered as failed.
 
-\*\*Schema Compare Flow \*\*
+**Schema Compare Flow**
 
 * Drag a _Source_ component from the palette to the canvas.
 * Choose the _Input Source Configuration_ and select the tables for schema compare.
