@@ -1,6 +1,6 @@
 ---
 description: >-
-  Flows are the processes which can be defined on a canvas to auto-generate
+  Test Cases are the processes which can be defined on a canvas to auto-generate
   groups of test cases.
 ---
 
