@@ -1,8 +1,8 @@
 ---
 description: >-
   This section incorporates all the necessary information to create and execute
-  test cases, which is the main purpose of Vexdata.
+  Test Cases, which is the main purpose of DataQ.
 ---
 
-# Designing and Executing Flows
+# Designing and Executing Test Cases
 

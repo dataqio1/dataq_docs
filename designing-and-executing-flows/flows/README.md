@@ -1,7 +1,7 @@
 ---
 description: >-
-  Test Cases are the processes which can be defined on a canvas to auto-generate
-  groups of test cases.
+  Test Cases are the processes which can be defined to test datasets using four
+  types namely Table, Sql, File and API.
 ---
 
 # Test Case

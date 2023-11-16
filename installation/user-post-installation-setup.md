@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section provides information on how to create a project and test cases
-  within that project.
+  This section includes information on how to create project and flows inside
+  the project.
 ---
 
 # User Post Installation Setup

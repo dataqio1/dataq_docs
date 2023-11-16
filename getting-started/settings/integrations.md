@@ -1,9 +1,6 @@
 # Integrations
 
-## **Slack**
-
-* Slack integration refers to the process of connecting the application with the Slack messaging platform.
-* This integration enables communication between the application and Slack, allowing users to receive quick notifications regarding Test Case Status updates directly within their Slack workspace channels.
+Slack
 
 <figure><img src="../../.gitbook/assets/Screenshot (460).png" alt=""><figcaption><p>Slack Integration</p></figcaption></figure>
 
@@ -11,22 +8,15 @@
 
 Email
 
-* Email integration with the application allows for sending test status updates.
-* This integration ensures that team members receive timely updates via email, providing them with comprehensive visibility into the testing process and results.
-
-Email integration functionality empowers users by enabling them to effortlessly receive email notifications specifically related to test cases. This feature streamlines communication by ensuring that pertinent updates, status changes, and essential information regarding test cases are promptly delivered to users' email inboxes, facilitating quick and convenient access to critical project details.
-
 <figure><img src="../../.gitbook/assets/Screenshot (457).png" alt=""><figcaption><p>Email Integration</p></figcaption></figure>
 
 
 
-## **Jira**
+Jira
 
-Jira integration refers to the process of connecting the application with the Jira project management tool.&#x20;
 
-This integration enables to raise tasks and issues directly from the application with updates reflected in Jira in real-time.
 
-The Jira integration feature allows users to seamlessly raise Jira tickets for individual test cases directly within the application in case any issues or discrepancies arise, ensuring swift and organized issue resolution and efficient tracking within the project management system.
+
 
 <figure><img src="../../.gitbook/assets/Screenshot (459).png" alt=""><figcaption><p>Jira Integration</p></figcaption></figure>
 
