@@ -20,13 +20,17 @@ Email integration functionality empowers users by enabling them to effortlessly 
 
 
 
-Jira
+## **Jira**
+
+Jira integration refers to the process of connecting the application with the Jira project management tool.&#x20;
+
+This integration enables to raise tasks and issues directly from the application with updates reflected in Jira in real-time.
 
 The Jira integration feature allows users to seamlessly raise Jira tickets for individual test cases directly within the application in case any issues or discrepancies arise, ensuring swift and organized issue resolution and efficient tracking within the project management system.
 
 <figure><img src="../../.gitbook/assets/Screenshot (459).png" alt=""><figcaption><p>Jira Integration</p></figcaption></figure>
 
-Teams
+
 
 
 
