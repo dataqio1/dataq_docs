@@ -1,9 +1,3 @@
----
-description: >-
-  The Integrations section focuses on the integration of the application with  
-  Jira, Email and Slack.
----
-
 # Integrations
 
 ## **Slack**
@@ -16,6 +10,9 @@ description: >-
 
 
 Email
+
+* Email integration with the application allows for sending test status updates.
+* This integration ensures that team members receive timely updates via email, providing them with comprehensive visibility into the testing process and results.
 
 Email integration functionality empowers users by enabling them to effortlessly receive email notifications specifically related to test cases. This feature streamlines communication by ensuring that pertinent updates, status changes, and essential information regarding test cases are promptly delivered to users' email inboxes, facilitating quick and convenient access to critical project details.
 
