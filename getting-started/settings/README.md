@@ -6,3 +6,6 @@
 
 <figure><img src="../../.gitbook/assets/Screenshot (454) (1).png" alt=""><figcaption><p>Connections</p></figcaption></figure>
 
+
+
+* The _Properties_ tab includes several software properties, which are explained in the _Post Installation Setup_ section.

@@ -1,3 +1,9 @@
+---
+description: >-
+  The Integrations section focuses on the integration of the application with
+  Jira, Email and Slack
+---
+
 # Integrations
 
 Slack
