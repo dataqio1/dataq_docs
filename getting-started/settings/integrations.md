@@ -1,12 +1,15 @@
 ---
 description: >-
-  The Integrations section focuses on the integration of the application with
-  Jira, Email and Slack
+  The Integrations section focuses on the integration of the application with  
+  Jira, Email and Slack.
 ---
 
 # Integrations
 
-Slack
+## **Slack**
+
+* Slack integration refers to the process of connecting the application with the Slack messaging platform.
+* This integration enables communication between the application and Slack, allowing users to receive quick notifications regarding Test Case Status updates directly within their Slack workspace channels.
 
 <figure><img src="../../.gitbook/assets/Screenshot (460).png" alt=""><figcaption><p>Slack Integration</p></figcaption></figure>
 
