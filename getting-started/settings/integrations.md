@@ -8,6 +8,8 @@ Slack
 
 Email
 
+Email integration functionality empowers users by enabling them to effortlessly receive email notifications specifically related to test cases. This feature streamlines communication by ensuring that pertinent updates, status changes, and essential information regarding test cases are promptly delivered to users' email inboxes, facilitating quick and convenient access to critical project details.
+
 <figure><img src="../../.gitbook/assets/Screenshot (457).png" alt=""><figcaption><p>Email Integration</p></figcaption></figure>
 
 
