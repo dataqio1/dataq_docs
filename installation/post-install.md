@@ -18,7 +18,7 @@ To setup the email server, you will have to provide the following information.
 
 ## Setup Server Default Time Zone
 
-The default time zone can be changed by selecting your choice from the drop-down list that is located under "Default Timezone".
+The default time zone can be changed by selecting your choice from the drop-down list that is located under "Default Time zone".
 
 {% embed url="https://player.vimeo.com/progressive_redirect/playback/883948543/rendition/source/file.mp4?loc=external&log_user=0&signature=198be6c5f8cec73364bb01c2cfe805971d75bd7f2d90feab1a04ac148139d611" %}
 
@@ -32,4 +32,4 @@ The default time zone can be changed by selecting your choice from the drop-down
 
 {% embed url="https://player.vimeo.com/progressive_redirect/playback/886397613/rendition/720p/file.mp4?loc=external&log_user=0&signature=1e7e7be17fa4098a163a78101ee3899a96a8307cd2163bb1785b59695d57a187" %}
 
-<figure><img src="../.gitbook/assets/Screenshot (447).png" alt=""><figcaption><p>LDAP Setup</p></figcaption></figure>
+{% embed url="https://player.vimeo.com/progressive_redirect/playback/886397613/rendition/720p/file.mp4?loc=external&log_user=0&signature=1e7e7be17fa4098a163a78101ee3899a96a8307cd2163bb1785b59695d57a187" %}
