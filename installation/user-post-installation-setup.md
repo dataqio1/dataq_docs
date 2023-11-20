@@ -22,12 +22,10 @@ Running on Server : URL is http://\<server address>
 
 ## Creating New Project
 
-Click on “Create New Project”
+Click on “Create a New Project”
 
 Add “Name” and “Description” of the project to create a new project.
 
 A new project will be created and shown as a tab.
 
-<figure><img src="../.gitbook/assets/Screenshot (449).png" alt=""><figcaption><p>Create New Project</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot (450).png" alt=""><figcaption><p>New Project</p></figcaption></figure>
+{% embed url="https://player.vimeo.com/progressive_redirect/playback/886407058/rendition/720p/file.mp4?loc=external&log_user=0&signature=a971e45ff09bb743b030b50b5e1f7199e13e26236bde32ac2e9264c3194692ad" %}
