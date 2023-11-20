@@ -30,6 +30,6 @@ The default time zone can be changed by selecting your choice from the drop-down
 2. Fill up all the required details for the LDAP protocol.
 3. Restart the server using _./restart\_server.sh_ for the LDAP changes to take effect.
 
-<figure><img src="../.gitbook/assets/Screenshot (446).png" alt=""><figcaption><p>Default Timezone Setup</p></figcaption></figure>
+{% embed url="https://player.vimeo.com/progressive_redirect/playback/886397613/rendition/720p/file.mp4?loc=external&log_user=0&signature=1e7e7be17fa4098a163a78101ee3899a96a8307cd2163bb1785b59695d57a187" %}
 
 <figure><img src="../.gitbook/assets/Screenshot (447).png" alt=""><figcaption><p>LDAP Setup</p></figcaption></figure>
