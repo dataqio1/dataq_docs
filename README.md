@@ -1,5 +1,5 @@
 ---
-description: DataQ automates Data Testing.
+description: Vexdata automates Data Testing.
 ---
 
 # Vexdata Overview
