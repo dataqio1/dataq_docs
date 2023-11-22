@@ -28,7 +28,8 @@ Email
 
 Jira
 
-
+* Jira integration refers to the process of connecting the application with the Jira project management tool.
+* This integration enables to raise tasks and issues for individual test cases directly from the application with updates reflected in Jira in real-time and efficient tracking within the project management system.
 
 
 
