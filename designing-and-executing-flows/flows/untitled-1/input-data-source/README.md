@@ -20,6 +20,3 @@ Example : select \* from marketing.users where marketing is the schema name.
 
 [**API Input**](api-source.md) **:** This tab can be used to call on an API to extract data. This is a request response pattern where API calls can be scheduled to extract data.
 
-{% hint style="success" %}
-**Note :** Currently table/s input and SQL input tabs can be used together as source or target datastores.
-{% endhint %}
