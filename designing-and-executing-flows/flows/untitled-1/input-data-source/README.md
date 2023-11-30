@@ -8,6 +8,14 @@ After dropping any of these two shapes into the canvas and clicking on them, a w
 
 [**SQL Input**](input-sql-data.md) **:** Custom SQL queries can be defined in this tab to extract data from multiple tables. These queries can be nested queries to chain the SQL statements.
 
+
+
+{% hint style="warning" %}
+Always prefix schema name before the table name as a good practice.&#x20;
+
+Example : select \* from marketing.users where marketing is the schema name.
+{% endhint %}
+
 [**File Input**](input-files/) **:** This tab can be used if the data has to be taken from a file which is in one of the following formats: \_Parquet, AVRO, JSON, CSV \_or _Excel._
 
 [**API Input**](api-source.md) **:** This tab can be used to call on an API to extract data. This is a request response pattern where API calls can be scheduled to extract data.
