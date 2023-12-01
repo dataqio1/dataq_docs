@@ -4,7 +4,11 @@ description: Static and dynamic variables are two types of variables used in tes
 
 # Variables
 
-It is important to understand the concepts of static and dynamic variables within the context of test cases. Test cases frequently involve the use of variables to store and manipulate data specific to the DataQ.io platform.
+### Overview
+
+
+
+In Vexdata, variables play a crucial role in enhancing the flexibility and reusability of test cases. By introducing variables, test cases can be designed to adapt dynamically to different data sets or conditions without the need for direct modification of the test case itself.
 
 
 
@@ -12,7 +16,7 @@ It is important to understand the concepts of static and dynamic variables withi
 
 1. To filter data: Example: Let's say I receive data daily into a set of five tables. My test case validates these five tables. Instead of validating the entire dataset, I want to validate only a specific batch of data. In this case, I can use variables to define the criteria for filtering the data, such as a specific date range or a batch identifier.
 2. Migrating the same test cases to different environments: When migrating test cases from the development environment to the QA environment, the database schema name may differ between the two environments. To accommodate this difference, variables can be used to store the schema name dynamically. By using variables, the test cases can be easily adapted to work in different environments without the need for manual modification of the schema references in each test case.
-3. To execute test cases on different set of tables in a same environment. Instead of changing the test case, we can set parameters and
+3. To execute test cases on different set of tables in a same environment. Instead of changing the test case, we can set variables for table name.
 
 
 
@@ -43,6 +47,8 @@ Variable name : id5
 Query : `select max(batch_id) from sales_tbl`
 
 To use the variable in the test case, use <mark style="color:blue;">${id5}</mark>
+
+`select max(batch_id) from` <mark style="color:blue;">${id5}</mark>
 
 The variable can be used as a table name, inside a sql query, schema name.&#x20;
 
