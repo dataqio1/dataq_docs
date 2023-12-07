@@ -43,6 +43,7 @@
         * [Table Counts Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/counts-compare.md)
         * [Data Profile Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-profile-compare.md)
         * [Data Migration Validation](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-migration-validation.md)
+      * [Schema Monitoring](designing-and-executing-flows/flows/untitled-1/schema-monitoring.md)
       * [Data Quality](designing-and-executing-flows/flows/untitled-1/data-quality.md)
       * [Variables](designing-and-executing-flows/flows/untitled-1/variables.md)
     * [Execute Test Case](designing-and-executing-flows/flows/execute-flows.md)
