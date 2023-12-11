@@ -46,6 +46,10 @@ The CSV file should contain the following headers:
 
 
 
+{% hint style="warning" %}
+Mapping file is case sensitive. Ensure the table names, and column names have the same case as in the database.&#x20;
+{% endhint %}
+
 ## SQL Transformation
 
 * **SQL Transformation** : This feature can be used to apply an SQL Transformation function for all the _Source_ and _Target_ columns. This can be helpful, for instance, if in one of the columns from either \_Source \_or _Target_ the name has been written with uppercase, and the corresponding column from the other data source has the name in lowercase. The \_SQL Transformation \_can be used to write an SQL statement to change the column's names to uppercase. To do this:
