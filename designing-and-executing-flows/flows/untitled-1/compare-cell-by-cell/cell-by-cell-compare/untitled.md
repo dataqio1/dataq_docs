@@ -64,7 +64,7 @@ Mapping file is case sensitive. Ensure the table names, and column names have th
 
 ## Tolerance
 
-* **Tolerance** : Users can apply _Tolerance_ for all integer column data types, e.g., long, double, float, short, int., to have a tolerance for the comparison to succeed even if the data is not perfectly matching. _Tolerance_ cannot be added to the key column.
+* **Tolerance** : Users can apply Tolerance for numeric (e.g., long, double, float, short, int.) , date and timestamp columns data types . Tolerance cannot be added to the key column.
   * Click on the icon under _Tolerance._
   * Select the _Operator_ and\_ \_type in the tolerance _Value._
   * Click on _Done._
