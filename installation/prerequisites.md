@@ -14,7 +14,7 @@ description: To install DataQ, the following requirements need to be fulfilled.
 | **Hardware** | **Local Desktop** | **Server (Multi-User)** |
 | ------------ | ----------------- | ----------------------- |
 | CPU          | Minimum 4 core    | Minimum 12 core         |
-| Memory       | Minimum 8GB       | Minimum 32GB            |
+| Memory       | Minimum 16GB      | Minimum 32GB            |
 | Disk Space   | Minimum 30GB      | Minimum 200GB           |
 
 ### Ports
