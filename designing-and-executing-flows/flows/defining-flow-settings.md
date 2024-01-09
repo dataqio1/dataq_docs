@@ -11,3 +11,4 @@
 
 * **Notification** is a setting that can be used to receive an email notification when the test case is completed with the result of the test case. This tab allows users to set the email destination for the notification. Note that more than one email can be set.
 
+***

@@ -4,7 +4,7 @@ To make use of the data that comes from the _Data Connections_,\_ \_users can ma
 
 After dropping any of these two shapes into the canvas and clicking on them, a window will appear at the bottom of the screen. This window will show two main tabs, one named _Config,_ and the other _Sample Data._ The _Config_ tab will provide four tabs from which the user can choose the type of data input. These options are:
 
-[**Table Input** ](input-table-s-from-database.md)**:** This is used to configure a data store which is a from a database in the form of a table.
+[**Table Input** ](input-table-s-from-database/)**:** This is used to configure a data store which is a from a database in the form of a table.
 
 [**SQL Input**](input-sql-data.md) **:** Custom SQL queries can be defined in this tab to extract data from multiple tables. These queries can be nested queries to chain the SQL statements.
 
