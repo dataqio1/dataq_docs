@@ -2,9 +2,9 @@
 description: From Version 7_14
 ---
 
-# Add Filter
+# Table Filter
 
-### Data Filter
+### Table Filter
 
 The "Data Filter" functionality is a critical enhancement designed to address the need for targeted data testing. This feature allows users to conduct tests on a specific subset of records, rather than the entire data set. Here’s how you can create a data filter:
 
