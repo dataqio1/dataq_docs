@@ -6,7 +6,15 @@ description: >-
 
 # Writing SQL test cases in English
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-08 at 3.52.21 PM.png" alt=""><figcaption><p>SQL Rule</p></figcaption></figure>
 
+Write the test case in English in the **AI Prompt** section and click on Generate SQL.&#x20;
+
+
+
+{% hint style="warning" %}
+Ensure that all the tables required for this test case are selected in the source section. This is necessary to generate SQL from English.
+{% endhint %}
 
 Our software enhances the ease and accuracy of data quality testing by allowing users to write test cases in natural language, powered by OpenAI. Below are examples to guide you in creating effective test cases for both single-table and multi-table test scripts.
 
