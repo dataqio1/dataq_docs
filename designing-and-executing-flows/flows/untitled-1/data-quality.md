@@ -59,35 +59,46 @@ The records for which TOTALPRICE <= 0 will be reported as bad data.
 
 For data from files, MongoDB, or streaming sources, rules are executed in-memory. The following four rule types are available.
 
-1.  **SQL Queries**:
-
-    * Similar to database input, write SQL-like queries for in-memory data checks.
-    *   Example: Ensure that transaction amounts are positive. Refer to [section](data-quality/writing-sql-test-cases-in-english.md) for writing rules in English.\
 
 
+1. **SQL Queries**:
+
+* Similar to database input, write SQL-like queries for in-memory data checks.
+* Example: Ensure that transaction amounts are positive. Refer to [section](data-quality/writing-sql-test-cases-in-english.md) for writing rules in English.\
 
 
-        ```sql
-        SELECT * FROM transactions WHERE amount <= 0;
-        ```
 
-    [\
-    ](#user-content-fn-1)[^1]
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-08 at 7.24.54 PM.png" alt=""><figcaption></figcaption></figure>
+
 2. **Column Level Conditions**:
-   * Example: Validate transaction dates are within the current year.
-     * Bad Data Example: Date = '2021-06-15'
-     * Good Data Example: Date = '2024-05-01'
+
+* Directly specify conditions for individual columns.
+*   Example rule : Age in the users table should be between 1 and 149.
+
+    * Write SQL expression    `age > 0 and age < 150`
+
+    If there are any records where age is below 1 and above 140, the rule will fail and those repords are reported.
+
+In below screenshot, `TOTALPRICE > 0`&#x20;
+
+The records for which TOTALPRICE <= 0 will be reported as bad data.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-08 at 6.19.45 PM.png" alt=""><figcaption></figcaption></figure>
+
 3. **Foreign Key Validation**:
-   * Validate that foreign key values exist in the referenced table.
-   * Example: Ensure every listed state in the 'users' table exists in the 'states' table.
-4.  **Table Metadata Rules**:
 
-    Set rules regarding table structure changes.
+* Validate that foreign key values exist in the referenced table.
+* Example: Ensure every listed state in the 'users' table exists in the 'states' table.
 
-    * Select "Column Names" to ensure the column names remain unchanged.
-    * Select "Data Types" to verify that the column types are not altered.
-    * Select "New Columns" to trigger a rule failure when new columns are added.
-    * Select "Removed Columns" to trigger a rule failure when columns are removed.
+4. **Table Metadata Rules**:
+
+Set rules regarding table structure changes.
+
+* Select "Column Names" to ensure the column names remain unchanged.
+* Select "Data Types" to verify that the column types are not altered.
+* Select "New Columns" to trigger a rule failure when new columns are added.
+* Select "Removed Columns" to trigger a rule failure when columns are removed.
 
 
 
@@ -101,18 +112,7 @@ After defining all data quality rules:
 * Assign a name to the test case.
 * Optionally, schedule and run the test case to enforce data quality checks.
 
-### Example of Good vs. Bad Data
-
-To further understand what is considered as good and bad data, let's consider a sample rule:
-
-**Rule**: "Validate that age is between 1 and 149 in the users table."
-
-* **Good Data Example**:
-  * User: Alice, Age: 25 (within the acceptable range)
-* **Bad Data Example**:
-  * User: Bob, Age: 150 (outside the acceptable range)
-
-This rule helps ensure that the data adheres to realistic and business-specific age constraints.
+###
 
 
 
@@ -124,6 +124,3 @@ This rule helps ensure that the data adheres to realistic and business-specific 
 
 
 
-
-
-[^1]: 
