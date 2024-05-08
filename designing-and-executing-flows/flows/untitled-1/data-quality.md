@@ -1,6 +1,6 @@
 # Data Quality
 
-The _Data Quality_ shape is used to validate, or cleanup, input data against rules which are defined by the user. There are six tabs to configure the _Data Quality_ shape:
+Vexdata provides ability to create&#x20;
 
 * **Config**
   * A _Random Input Sample_ can be specified to test the data in a reduced quantity to accelerate the process.
