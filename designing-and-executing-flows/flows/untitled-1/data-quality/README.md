@@ -20,7 +20,7 @@ The _Data Quality_ shape is used to validate, or cleanup, input data against rul
     * \_Regular expression \_: This builds a test case where, in a given column, every value of the corresponding column should comply with the regular expression.
     * \_Pre-built rules \_: Prebuilt rules can be added to apply at the column level of each row. If any of the rows does not satisfy the condition of the prebuilt rule, the test case will have failed.
 
-![](../../../.gitbook/assets/columnrules.jpg)
+![](../../../../.gitbook/assets/columnrules.jpg)
 
 {% hint style="info" %}
 The above mentioned rules under _Column Rules_ will be auto-suggested by the system, except for SQL. Once the rules are auto-suggested, the user can edit them to customize specific scenarios.
@@ -52,7 +52,7 @@ The above mentioned rules under _Column Rules_ will be auto-suggested by the sys
   * After entering the \_Test Case Name, \_users can click on the _Validate button to ensure the proper application of the SQL query._
   * The validated queries are shown on the right panel and the user has an option to edit/remove the query.
 
-![Multi Source SQL](<../../../.gitbook/assets/Screenshot 2022-05-22 181619.png>)
+![Multi Source SQL](<../../../../.gitbook/assets/Screenshot 2022-05-22 181619.png>)
 
 * **Foreign Key Validation**
   * This tab is used filter data (only if record exists in Look Up Table)
@@ -61,7 +61,7 @@ The above mentioned rules under _Column Rules_ will be auto-suggested by the sys
   * This tab is used to split input data in two parts "Good Data" and "Bad Data", based on rules set on column level.
   * "Good Data" and "Bad Data" can be written in separate files as configured and shown in below image
 
-![Output](<../../../.gitbook/assets/image (55).png>)
+![Output](<../../../../.gitbook/assets/image (55).png>)
 
 * Select file format and location for files to be saved(either s3 location of SFTP).
 * After successful execution, we get "Good Data" and "Bad Data" along with (Reason for bad data)
