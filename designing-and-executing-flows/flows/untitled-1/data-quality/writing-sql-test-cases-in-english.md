@@ -69,7 +69,7 @@ Our software enhances the ease and accuracy of data quality testing by allowing 
        GROUP BY u.user_id
        HAVING SUM(o.order_amount) > u.credit_limit;
        ```
-5. **Check for active users with no orders**
+5. **Check for active users in Users tables with no orders in the Orders table.**
    * **English**: Identify users in users table who have not placed any orders.
    *   **SQL**:
 
