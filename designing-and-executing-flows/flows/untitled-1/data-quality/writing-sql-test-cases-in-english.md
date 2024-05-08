@@ -44,8 +44,8 @@ Our software enhances the ease and accuracy of data quality testing by allowing 
        ```sql
        SELECT * FROM Users WHERE age < 18;
        ```
-2. **Validate that no users are beyond retirement age in Users table**
-   * **English**: Check that no user is older than 65.
+2. **Validate that no users are beyond retirement age**
+   * **English**: Check that no user is older than 65 in Users table.
    *   **SQL**:
 
        ```sql
@@ -58,8 +58,8 @@ Our software enhances the ease and accuracy of data quality testing by allowing 
        ```sql
        SELECT * FROM Users WHERE credit_limit <= 0;
        ```
-4. **Ensure total orders in Orders table do not exceed credit limits in Users table**
-   * **English**: Validate that the sum of order amounts for each user does not exceed their credit limit.
+4. **Ensure total orders do not exceed credit limits**
+   * **English**: Validate that the sum of order amounts for each user in Orders table does not exceed their credit limit in Users table.
    *   **SQL**:
 
        ```sql
@@ -69,7 +69,7 @@ Our software enhances the ease and accuracy of data quality testing by allowing 
        GROUP BY u.user_id
        HAVING SUM(o.order_amount) > u.credit_limit;
        ```
-5. **Check for active users in Users tables with no orders in the Orders table.**
+5. **Check for active users with no orders.**
    * **English**: Identify users in users table who have not placed any orders.
    *   **SQL**:
 
