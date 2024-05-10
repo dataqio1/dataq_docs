@@ -21,3 +21,9 @@ For large tables, it is recommended to provide a partition column so Vexdata can
   * Example : If you have to choose between city and person\_name, select city as partition column, as person\_name is highly unique.
 
 <figure><img src="../../../../../.gitbook/assets/partition_props.PNG" alt=""><figcaption><p>Partition Properties</p></figcaption></figure>
+
+
+
+
+
+{% embed url="https://youtu.be/fUi9JzBE0oQ" %}
