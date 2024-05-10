@@ -47,7 +47,7 @@
       * [Schema Monitoring](designing-and-executing-flows/flows/untitled-1/schema-monitoring.md)
       * [Data Quality](designing-and-executing-flows/flows/untitled-1/data-quality.md)
         * [Writing SQL test cases in English](designing-and-executing-flows/flows/untitled-1/data-quality/writing-sql-test-cases-in-english.md)
-    * [Execute Test Case](designing-and-executing-flows/flows/execute-flows.md)
+    * [Executing Test Cases](designing-and-executing-flows/flows/execute-flows.md)
     * [Defining Flow Settings](designing-and-executing-flows/flows/defining-flow-settings.md)
   * [Executions](designing-and-executing-flows/executions.md)
   * [Variables](designing-and-executing-flows/variables.md)
