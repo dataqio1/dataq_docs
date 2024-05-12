@@ -20,6 +20,8 @@
   * [Managing Groups and Projects](getting-started/managing-groups-and-projects/README.md)
     * [Projects](getting-started/managing-groups-and-projects/projects.md)
   * [Settings](getting-started/settings/README.md)
+    * [Rules](getting-started/settings/rules.md)
+    * [Properties](getting-started/settings/properties.md)
     * [Create Data Connections](getting-started/settings/untitled/README.md)
       * [Databases/Warehouses](getting-started/settings/untitled/redshift.md)
       * [Run On](getting-started/settings/untitled/databricks.md)
