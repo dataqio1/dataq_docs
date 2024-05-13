@@ -16,6 +16,12 @@ Write the test case in English in the **AI Prompt** section and click on Generat
 Ensure that all the tables required for this test case are selected in the source section. This is necessary to generate SQL from English.
 {% endhint %}
 
+
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-08 at 3.48.49 PM.png" alt=""><figcaption></figcaption></figure>
+
+
+
 Our software enhances the ease and accuracy of data quality testing by allowing users to write test cases in natural language, powered by OpenAI. Below are examples to guide you in creating effective test cases for both single-table and multi-table test scripts.
 
 #### Sample Data
