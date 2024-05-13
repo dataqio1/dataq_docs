@@ -25,6 +25,7 @@
     * [Properties](getting-started/settings/properties.md)
     * [Integrations](getting-started/settings/integrations-1.md)
     * [Email Template](getting-started/settings/email-template.md)
+    * [Report Template](getting-started/settings/report-template.md)
     * [Create Data Connections](getting-started/settings/untitled/README.md)
       * [Databases/Warehouses](getting-started/settings/untitled/redshift.md)
       * [Run On](getting-started/settings/untitled/databricks.md)
