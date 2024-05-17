@@ -56,5 +56,6 @@
     * [Defining Flow Settings](designing-and-executing-flows/flows/defining-flow-settings.md)
   * [Executions](designing-and-executing-flows/executions.md)
   * [Variables](designing-and-executing-flows/variables.md)
+  * [Note](designing-and-executing-flows/note.md)
 * [Dashboard](dashboard.md)
 * [Current Limitations](current-limitations.md)
