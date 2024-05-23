@@ -15,7 +15,7 @@
       * [Cloud Formation Scripts (command line)](installation/cloud-installation/aws/aws.md)
   * [Admin Post Installation Setup](installation/post-install.md)
   * [User Post Installation Setup](installation/user-post-installation-setup.md)
-  * [Server Improvement](installation/improve-the-server.md)
+  * [Server Improvement (Optional)](installation/improve-the-server.md)
 * [Getting Started](getting-started/README.md)
   * [Managing Groups and Projects](getting-started/managing-groups-and-projects/README.md)
     * [Projects](getting-started/managing-groups-and-projects/projects.md)
