@@ -32,7 +32,7 @@ Initial value : 20  ,  The initial value will be used by default. When executing
 
 For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on daily run.
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption><p>Create a static variable</p></figcaption></figure>
 
 ## **Dynamic Variable** -&#x20;
 
@@ -56,17 +56,9 @@ The variable can be used as a table name, inside a sql query, schema name.&#x20;
 The SQL query should output only one value.
 {% endhint %}
 
-<div>
-
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 The validate button validates the sql query and ensure the sql query is returning only one value. If the sql query is returning multiple records or multiple columns, the error message is displayed and sql query has to be fixed.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Create a Dynamic Variable</p></figcaption></figure>
 
 
 
@@ -79,3 +71,14 @@ The validate button validates the sql query and ensure the sql query is returnin
 
 
 \
+
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+
+</div>
