@@ -18,19 +18,27 @@ Vexdata can be integrated into existing CI/CD solutions to further automate the 
 
 #### Data Migration Testing
 
-Ensure your migrations to cloud databases like Snowflake, Redshift are successful by fully testing the data between legacy and new systems.
+Vexdata ensures the accuracy and reliability of data migration testing by validating data transfers between different systems. The solution scales effortlessly, guaranteeing data integrity and performance, regardless of the volume or complexity of the migration process.
 
-#### **ETL Testing**
+#### **ETL/ELT Testing**
 
-Automate the testing of your ETL processes in any data centric project completely.
+Vexdata ensures the accuracy and reliability of ETL testing by validating data transformations, loads, and migrations. The solution scales seamlessly, guaranteeing data integrity and performance, regardless of the complexity or volume of the data.
 
 #### **Data Warehouse Testing**
 
-Verify the Data Warehouse landscape for data accuracy and completeness by implementing end to end test automation.
+Vexdata ensures the accuracy and integrity of data warehouse testing, including support for Slowly Changing Dimensions (SCD) Type 1 and Type 2. This allows for the efficient handling of historical data changes and updates, maintaining data consistency and reliability.
+
+#### **Document Testing**
+
+Vexdata automates the validation of documents like PDF, XML, JSON, and Excel. It supports both target file validation and reconciliation with raw source data, ensuring comprehensive testing.
+
+#### **Reports/Dashboard Testing**
+
+Vexdata ensures the accuracy and reliability of reports and dashboard testing by validating data consistency and correctness. This guarantees that business intelligence tools provide accurate insights and up-to-date information for decision-making.
 
 #### **Big Data Testing**
 
-Use the power of Spark cluster to test data in your data lake or Hadoop ecosystem at scale.
+Vexdata ensures the accuracy and performance of Big Data testing by validating large datasets and complex data pipelines. The solution scales effortlessly, guaranteeing integrity and reliability regardless of data volume, enabling efficient and accurate data processing and analysis.
 
 #### **BI Testing**
 
