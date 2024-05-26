@@ -41,6 +41,7 @@
           * [Parquet/AVRO](designing-and-executing-flows/flows/untitled-1/input-data-source/input-files/parquet.md)
         * [API Input](designing-and-executing-flows/flows/untitled-1/input-data-source/api-source.md)
         * [Table Filter](designing-and-executing-flows/flows/untitled-1/input-data-source/table-filter.md)
+        * [Advance - Input](designing-and-executing-flows/flows/untitled-1/input-data-source/advance-input.md)
       * [Data Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/README.md)
         * [ETL Testing/Cell By Cell Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/README.md)
           * [Data Compare Mapping](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/untitled.md)
