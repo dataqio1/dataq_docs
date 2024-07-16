@@ -26,10 +26,13 @@ Steps to write the requirement in English
 * Select checkbox "Use AI SQL Assistance"
 * Select all the tables, that are required for this SQL by clicking on "**Add Tables**"
 * In "AI Prompt", enter English description.
-  * Example : "select all records from customers table who have placed orders from orders table after year 2023 in **schema web\_sales**"
 * Click on "Generate SQL"
 
 
+
+{% hint style="info" %}
+**Example** : select all records from customers table who have placed orders from orders table after year 2023
+{% endhint %}
 
 {% hint style="info" %}
 This is **beta** feature and there could be issues with generated SQL
