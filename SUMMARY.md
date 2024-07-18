@@ -59,5 +59,7 @@
   * [Variables](designing-and-executing-flows/variables.md)
   * [Note](designing-and-executing-flows/note.md)
   * [Note](designing-and-executing-flows/note-1.md)
-* [Dashboard](dashboard.md)
+* [Reports](dashboard/README.md)
+  * [User Reports](dashboard/user-reports.md)
+  * [Admin Report](dashboard/admin-report.md)
 * [Current Limitations](current-limitations.md)
