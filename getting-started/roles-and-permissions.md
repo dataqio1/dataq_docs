@@ -47,6 +47,3 @@ Steps to Add users/edit permissions for a user
 * **Permissions**:
   * **Access Levels**: Permissions are based on what the Project Owner grants, which can include reading, writing, executing, and deleting test cases.
 
-###
-
-###
