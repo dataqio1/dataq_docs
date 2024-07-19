@@ -17,6 +17,7 @@
   * [User Post Installation Setup](installation/user-post-installation-setup.md)
   * [Server Improvement (Optional)](installation/improve-the-server.md)
 * [Getting Started](getting-started/README.md)
+  * [Roles and Permissions](getting-started/roles-and-permissions.md)
   * [Managing Groups and Projects](getting-started/managing-groups-and-projects/README.md)
     * [Projects](getting-started/managing-groups-and-projects/projects.md)
   * [Settings](getting-started/settings/README.md)
