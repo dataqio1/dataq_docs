@@ -55,7 +55,7 @@
         * [Writing SQL test cases in English](designing-and-executing-flows/flows/untitled-1/data-quality/writing-sql-test-cases-in-english.md)
     * [Executing Test Cases](designing-and-executing-flows/flows/execute-flows.md)
     * [Defining Flow Settings](designing-and-executing-flows/flows/defining-flow-settings.md)
-  * [Executions](designing-and-executing-flows/executions.md)
+  * [Test Runs](designing-and-executing-flows/executions.md)
   * [Variables](designing-and-executing-flows/variables.md)
   * [Note](designing-and-executing-flows/note.md)
   * [Note](designing-and-executing-flows/note-1.md)
