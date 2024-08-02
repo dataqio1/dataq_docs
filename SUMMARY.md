@@ -5,7 +5,6 @@
   * [System Requirements](installation/prerequisites.md)
   * [Windows Installation](installation/windows-installation.md)
   * [Linux Installation](installation/untitled.md)
-    * [Updating Software](installation/untitled/updating-software.md)
   * [Cloud Installation](installation/cloud-installation/README.md)
     * [GCP](installation/cloud-installation/gcp.md)
     * [Azure](installation/cloud-installation/azure.md)
