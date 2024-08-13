@@ -6,7 +6,7 @@
     * A list of server cluster managers is provided in the dropdown menu, and it can be set to an AWS environment, Databricks, or on the local server.
     * The number of threads and memory to be allocated to this execution can also be set here.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Data Comparison Methods** can also be defined for the data compare test cases where user can defined the comparison will be hash compare / Outer Join Compare / In Memory compare. Choosing the Optimal Data Comparison Algorithm
 
