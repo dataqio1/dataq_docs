@@ -43,20 +43,28 @@ Below are examples to guide you in creating effective test cases for both single
 
 #### English Inputs and Corresponding SQL
 
-1. **Validate that no users are underage**
-   * **English**: Ensure that all users are at least 18 years old in users table
-   *   **SQL**:
+1.  **Validate that no users are underage**
 
-       ```sql
-       SELECT * FROM Users WHERE age < 18;
-       ```
+    * **English**: Ensure that all users are at least 18 years old in users table
+    *   **SQL**:
+
+        ```sql
+        SELECT * FROM Users WHERE age < 18;
+        ```
+
+
+
+    **Result :** [<mark style="color:green;">**Pass**</mark>](#user-content-fn-1)[^1]
 2. **Validate that no users are beyond retirement age**
-   * **English**: Check that no user is older than 65 in Users table.
+   * **English**: Check that no user is older than 30 in Users table.
    *   **SQL**:
 
        ```sql
-       SELECT * FROM Users WHERE age > 65;
+       SELECT * FROM Users WHERE age > 30;
        ```
+
+
+   * **Result: **<mark style="color:red;">**Fail**</mark>
 3. **Validate that all users have a positive credit limit**
    * **English**: Confirm that every user has a credit limit greater than zero in users table.
    *   **SQL**:
@@ -64,6 +72,8 @@ Below are examples to guide you in creating effective test cases for both single
        ```sql
        SELECT * FROM Users WHERE credit_limit <= 0;
        ```
+
+       **Result: Pass**
 4. **Ensure total orders do not exceed credit limits**
    * **English**: Validate that the sum of order amounts for each user in Orders table does not exceed their credit limit in Users table.
    *   **SQL**:
@@ -75,6 +85,8 @@ Below are examples to guide you in creating effective test cases for both single
        GROUP BY u.user_id
        HAVING SUM(o.order_amount) > u.credit_limit;
        ```
+
+       **Result: Pass**
 5. **Check for active users with no orders.**
    * **English**: Identify users in users table who have not placed any orders.
    *   **SQL**:
@@ -95,3 +107,5 @@ These examples provide a clear demonstration of how English test case inputs can
 {% hint style="warning" %}
 Do not include a LIMIT clause in your SQL queries. The engine automatically applies a LIMIT operation to retrieve sample data. For failure counts, the full query is executed as a subquery to accurately calculate the number of failed records.
 {% endhint %}
+
+[^1]: 
