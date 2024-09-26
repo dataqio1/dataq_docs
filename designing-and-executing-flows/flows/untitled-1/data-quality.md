@@ -64,7 +64,7 @@ For data from files, MongoDB, or streaming sources, rules are executed in-memory
 1. **SQL Queries**:
 
 * Similar to database input, write SQL-like queries for in-memory data checks.
-* Example: Ensure that transaction amounts are positive. Refer to [section](data-quality/sql-test-cases.md) for writing rules in English.\
+* Example: Ensure that transaction amounts are positive. Refer to [section](data-quality/sql-rules.md) for writing rules in English.\
 
 
 

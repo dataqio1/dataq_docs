@@ -4,7 +4,7 @@ description: >-
   SQL.
 ---
 
-# SQL test cases in English
+# SQL Rules
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-08 at 3.52.21 PM.png" alt=""><figcaption><p>SQL Rule</p></figcaption></figure>
 
