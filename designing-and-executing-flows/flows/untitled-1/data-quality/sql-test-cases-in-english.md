@@ -4,7 +4,7 @@ description: >-
   SQL.
 ---
 
-# Writing SQL test cases in English
+# SQL test cases in English
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-08 at 3.52.21 PM.png" alt=""><figcaption><p>SQL Rule</p></figcaption></figure>
 
@@ -22,7 +22,7 @@ Ensure that all the tables required for this test case are selected in the sourc
 
 
 
-Our software enhances the ease and accuracy of data quality testing by allowing users to write test cases in natural language, powered by OpenAI. Below are examples to guide you in creating effective test cases for both single-table and multi-table test scripts.
+Below are examples to guide you in creating effective test cases for both single-table and multi-table test scripts.
 
 #### Sample Data
 
@@ -87,3 +87,11 @@ Our software enhances the ease and accuracy of data quality testing by allowing 
        ```
 
 These examples provide a clear demonstration of how English test case inputs can be translated into SQL queries to validate data across different scenarios in a database system.
+
+
+
+
+
+{% hint style="warning" %}
+Do not include a LIMIT clause in your SQL queries. The engine automatically applies a LIMIT operation to retrieve sample data. For failure counts, the full query is executed as a subquery to accurately calculate the number of failed records.
+{% endhint %}
