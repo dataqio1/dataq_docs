@@ -45,7 +45,7 @@ Below are examples to guide you in creating effective test cases for both single
 
 1.  **Validate that no users are underage**
 
-    * **English**: Ensure that all users are at least 18 years old in users table
+    * **Rule**: Ensure that all users are at least 18 years old in users table
     *   **SQL**:
 
         ```sql
@@ -56,7 +56,7 @@ Below are examples to guide you in creating effective test cases for both single
 
     **Result :** [<mark style="color:green;">**Pass**</mark>](#user-content-fn-1)[^1]
 2. **Validate that no users are beyond retirement age**
-   * **English**: Check that no user is older than 30 in Users table.
+   * **Rule**: Check that no user is older than 30 in Users table.
    *   **SQL**:
 
        ```sql
@@ -66,7 +66,7 @@ Below are examples to guide you in creating effective test cases for both single
 
    * **Result: **<mark style="color:red;">**Fail**</mark>
 3. **Validate that all users have a positive credit limit**
-   * **English**: Confirm that every user has a credit limit greater than zero in users table.
+   * **Rule**: Confirm that every user has a credit limit greater than zero in users table.
    *   **SQL**:
 
        ```sql
@@ -75,7 +75,7 @@ Below are examples to guide you in creating effective test cases for both single
 
        **Result: Pass**
 4. **Ensure total orders do not exceed credit limits**
-   * **English**: Validate that the sum of order amounts for each user in Orders table does not exceed their credit limit in Users table.
+   * **Rule**: Validate that the sum of order amounts for each user in Orders table does not exceed their credit limit in Users table.
    *   **SQL**:
 
        ```sql
@@ -88,7 +88,7 @@ Below are examples to guide you in creating effective test cases for both single
 
        **Result: Pass**
 5. **Check for active users with no orders.**
-   * **English**: Identify users in users table who have not placed any orders.
+   * **Rule**: Identify users in users table who have not placed any orders.
    *   **SQL**:
 
        ```sql
