@@ -52,7 +52,7 @@
         * [Data Migration Validation](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-migration-validation.md)
       * [Schema Monitoring](designing-and-executing-flows/flows/untitled-1/schema-monitoring.md)
       * [Data Quality](designing-and-executing-flows/flows/untitled-1/data-quality.md)
-        * [SQL test cases in English](designing-and-executing-flows/flows/untitled-1/data-quality/sql-test-cases-in-english.md)
+        * [SQL test cases](designing-and-executing-flows/flows/untitled-1/data-quality/sql-test-cases.md)
         * [Column Level Rules](designing-and-executing-flows/flows/untitled-1/data-quality/column-level-rules.md)
         * [Duplicates](designing-and-executing-flows/flows/untitled-1/data-quality/duplicates.md)
     * [Executing Test Cases](designing-and-executing-flows/flows/execute-flows.md)
