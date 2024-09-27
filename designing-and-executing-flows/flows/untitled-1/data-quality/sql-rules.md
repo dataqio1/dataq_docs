@@ -64,8 +64,13 @@ Below are examples to guide you in creating effective test cases for both single
        ```
 
 
-   * **Result: **<mark style="color:red;">**Fail**</mark>
-3. **Validate that all users have a positive credit limit**
+
+<figure><img src="../../../../.gitbook/assets/results_screen.png" alt=""><figcaption></figcaption></figure>
+
+* **Result: **<mark style="color:red;">**Fail**</mark>
+* **Failed Record Count = 1**
+
+1. **Validate that all users have a positive credit limit**
    * **Rule**: Confirm that every user has a credit limit greater than zero in users table.
    *   **SQL**:
 
@@ -74,7 +79,7 @@ Below are examples to guide you in creating effective test cases for both single
        ```
 
        **Result: Pass**
-4. **Ensure total orders do not exceed credit limits**
+2. **Ensure total orders do not exceed credit limits**
    * **Rule**: Validate that the sum of order amounts for each user in Orders table does not exceed their credit limit in Users table.
    *   **SQL**:
 
@@ -87,7 +92,7 @@ Below are examples to guide you in creating effective test cases for both single
        ```
 
        **Result: Pass**
-5. **Check for active users with no orders.**
+3. **Check for active users with no orders.**
    * **Rule**: Identify users in users table who have not placed any orders.
    *   **SQL**:
 
