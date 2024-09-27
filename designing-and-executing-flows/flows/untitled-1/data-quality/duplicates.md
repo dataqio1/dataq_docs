@@ -8,5 +8,5 @@ In the screenshot below, the user has created a rule to detect duplicate records
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-09-26 at 6.17.20 PM.png" alt=""><figcaption><p>Duplicates Data Quality UI</p></figcaption></figure>
 
-
+If there are any with the same **Name** and **City,** they would be shown in the results screen.
 
