@@ -1,12 +1,62 @@
 ---
 description: >-
-  Vexdata provides ability to write test cases in English which are converted to
-  SQL.
+  Vexdata provides ability to write data quality rules for both positive and
+  negative conditions.
 ---
 
 # SQL Rules
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-08 at 3.52.21 PM.png" alt=""><figcaption><p>SQL Rule</p></figcaption></figure>
+## SQL Data Quality Rules - Positive and Negative Conditions
+
+With this new feature, users can now define both **positive** and **negative** SQL data quality conditions to validate their data more effectively.
+
+### Key Features:
+
+1.  **Negative Conditions**:
+
+    * Users can write SQL queries and select an option from a drop-down indicating that **the SQL should not produce any results (default option)**.&#x20;
+    * This is useful for ensuring that certain data conditions do not occur in the dataset (e.g., no records should have a value below 0 in a specific column).
+
+    \
+
+2. **Positive Conditions**:
+   * Users can write SQL queries and select an option from a drop-down indicating that **the SQL should produce results**, with the following options:
+     * The result count should be greater than 0.
+     * The result count should be equal to a **fixed value** (e.g., exactly 10 results).
+   * This allows users to confirm that certain data conditions are met (e.g., at least one record exists with a specific condition).
+
+### Example Use Cases:
+
+<div>
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-10-23 at 9.39.40 AM.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-10-23 at 9.35.33 AM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+*   **Negative Condition**: Write SQL to ensure no invalid ages in a dataset, such as:
+
+    ```sql
+    SELECT * FROM users WHERE age < 0 OR age > 150;
+
+    ```
+*   **Positive Condition**: Write SQL to ensure valid ages in a dataset, This should return results:
+
+    ```sql
+    SELECT * FROM users WHERE age >= 0 OR age < 150;
+
+    ```
+
+
+
+## Write SQL rule or Plain English to generate SQL Rule
+
+
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-10-23 at 9.49.22 AM.png" alt=""><figcaption></figcaption></figure>
 
 Write the test case in English in the **AI Prompt** section and click on Generate SQL.&#x20;
 
