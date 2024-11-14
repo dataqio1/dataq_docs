@@ -37,6 +37,7 @@
         * [Input SQL Data](designing-and-executing-flows/flows/untitled-1/input-data-source/input-sql-data.md)
         * [Input Files](designing-and-executing-flows/flows/untitled-1/input-data-source/input-files/README.md)
           * [Excel/CSV](designing-and-executing-flows/flows/untitled-1/input-data-source/input-files/csv.md)
+          * [XML](designing-and-executing-flows/flows/untitled-1/input-data-source/input-files/xml.md)
           * [JSON](designing-and-executing-flows/flows/untitled-1/input-data-source/input-files/json.md)
           * [Parquet/AVRO](designing-and-executing-flows/flows/untitled-1/input-data-source/input-files/parquet.md)
         * [API Input](designing-and-executing-flows/flows/untitled-1/input-data-source/api-source.md)
