@@ -8,7 +8,9 @@ description: >-
 
 ## URL
 
-URL : http://\<server address>. or https://\<server address>
+Running in local Desktop : URL is http://127.0.0.1
+
+Running on Server : URL is http://\<server address>
 
 ## Login using credentials.
 

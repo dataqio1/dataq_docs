@@ -27,7 +27,9 @@ Optionally, you may provide _s3TempDir_ and _s3AwsIamRole_ for better performanc
 
 <figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Redshift Configuration</p></figcaption></figure>
 
-It is recommended to create a read only user account in Redshift. The user id needs to have access to the following system tables to read the metadata of all the tables.
+
+
+It is recommended to create a read only user account in Redshift. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 
 1. svv\_table\_info
 2. information\_schema.views
@@ -45,16 +47,18 @@ To add an SQL Server connection, you will have to provide:
 
 <figure><img src="../../../.gitbook/assets/Screenshot (456) (1).png" alt=""><figcaption><p>SQL Server Configuration</p></figcaption></figure>
 
-It is recommended to create a read only user in Sql Server. The read only user id should have read only access on the databases/schemas where data resides and also have access to the following system tables to read the metadata of all the tables.
 
-1. sys.objects
-2. sys.columns
-3. sys.types
-4. sys.indexes
-5. sys.index\_columns
-6. sys.columns
-7. sys.key\_constraints
-8. sys.tables
+
+It is recommended to create a read only user in Sql Server. The read only user id should have read only access on the databases/schemas where data resides and also have access to the following system tables to read the metadata of all the tables.&#x20;
+
+1. sys.objects&#x20;
+2. sys.columns&#x20;
+3. sys.types&#x20;
+4. sys.indexes&#x20;
+5. sys.index\_columns&#x20;
+6. sys.columns&#x20;
+7. sys.key\_constraints&#x20;
+8. sys.tables&#x20;
 9. sys.all\_columns
 
 ## Postgres
@@ -74,6 +78,8 @@ If SSL is enabled, additional parameters will be required for the JDBC URL as sh
 
 <figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Postgres configuration</p></figcaption></figure>
 
+
+
 #### Create a new read only user for Postgres Testing
 
 The user id should only have read permission on the data. Also, Vexdata needs permission to read metadata. The user id should have read only permissions on the following system tables
@@ -85,6 +91,8 @@ information_schema.columns
 pg_namespace
 pg_catalog
 ```
+
+
 
 ## Snowflake
 
@@ -99,14 +107,14 @@ To add a Snowflake connection, you will have to provide:
 
 <figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Snowflake Configuraiotn</p></figcaption></figure>
 
-It is recommended to create a read only user account in Snowflake. The user id needs to have access to the following system tables to read the metadata of all the tables.
+It is recommended to create a read only user account in Snowflake. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 
 1. information\_schema.columns
 2. information\_schema.tables
 
 ## Oracle <a href="#snowflake" id="snowflake"></a>
 
-It is recommended to create a read only user account in Oracle. The user id needs to have access to the following system tables to read the metadata of all the tables.
+It is recommended to create a read only user account in Oracle. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 
 1. sys.dba\_tables
 2. sys.dba\_constraints
@@ -117,42 +125,31 @@ It is recommended to create a read only user account in Oracle. The user id need
 7. all\_cons\_columns
 8. all\_constraints
 
-
-
-**To grant read only permission to catalog tables**
-
-\
-[`grant SELECT_CATALOG_ROLE to <user>;`](#user-content-fn-1)[^1]
-
-
-
 ## **Maria**​
 
-It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.
+It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 
-1. information\_schema.tables
-2. information\_schema.columns
-3. information\_schema.table\_constraints
-4. information\_schema.key\_column\_usage
-5. information\_schema.referential\_constraints
+1. information\_schema.tables&#x20;
+2. information\_schema.columns&#x20;
+3. information\_schema.table\_constraints&#x20;
+4. information\_schema.key\_column\_usage&#x20;
+5. information\_schema.referential\_constraints&#x20;
 6. information\_schema.statistics
 
 ## DB2
 
-It is recommended to create a read only user account in DB2. The user id needs to have access to the following system tables to read the metadata of all the tables.
+It is recommended to create a read only user account in DB2. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 
-1. syscat.tables
-2. syscat.columns
-3. sysibmadm.admintabinfo
-4. syscat.tabconst
+1. syscat.tables&#x20;
+2. syscat.columns&#x20;
+3. sysibmadm.admintabinfo&#x20;
+4. syscat.tabconst&#x20;
 5. syscat.keycoluse
 
 ## Bigquery
 
-It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.
+It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.&#x20;
 
-1. INFORMATION\_SCHEMA.SCHEMATA
-2. INFORMATION\_SCHEMA.TABLES
+1. INFORMATION\_SCHEMA.SCHEMATA&#x20;
+2. INFORMATION\_SCHEMA.TABLES&#x20;
 3. INFORMATION\_SCHEMA.COLUMNS
-
-[^1]: 
