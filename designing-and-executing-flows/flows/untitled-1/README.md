@@ -6,7 +6,7 @@ description: >-
 
 # Create Test Cases
 
-A Test Case can be created by selecting source and target datasets, comparing them using four comparisons, and susequently saving and executing the test case.
+A Test Case can be created by selecting source and target datasets, comparing them using four comparisons, and subsequently saving and executing the test case.
 
 Select a project by clicking on the project.
 
@@ -14,9 +14,13 @@ Select a project by clicking on the project.
 
 ## Create a new test case.
 
-To create a new Test Case, click on the circular _Plus_ icon visible on the top-right of your screen, next to the name of the currently logged-in user. Upon clicking this button, the system will navigate you to the Source Datasets section.
+To create a new Test Case, click on the circular _Plus_ icon visible on the top-right of your screen, next to the name of the currently logged-in user. Upon clicking this button, the system will ask you what type of Test Case to be created.
 
 <figure><img src="../../../.gitbook/assets/new_tc.PNG" alt=""><figcaption><p>New Test Case</p></figcaption></figure>
+
+&#x20;**Select Test Case Type -** Select any Test Case you need and on Selecting it will navigate you to the Source Datasets section.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Select Test Case Type</p></figcaption></figure>
 
 ## Save the test case
 
