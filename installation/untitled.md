@@ -71,18 +71,12 @@ Do not use localhost in the URL.
 
 Follow the steps below to update the software with patches and upgrades.
 
-1.  **Update the Software** Replace `NEW_VERSION` with the provided version (e.g., `7_35`), and run the following command:
+1.  Update the file app.properties with the new updated version provided.
 
-    ```
-    ./update_software.sh NEW_VERSION
-    ```
-2.  **Start the Server**
-
-    ```
-    ./start_server.sh
-    ```
-
-
+    (To update version to 3.7 from 3.6 : ex SERVER\_VERSION=3.6 --> SERVER\_VERSION=3.7)
+2. Stop the server (`./stop_server.sh`)
+3. Update the software (`./update_software.sh`)
+4. Start the server (`./start_server.s`h)
 
 ## HTTPS Setup
 
