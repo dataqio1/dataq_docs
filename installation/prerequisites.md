@@ -1,5 +1,5 @@
 ---
-description: To install DataQ, the following requirements need to be fulfilled.
+description: To install VexData, the following requirements need to be fulfilled.
 ---
 
 # System Requirements
