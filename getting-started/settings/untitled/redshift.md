@@ -117,6 +117,15 @@ It is recommended to create a read only user account in Oracle. The user id need
 7. all\_cons\_columns
 8. all\_constraints
 
+
+
+**To grant read only permission to catalog tables**
+
+\
+[`grant SELECT_CATALOG_ROLE to <user>;`](#user-content-fn-1)[^1]
+
+
+
 ## **Maria**​
 
 It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.
@@ -145,3 +154,5 @@ It is recommended to create a read only user account in Maria. The user id needs
 1. INFORMATION\_SCHEMA.SCHEMATA
 2. INFORMATION\_SCHEMA.TABLES
 3. INFORMATION\_SCHEMA.COLUMNS
+
+[^1]: 

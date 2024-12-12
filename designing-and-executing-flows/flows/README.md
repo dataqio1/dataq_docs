@@ -1,6 +1,6 @@
 ---
 description: >-
-  Flows are the processes which can be defined on a canvas to auto-generate
+  Test cases are the entities which can be defined on a canvas to auto-generate
   groups of test cases.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 The \_Test Cases\_page displays all the user-saved and executed flows.
 
-<figure><img src="../../.gitbook/assets/testcases_l.PNG" alt=""><figcaption><p>Test Cases</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Some important features of this page are:
 
@@ -19,7 +19,7 @@ Some important features of this page are:
   * Click on _Save_ to import the Test Case under the Test Cases table.
   * Click on _Cancel_ to stop the import process.
   * A message is displayed to inform the user that the Test Case has been successfully imported.
-* The Test Cases ' list can be sorted by clicking on the columns' titles, i.e., Test Case_Name,     Job Type, Creator Name, Created Date, Last Executed Time,_ and _Last Executed Status._
+* The Test Cases ' list can be sorted by clicking on the columns' titles, i.e., Test Cas&#x65;_&#x4E;ame,     Job Type, Creator Name, Created Date, Last Executed Time,_ and _Last Executed Status._
 
 <figure><img src="../../.gitbook/assets/import_tc.PNG" alt=""><figcaption><p>Import Test Case</p></figcaption></figure>
 

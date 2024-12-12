@@ -27,15 +27,7 @@ With this new feature, users can now define both **positive** and **negative** S
 
 ### Example Use Cases:
 
-<div>
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-10-23 at 9.39.40 AM.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-10-23 at 9.35.33 AM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../../.gitbook/assets/Screenshot 2024-10-23 at 9.39.40 AM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/Screenshot 2024-10-23 at 9.35.33 AM.png" alt=""><figcaption></figcaption></figure></div>
 
 *   **Negative Condition**: Write SQL to ensure no invalid ages in a dataset, such as:
 
@@ -117,7 +109,7 @@ Below are examples to guide you in creating effective test cases for both single
 
 <figure><img src="../../../../.gitbook/assets/results_screen.png" alt=""><figcaption></figcaption></figure>
 
-* **Result: **<mark style="color:red;">**Fail**</mark>
+* **Result:&#x20;**<mark style="color:red;">**Fail**</mark>
 * **Failed Record Count = 1**
 
 1. **Validate that all users have a positive credit limit**
