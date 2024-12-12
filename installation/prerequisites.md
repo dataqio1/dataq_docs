@@ -1,5 +1,5 @@
 ---
-description: To install DataQ, the following requirements need to be fulfilled.
+description: To install VexData, the following requirements need to be fulfilled.
 ---
 
 # System Requirements
@@ -11,11 +11,11 @@ description: To install DataQ, the following requirements need to be fulfilled.
 
 ### Hardware Requirements
 
-| **Hardware** | **Server (10 user)** | **Server (Enterprise multi-group)** |
-| ------------ | -------------------- | ----------------------------------- |
-| CPU          | Minimum 8 core       | Minimum 16 core                     |
-| Memory       | Minimum 32GB         | Minimum 64GB                        |
-| Disk Space   | Minimum 200GB        | Minimum 200GB                       |
+| **Hardware** | **Local Desktop** | **Server (Multi-User)** |
+| ------------ | ----------------- | ----------------------- |
+| CPU          | Minimum 4 core    | Minimum 12 core         |
+| Memory       | Minimum 8GB       | Minimum 32GB            |
+| Disk Space   | Minimum 30GB      | Minimum 200GB           |
 
 ### Ports
 

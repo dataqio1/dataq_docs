@@ -2,8 +2,8 @@
 
 To provide an API as data input:
 
-* Upload a Python script which can execute and produce output in CSV or JSON format.
-* The output location will be passed as first argumen&#x74;**.**
+* Provide a Python script which can execute one or more APIs to get the output.
+* The final API should write the output to a specific location, e.g., _**/tmp/dq\_output\_file\_name.json**_**.**
 * Provide a sample output JSON for the schema.
 
 {% hint style="warning" %}
@@ -12,24 +12,27 @@ Ensure the sample output (few records) represents all of the columns.
 
 Sample Python code snippet for an API\_:\_
 
-```python
-import json
-import csv
+```
 import requests
-import sys
-import pandas as pd
-def download_json(url):
-    response = requests.get(url)
-    data = response.json()
-    return data['emp_hash']
-def write_to_csv(data, output_path):
-    df = pd.DataFrame(data)
-    df.to_csv(output_path, index=False)
-if __name__ == "__main__":
-    output_path = sys.argv[1]
-    url = "https://dataq-testing-data.s3.amazonaws.com/Input+Files/emp_hash.json"
-    data = download_json(url)
-    write_to_csv(data, output_path)
+import json
+
+ 
+API_KEY = "d25a07df6199416b87816551ebf80b0744c50b8c2fa385909c0820cfde80a3c5"
+PDL_VERSION = "v5"
+PDL_URL = "https://dataops-store.s3.amazonaws.com/conversation.json"
+ 
+ 
+params = {
+   "api_key": API_KEY,
+   "name": ["sean thorne"],
+   "company": ["peopledatalabs.com"]
+}
+ 
+json_response = requests.get(PDL_URL, params=params).json()
+json_text = json.dumps(json_response)
+f = open("/tmp/dq_output_file_name.json", "w")
+f.write(json_text)
+f.close()
 ```
 
 {% file src="../../../../.gitbook/assets/conversation.json" %}
