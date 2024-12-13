@@ -14,7 +14,7 @@ To setup the email server, you will have to provide the following information.
 
 {% embed url="https://player.vimeo.com/progressive_redirect/playback/883940152/rendition/720p/file.mp4?loc=external&log_user=0&signature=a25b6be13cf6dba50a6a0ba32eece0bed572719690bbc5e3e20630bcf7f1cda1" %}
 
-<figure><img src="../.gitbook/assets/Screenshot (444).png" alt=""><figcaption><p>Email Setup</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-12-13 202010.png" alt=""><figcaption><p>Email Setup</p></figcaption></figure>
 
 ## Setup Server Default Time Zone
 
