@@ -43,7 +43,7 @@ To add an SQL Server connection, you will have to provide:
 
 * Credentials, which will be a username and a password that will provide access to this database.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-10 212434.png" alt=""><figcaption><p>SQL Server Configuration</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot (456) (1).png" alt=""><figcaption><p>SQL Server Configuration</p></figcaption></figure>
 
 It is recommended to create a read only user in Sql Server. The read only user id should have read only access on the databases/schemas where data resides and also have access to the following system tables to read the metadata of all the tables.
 
@@ -117,6 +117,15 @@ It is recommended to create a read only user account in Oracle. The user id need
 7. all\_cons\_columns
 8. all\_constraints
 
+
+
+**To grant read only permission to catalog tables**
+
+\
+[`grant SELECT_CATALOG_ROLE to <user>;`](#user-content-fn-1)[^1]
+
+
+
 ## **Maria**​
 
 It is recommended to create a read only user account in Maria. The user id needs to have access to the following system tables to read the metadata of all the tables.
@@ -145,3 +154,5 @@ It is recommended to create a read only user account in Maria. The user id needs
 1. INFORMATION\_SCHEMA.SCHEMATA
 2. INFORMATION\_SCHEMA.TABLES
 3. INFORMATION\_SCHEMA.COLUMNS
+
+[^1]: 

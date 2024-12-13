@@ -1,7 +1,7 @@
 ---
 description: >-
   Recommended when installation needs to be automated or have large number of
-  DataQ servers to be deployed.
+  VexData servers to be deployed.
 ---
 
 # Cloud Formation Scripts (command line)

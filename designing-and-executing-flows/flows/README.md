@@ -1,6 +1,6 @@
 ---
 description: >-
-  Flows are the processes which can be defined on a canvas to auto-generate
+  Test cases are the entities which can be defined on a canvas to auto-generate
   groups of test cases.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 The \_Test Cases\_page displays all the user-saved and executed flows.
 
-<figure><img src="../../.gitbook/assets/testcase.png" alt=""><figcaption><p>Test Cases</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Some important features of this page are:
 
@@ -19,9 +19,9 @@ Some important features of this page are:
   * Click on _Save_ to import the Test Case under the Test Cases table.
   * Click on _Cancel_ to stop the import process.
   * A message is displayed to inform the user that the Test Case has been successfully imported.
-* The Test Cases ' list can be sorted by clicking on the columns' titles, i.e., Test Case\_Name, Job Type, Creator Name, Created Date, Last Executed Time,\_ and _Last Executed Status._
+* The Test Cases ' list can be sorted by clicking on the columns' titles, i.e., Test Cas&#x65;_&#x4E;ame,     Job Type, Creator Name, Created Date, Last Executed Time,_ and _Last Executed Status._
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-11 141153.png" alt=""><figcaption><p>Import Test Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import_tc.PNG" alt=""><figcaption><p>Import Test Case</p></figcaption></figure>
 
 Each Test Case under the _Action_ column has seven available actions, which can be accessed by clicking on the three-dots icon next to the check box. These actions are:
 
@@ -30,7 +30,7 @@ Each Test Case under the _Action_ column has seven available actions, which can 
    anvas of this particular test case, and can then modify it. 
 ```
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-11 141537.png" alt=""><figcaption><p>Edit Test Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/edit (1).PNG" alt=""><figcaption><p>Edit Test Case</p></figcaption></figure>
 
 \*\* 2. Clone - \*\*By clicking on this action a user can duplicate the corresponding Test Case :
 
@@ -38,13 +38,13 @@ Each Test Case under the _Action_ column has seven available actions, which can 
 * Provide the Test Case's name.
 * Click on _Save_ to clone the Test Case .
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-11 141153.png" alt=""><figcaption><p>Clone Test Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/clone.PNG" alt=""><figcaption><p>Clone Test Case</p></figcaption></figure>
 
 \*\* 3. Delete - \*\*This action allows the user to delete the selected Test Case .
 
-\*\* 4. Rename - \*\*This action is used to rename the selected Test Case .
+\*\* 4. Rename - \*\*This action is used to rename the selected Test Case .&#x20;
 
-To rename a Test Case :
+&#x20;       To rename a Test Case :
 
 * Select the\_ Rename\_ option.
 * Modify the Test Case's Name.
@@ -54,9 +54,11 @@ To rename a Test Case :
 
 \*\* 6. Publish - \*\*This action is used to share the selected Test Case to all the users in that group. A test case belongs only to the user that created it until the user has published the test case.
 
-To publish a Test Case :
+&#x20;   To publish a Test Case :
 
-* Select a Test Case to publish.
+* Select a Test Case to publish.&#x20;
 * Click on\_ Save\_ to publish the Test Case.
+
+
 
 <figure><img src="../../.gitbook/assets/publish_tc.PNG" alt=""><figcaption><p>Publish Test Case to a Group</p></figcaption></figure>

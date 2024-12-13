@@ -8,9 +8,7 @@ description: >-
 
 ## URL
 
-Running in local Desktop : URL is http://127.0.0.1
-
-Running on Server : URL is http://\<server address>
+URL : http://\<server address>. or https://\<server address>
 
 ## Login using credentials.
 
@@ -18,7 +16,7 @@ Running on Server : URL is http://\<server address>
 
 ## Dashboard after successful login
 
-<figure><img src="../.gitbook/assets/Screenshot (448).png" alt=""><figcaption><p>Dashboard</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Creating New Project
 
