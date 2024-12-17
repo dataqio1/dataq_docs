@@ -8,7 +8,7 @@ To provide one or more SQLs:
 * Click on _Validate._
 * If the SQL is valid, the SQL will be added to the list on the right side.
 
-<figure><img src="../../../../.gitbook/assets/sql_type.PNG" alt=""><figcaption><p>SQL Input</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-16 151419.png" alt=""><figcaption><p>SQL Input</p></figcaption></figure>
 
 
 
