@@ -20,7 +20,7 @@ For large tables, it is recommended to provide a partition column so Vexdata can
 * If the column is of string-type, ensure the bucket size is not too low for a distinct value.
   * Example : If you have to choose between city and person\_name, select city as partition column, as person\_name is highly unique.
 
-<figure><img src="../../../../../.gitbook/assets/partition_props.PNG" alt=""><figcaption><p>Partition Properties</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-16 211448.png" alt=""><figcaption><p>Partition Properties</p></figcaption></figure>
 
 
 
