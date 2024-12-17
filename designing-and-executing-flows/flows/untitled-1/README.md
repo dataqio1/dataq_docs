@@ -10,13 +10,13 @@ A Test Case can be created by selecting source and target datasets, comparing th
 
 Select a project by clicking on the project.
 
-<figure><img src="../../../.gitbook/assets/select_pjt.PNG" alt=""><figcaption><p>Select Project</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-16 140257.png" alt=""><figcaption><p>Select Project</p></figcaption></figure>
 
 ## Create a new test case.
 
 To create a new Test Case, click on the circular _Plus_ icon visible on the top-right of your screen, next to the name of the currently logged-in user. Upon clicking this button, the system will ask you what type of Test Case to be created.
 
-<figure><img src="../../../.gitbook/assets/new_tc.PNG" alt=""><figcaption><p>New Test Case</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-16 140458.png" alt=""><figcaption><p>New Test Case</p></figcaption></figure>
 
 &#x20;**Select Test Case Type -** Select any Test Case you need and on Selecting it will navigate you to the Source Datasets section.
 
@@ -28,10 +28,10 @@ After Configuring all the components in the test case, provide a proper name and
 
 test case. The message shows  “Test Case Successfully Submitted”.
 
-<figure><img src="../../../.gitbook/assets/save.PNG" alt=""><figcaption><p>Save Test Case</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-16 140945.png" alt=""><figcaption><p>Save Test Case</p></figcaption></figure>
 
 ## Execute the test case.
 
 After Saving the test case, click on the "Execute" to start execution of the test case.
 
-<figure><img src="../../../.gitbook/assets/Screenshot (476).png" alt=""><figcaption><p>Execute Test Case</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-16 142933.png" alt=""><figcaption><p>Execute Test Case</p></figcaption></figure>

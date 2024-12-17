@@ -7,7 +7,7 @@ To select one or more tables:
 * Select the checkboxes for all the tables that need to be validated.
 * Click on _Add Selected_ at the bottom.
 
-<figure><img src="../../../../../.gitbook/assets/add_tables.PNG" alt=""><figcaption><p>Select Tables</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-16 143828.png" alt=""><figcaption><p>Select Tables</p></figcaption></figure>
 
 #### Advanced Options
 
