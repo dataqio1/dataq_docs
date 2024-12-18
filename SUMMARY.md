@@ -62,7 +62,6 @@
   * [Test Runs](designing-and-executing-flows/executions.md)
   * [Variables](designing-and-executing-flows/variables.md)
   * [Note](designing-and-executing-flows/note.md)
-  * [Note](designing-and-executing-flows/note-1.md)
 * [Reports](dashboard/README.md)
   * [User Reports](dashboard/user-reports.md)
   * [Admin Report](dashboard/admin-report.md)
