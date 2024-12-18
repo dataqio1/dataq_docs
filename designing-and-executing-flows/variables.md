@@ -73,12 +73,4 @@ The validate button validates the sql query and ensure the sql query is returnin
 \
 
 
-<div>
-
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Screenshot 2024-12-17 184622.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure></div>

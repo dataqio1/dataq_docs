@@ -60,7 +60,7 @@ Ensure that all the tables required for this test case are selected in the sourc
 
 
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-08 at 3.48.49 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 184241.png" alt=""><figcaption></figcaption></figure>
 
 
 
