@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Data Profile Compare
 
 This compare option compares the _Data Profiles_ of the _Source_ and _Target_ tables.

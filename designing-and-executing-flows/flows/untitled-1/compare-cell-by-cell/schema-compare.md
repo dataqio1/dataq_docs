@@ -1,4 +1,8 @@
-# Schema Compare
+---
+hidden: true
+---
+
+# Old - Schema Compare
 
 This type of comparison will compare the table schema, which is to say, compares the columns with their data types. If data types don't match, then the test is considered as failed.
 
