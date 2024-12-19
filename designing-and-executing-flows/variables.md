@@ -22,7 +22,7 @@ In Vexdata, variables play a crucial role in enhancing the flexibility and reusa
 
 ## Static Variable -&#x20;
 
-Static variables, in the context of DataQ.io, refer to those that retain their value throughout the execution of a test case. These variables are typically declared and initialized at the beginning of the test case or provided at the beginning of a 'test run,' and they maintain their value until the end.
+Static variables, in the context of VexData.io, refer to those that retain their value throughout the execution of a test case. These variables are typically declared and initialized at the beginning of the test case or provided at the beginning of a 'test run,' and they maintain their value until the end.
 
 #### Example
 
@@ -36,7 +36,7 @@ For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on da
 
 ## **Dynamic Variable** -&#x20;
 
-On the other hand, dynamic variables within the DataQ.io platform are initialized by executing a SQL query. The query is executed as a first step before executing the test case. The SQL query should produce only one value which is initialized to the parameter.&#x20;
+On the other hand, dynamic variables within the VexData platform are initialized by executing a SQL query. The query is executed as a first step before executing the test case. The SQL query should produce only one value which is initialized to the parameter.&#x20;
 
 To use a variable in a test case, we have to rap the variable name in ${variable\_name}
 
