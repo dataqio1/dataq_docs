@@ -1,7 +1,7 @@
 ---
 description: >-
   Flows, or test cases, are the main procedure through which data is compared in
-  DataQ.
+  Vexdata.
 ---
 
 # Create Test Cases
