@@ -51,7 +51,7 @@
         * [Old - Schema Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/schema-compare.md)
         * [Schema Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/schema-compare-1.md)
         * [Counts Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/counts-compare.md)
-        * [Table Counts Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/counts-compare-1.md)
+        * [Table Counts Compare](<designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/counts-compare (1).md>)
         * [Data Profile Compare](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-profile-compare.md)
         * [Data Migration Validation](designing-and-executing-flows/flows/untitled-1/compare-cell-by-cell/data-migration-validation.md)
       * [Schema Monitoring](designing-and-executing-flows/flows/untitled-1/schema-monitoring.md)

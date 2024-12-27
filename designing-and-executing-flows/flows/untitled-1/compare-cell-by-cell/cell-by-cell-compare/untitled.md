@@ -58,7 +58,7 @@ Mapping file is case sensitive. Ensure the table names, and column names have th
   * Slide the toggle and add predefined rules.
   * Go to Settings for [Add New Rule](https://app.gitbook.com/@Vexdata/s/docs/~/drafts/-MWOAN922BH54Ft3iFk_/settings) functionality.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot (424).png" alt=""><figcaption><p>SQL Transformation</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-17 160937.png" alt=""><figcaption><p>SQL Transformation</p></figcaption></figure>
 
 
 
@@ -69,4 +69,4 @@ Mapping file is case sensitive. Ensure the table names, and column names have th
   * Select the _Operator_ and\_ \_type in the tolerance _Value._
   * Click on _Done._
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot (425).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-17 161053.png" alt=""><figcaption></figcaption></figure>

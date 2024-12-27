@@ -15,11 +15,11 @@ To create a _Cell By Cell Compare_ flow:
 
 [Data Compare Options](https://app.gitbook.com/@Vexdata/s/docs/flows/untitled-1/compare-cell-by-cell/cell-by-cell-compare/sql-transformation)
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot (417).png" alt=""><figcaption><p>Cell By Cell Compare Tables Mapping</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-17 155238.png" alt=""><figcaption><p>Cell By Cell Compare Tables Mapping</p></figcaption></figure>
 
 
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2023-12-01 at 5.21.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-17 155343.png" alt=""><figcaption></figcaption></figure>
 
 Vexdata can compare the selected source and destination tables to view:
 
@@ -27,7 +27,7 @@ Vexdata can compare the selected source and destination tables to view:
 * _Record Count Validations_
 * _Source and Destination key Distributions._
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot (420).png" alt=""><figcaption><p>Cell by Cell Comparison Results Overview</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-17 160623.png" alt=""><figcaption><p>Cell by Cell Comparison Results Overview</p></figcaption></figure>
 
 
 
@@ -37,4 +37,4 @@ Vexdata can compare the selected source and destination tables to view:
 
 
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot (421).png" alt=""><figcaption><p>Cell by Cell Comparison Stats</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-17 160815.png" alt=""><figcaption><p>Cell by Cell Comparison Stats</p></figcaption></figure>

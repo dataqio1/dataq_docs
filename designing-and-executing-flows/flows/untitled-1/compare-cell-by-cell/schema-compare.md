@@ -23,10 +23,10 @@ _Summary_ presents the matched/mismatched tables count and the total matched/mis
 
 _Details_ arranges the total tables matched and mismatched information based on the _Column Data Type._
 
-<figure><img src="../../../../.gitbook/assets/Screenshot (428).png" alt=""><figcaption><p>Schema Compare Mapping</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 162411.png" alt=""><figcaption><p>Schema Compare Mapping</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Screenshot (429).png" alt=""><figcaption><p>Schema Compare Result</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 162533.png" alt=""><figcaption><p>Schema Compare Result</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Screenshot (430).png" alt=""><figcaption><p>Schema Compare Stats</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 162757.png" alt=""><figcaption><p>Schema Compare Stats</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Screenshot (431).png" alt=""><figcaption><p>Schema Compare Details</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 162911.png" alt=""><figcaption><p>Schema Compare Details</p></figcaption></figure>
