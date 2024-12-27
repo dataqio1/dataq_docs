@@ -6,11 +6,9 @@ Vexdata.io enables users to create and manage data quality rules applicable to v
 
 ### Step 1: Initiate a New Test Case
 
-Navigate to the "New Test Case" dropdown in the top right corner of the Vexdata.io interface and select "Data Quality" to start defining a new data quality test case.
+Navigate to the "New Test Case" button in the top right corner of the Vexdata.io interface and select "Data Quality" Test Case Type to start defining a new data quality test case.
 
-
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-08 at 5.34.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Define the Source Data
 
@@ -111,16 +109,3 @@ After defining all data quality rules:
 * Click "Next" to proceed to configuration.
 * Assign a name to the test case.
 * Optionally, schedule and run the test case to enforce data quality checks.
-
-###
-
-
-
-
-
-
-
-
-
-
-
