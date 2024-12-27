@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Data Migration Validation
 
 This comparison option is used to compare the same type of schema.
@@ -18,7 +22,7 @@ This comparison option is used to compare the same type of schema.
 
 ![Data Migration Validation Comparison](../../../../.gitbook/assets/dmv1.png)
 
-![Data Migration Validation Mapping](../../../../.gitbook/assets/dmv\_mapping.png)
+![Data Migration Validation Mapping](../../../../.gitbook/assets/dmv_mapping.png)
 
 We can compare the selected source and destination tables to view
 
@@ -26,8 +30,8 @@ We can compare the selected source and destination tables to view
 * _Source and Destination Data Mismatches._
 * Success/failure results of each mapped column are shown in _Test Case Report_.
 
-![Data Migration Validation Summary Results](<../../../../.gitbook/assets/dmv\_summary (1).png>)
+![Data Migration Validation Summary Results](<../../../../.gitbook/assets/dmv_summary (1).png>)
 
-![Data Migration Validation Summary Results](../../../../.gitbook/assets/dmv\_result.png)
+![Data Migration Validation Summary Results](../../../../.gitbook/assets/dmv_result.png)
 
-![Data Migration Validation Test Case Report](../../../../.gitbook/assets/dmv\_tstcases.png)
+![Data Migration Validation Test Case Report](../../../../.gitbook/assets/dmv_tstcases.png)
