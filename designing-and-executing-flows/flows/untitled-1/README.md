@@ -20,7 +20,7 @@ To create a new Test Case, click on the circular _Plus_ icon visible on the top-
 
 &#x20;**Select Test Case Type -** Select any Test Case you need and on Selecting it will navigate you to the Source Datasets section.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Select Test Case Type</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Select Test Case Type</p></figcaption></figure>
 
 ## Save the test case
 

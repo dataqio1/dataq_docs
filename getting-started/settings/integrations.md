@@ -7,7 +7,7 @@ Slack
 
 {% embed url="https://player.vimeo.com/progressive_redirect/playback/886889480/rendition/source/file.mp4?loc=external&log_user=0&signature=a735a97d970ea4baab97ab274541e1116e85a72324986fe79cdccb3f5af6f85f" %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
