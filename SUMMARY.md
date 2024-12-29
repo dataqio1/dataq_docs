@@ -66,5 +66,5 @@
   * [Note](designing-and-executing-flows/note.md)
 * [Reports](dashboard/README.md)
   * [User Reports](dashboard/user-reports.md)
-  * [Admin Report](dashboard/admin-report.md)
+  * [Admin Report or Manager Reports](dashboard/admin-report-or-manager-reports.md)
 * [Current Limitations](current-limitations.md)
