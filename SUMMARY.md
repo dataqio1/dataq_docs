@@ -64,6 +64,7 @@
   * [Test Runs](designing-and-executing-flows/executions.md)
   * [Variables](designing-and-executing-flows/variables.md)
   * [Note](designing-and-executing-flows/note.md)
+  * [Label](designing-and-executing-flows/label.md)
 * [Reports](dashboard/README.md)
   * [User Reports](dashboard/user-reports.md)
   * [Admin Report or Manager Reports](dashboard/admin-report-or-manager-reports.md)
