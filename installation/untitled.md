@@ -88,5 +88,42 @@ Follow the steps below to update the software with patches and upgrades.
 
 You will need to have https [certificate and keys](https://www.knownhost.com/wiki/security/ssl).
 
-1. Rename the _.crt_ file to secure.crt and move it to _\<server\_folder>/my\_data/keys/_.
-2. Rename the _.key_ file to secure.key and move it to _\<server\_folder>/my\_data/keys/._
+## Create a `.p12` (PKCS#12) File for HTTPS from a Key File
+
+To enable **HTTPS**, you need a **`.p12` (PKCS#12) keystore** that contains your SSL certificate and private key.
+
+***
+
+### **1️⃣ Convert Your Key File to a `.p12` Keystore**
+
+If you have a **private key (`.key`)** and a **certificate (`.crt` or `.pem`)**, use `openssl` to create a `.p12` file.
+
+#### **🔹 Convert `.key` + `.crt` to `.p12`**
+
+```sh
+openssl pkcs12 -export -inkey your-key.key -in your-certificate.crt -out keystore.p12 -name myalias
+```
+
+&#x20;**Explanation**:
+
+• -export → Creates an exportable keystore.
+
+• -inkey your-key.key → Specifies your private key.
+
+• -in your-certificate.crt → Your SSL certificate.
+
+• -out keystore.p12 → Output .p12 file.
+
+• -name myalias → Alias name for the key entry.
+
+
+
+🔹 You’ll be prompted to enter an export password.
+
+🔹 Remember this password—you’ll use it in app.properties.
+
+1. Copy the keystore.p12 file created above to **my\_data/keys/**
+2. Update the SSL\_PATH and SSL\_PWD in app.properties file with keystore path and the password created above.
+
+
+
