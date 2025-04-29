@@ -30,9 +30,7 @@ Jira
 * Jira integration refers to the process of connecting the application with the Jira project management tool.
 * This integration enables to raise tasks and issues for individual test cases directly from the application with updates reflected in Jira in real-time and efficient tracking within the project management system.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/Screenshot 2025-04-29 at 7.40.19 PM.png" alt=""><figcaption><p>Jira Integration</p></figcaption></figure>
 
 
 
