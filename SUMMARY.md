@@ -21,6 +21,7 @@
     * [Folders](getting-started/managing-groups-and-projects/folders.md)
     * [Projects](getting-started/managing-groups-and-projects/projects.md)
   * [Settings](getting-started/settings/README.md)
+    * [Slack Integration](getting-started/settings/slack-integration.md)
     * [Integrations](<getting-started/settings/integrations (1).md>)
     * [Rules](getting-started/settings/rules.md)
     * [Properties](getting-started/settings/properties.md)
