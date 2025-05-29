@@ -74,3 +74,35 @@ The validate button validates the sql query and ensure the sql query is returnin
 
 
 <div><figure><img src="../.gitbook/assets/Screenshot 2024-12-17 184622.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure></div>
+
+
+
+## **Dynamic Date Variable**
+
+
+
+Vexdata now supports dynamic date expressions directly within variable values. This eliminates the need to manually update date parameters each month or deployment cycle. By leveraging Spark SQL functions, you can programmatically generate date values using expressions evaluated at runtime.
+
+
+
+Syntax
+
+Use the keyword VEXD\_CURRENT\_DATE followed by a valid Spark SQL expression to compute the desired date format:
+
+`VEXD_CURRENT_DATE <spark_sql_date_expression>`
+
+> The expression must be a valid Spark SQL date function, typically wrapped in a date\_format(...) clause to control output.
+
+Examples
+
+| Description               | Expression                                                                     | Result (if run in May 2025) |
+| ------------------------- | ------------------------------------------------------------------------------ | --------------------------- |
+| Current Month (MMYYYY)    | VEXD\_CURRENT\_DATE date\_format(current\_date(), 'MMyyyy')                    | 052025                      |
+| Current Month (YYYY-MM)   | VEXD\_CURRENT\_DATE date\_format(current\_date(), 'yyyy-MM')                   | 2025-05                     |
+| Current Month (MMM-YYYY)  | VEXD\_CURRENT\_DATE date\_format(current\_date(), 'MMM-yyyy')                  | May-2025                    |
+| Previous Month (MMYYYY)   | VEXD\_CURRENT\_DATE date\_format(add\_months(current\_date(), -1), 'MMyyyy')   | 042025                      |
+| Previous Month (YYYY-MM)  | VEXD\_CURRENT\_DATE date\_format(add\_months(current\_date(), -1), 'yyyy-MM')  | 2025-04                     |
+| Previous Month (MMM-YYYY) | VEXD\_CURRENT\_DATE date\_format(add\_months(current\_date(), -1), 'MMM-yyyy') | Apr-2025                    |
+| Next Month (MMYYYY)       | VEXD\_CURRENT\_DATE date\_format(add\_months(current\_date(), 1), 'MMyyyy')    | 062025                      |
+| Next Month (YYYY-MM)      | VEXD\_CURRENT\_DATE date\_format(add\_months(current\_date(), 1), 'yyyy-MM')   | 2025-06                     |
+| Next Month (MMM-YYYY)     | VEXD\_CURRENT\_DATE date\_format(add\_months(current\_date(), 1), 'MMM-yyyy')  | Jun-2025                    |
