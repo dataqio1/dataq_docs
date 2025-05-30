@@ -81,15 +81,25 @@ The validate button validates the sql query and ensure the sql query is returnin
 
 
 
-Vexdata now supports dynamic date expressions directly within variable values. This eliminates the need to manually update date parameters each month or deployment cycle. By leveraging Spark SQL functions, you can programmatically generate date values using expressions evaluated at runtime.
+Vexdata now supports dynamic date expressions directly within variable values. This eliminates the need to manually update date parameters each month or deployment cycle. Users can provide SQL expressions to generate date values which are evaluated at runtime.
 
 
 
-Syntax
+**Syntax**
 
 Use the keyword VEXD\_CURRENT\_DATE followed by a valid Spark SQL expression to compute the desired date format:
 
 `VEXD_CURRENT_DATE <spark_sql_date_expression>`
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-29 at 8.14.27 PM.png" alt=""><figcaption><p>Dynamic Date Variable</p></figcaption></figure>
+
+In the above screenshot, variable name is current\_month and value is&#x20;
+
+**Variable Name :** current\_month
+
+**Variable Value :** VEXD\_CURRENT\_DATE date\_format(current\_date(), 'MMyyyy')
 
 > The expression must be a valid Spark SQL date function, typically wrapped in a date\_format(...) clause to control output.
 
