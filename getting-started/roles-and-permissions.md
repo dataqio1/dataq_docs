@@ -41,11 +41,7 @@ Admin can be set only on the server properties file.&#x20;
 While a project can have multiple owners, it is highly recommended to designate a single owner as a best practice.
 {% endhint %}
 
-
-
-{% embed url="https://www.loom.com/share/a54231af26ae49abbdccc4a2f44999b9?sid=6059570a-5621-4174-b570-85ab0e7aeb77" %}
-Steps to Add users/edit permissions for a user
-{% endembed %}
+{% embed url="https://www.loom.com/share/943d42dc670b433bafbb53b63ff7a7fa?sid=70deb8ea-d694-478e-b1e0-0d7f8d88240f" %}
 
 ### Regular User
 
