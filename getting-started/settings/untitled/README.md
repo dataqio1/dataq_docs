@@ -4,7 +4,7 @@ Data connections are used as a link to a database (DB) to retrieve data for test
 
 * Click on the _Settings tab_ from the top menu.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-24 185623.png" alt=""><figcaption></figcaption></figure>
 
 * Click on the _Add New Connection_ button.
 
@@ -22,6 +22,6 @@ Data connections are used as a link to a database (DB) to retrieve data for test
   * \*\*Password : \*\*Password.
 * Click on _Test Connection_ and then _Create Source_ when the connection's details have been validated.
 
-{% embed url="https://player.vimeo.com/progressive_redirect/playback/886757667/rendition/source/file.mp4?loc=external&log_user=0&signature=74788334a374bbad9dbd7c364d3968c9aaadac3981c28383fc05d7f61b305cc7" %}
+{% embed url="https://vimeo.com/1104138524/b3899be641?ts=0&share=copy" %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-16 135159.png" alt=""><figcaption><p>Create Connection</p></figcaption></figure>
