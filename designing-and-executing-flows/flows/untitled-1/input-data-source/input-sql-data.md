@@ -8,7 +8,7 @@ To provide one or more SQLs:
 * Click on _Validate._
 * If the SQL is valid, the SQL will be added to the list on the right side.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-16 151419.png" alt=""><figcaption><p>SQL Input</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -40,9 +40,7 @@ This is **beta** feature and there could be issues with generated SQL
 
 
 
-
-
-{% embed url="https://www.loom.com/share/299bd441c42d491abae2704a3194bea8?sid=d3e4f4a3-98c1-456f-b6a8-4c395d776085" %}
+{% embed url="https://www.loom.com/share/6b7c5804f5a446bbb225960fb8e26345?sid=4b48aca7-0033-4510-99b9-938d1fb9408d" %}
 
 
 

@@ -8,7 +8,7 @@ description: >-
 
 The \_Test Cases\_page displays all the user-saved and executed flows.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
 Some important features of this page are:
 
@@ -21,33 +21,39 @@ Some important features of this page are:
   * A message is displayed to inform the user that the Test Case has been successfully imported.
 * The Test Cases ' list can be sorted by clicking on the columns' titles, i.e., Test Cas&#x65;_&#x4E;ame,     Job Type, Creator Name, Created Date, Last Executed Time,_ and _Last Executed Status._
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-16 135759.png" alt=""><figcaption><p>Import Test Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 Each Test Case under the _Action_ column has seven available actions, which can be accessed by clicking on the three-dots icon next to the check box. These actions are:
 
+
+
 ```
-   **1. Edit**  - By clicking on this action the system redirects the user to the edit c
-   anvas of this particular test case, and can then modify it. 
+**1. Edit**  -Feature Overview
+Previously, clicking on a test case action redirected users to the edit canvas of that 
+specific test case. With the latest UI update, users can now seamlessly access and 
+switch between the canvas views of multiple test cases—enabling faster review, editing, 
+and comparison.
+
 ```
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-16 135859.png" alt=""><figcaption><p>Edit Test Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
 \*\* 2. Clone - \*\*By clicking on this action a user can duplicate the corresponding Test Case :
 
 * Select the _Clone_ option.
-* Provide the Test Case's name.
+* It will generate the Test Case's name with a **copy** prefix.
 * Click on _Save_ to clone the Test Case .
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-16 140013.png" alt=""><figcaption><p>Clone Test Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 \*\* 3. Delete - \*\*This action allows the user to delete the selected Test Case .
 
-\*\* 4. Rename - \*\*This action is used to rename the selected Test Case .&#x20;
+<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;       To rename a Test Case :
+\*\* 4. Rename - \*\*The updated UI now allows users to **rename multiple test cases simultaneously**, eliminating the need to edit each one individually.
 
-* Select the\_ Rename\_ option.
-* Modify the Test Case's Name.
-* Click on Save\_ to rename the Test Case.
+{% embed url="https://www.loom.com/share/e28768c07df84d779c91ad67b4882cc7?sid=7671e3aa-5b5f-46a5-9e8b-8ce245cdd87e" %}
 
 \*\* 5. Export - \*\*This action can be used to download selected Test Case as a JSON file.
+
+<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>

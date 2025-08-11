@@ -10,7 +10,7 @@ The _Data Compare_ shape can be used to compare the following four options of tw
 * **Data Profile Compare** : Compares the data profile of the source and target.
 * **Data Migration Validation** : Compares same type of schema.
 
-<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
 To create a new compare flow:
 
