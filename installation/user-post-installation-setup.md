@@ -16,7 +16,7 @@ URL : http://\<server address>. or https://\<server address>
 
 ## Dashboard after successful login
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-07-23 161647.png" alt=""><figcaption></figcaption></figure>
 
 ## Creating New Project
 
@@ -26,4 +26,5 @@ Add “Name” and “Description” of the project to create a new project.
 
 A new project will be created and shown as a tab.
 
-{% embed url="https://player.vimeo.com/progressive_redirect/playback/886407058/rendition/720p/file.mp4?loc=external&log_user=0&signature=a971e45ff09bb743b030b50b5e1f7199e13e26236bde32ac2e9264c3194692ad" %}
+{% embed url="https://www.loom.com/share/729ca32c1bc445ac8700ab0d465c4778?sid=59850a95-fcab-4533-b0a9-1f1376c633ca" %}
+
