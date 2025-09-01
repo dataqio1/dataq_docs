@@ -13,9 +13,9 @@ There are two options.
 
     Example : Compare historical table with the daily load table.&#x20;
 
-![](<../../../../../.gitbook/assets/Screenshot 2023-12-13 at 10.53.20 AM.png>)&#x20;
+<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 This option allows the user to chose the type of comparison being made. The first option requires that both source and target have the same amount of records for the test to be regarded as passed, whereas the second option allows for _A_ to have more records than _B_ and still pass the test.
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-12-17 161451.png" alt=""><figcaption><p>Compare Type</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

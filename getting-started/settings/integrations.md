@@ -9,7 +9,7 @@ Slack
 
 {% embed url="https://vimeo.com/1104064473/b82b6ccdbd?ts=0&share=copy" %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -24,7 +24,7 @@ Email
 
 {% embed url="https://vimeo.com/1104065310/7fcc33f9a6?ts=0&share=copy" %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Jira
 

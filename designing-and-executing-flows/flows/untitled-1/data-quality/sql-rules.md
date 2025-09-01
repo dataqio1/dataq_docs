@@ -58,9 +58,7 @@ Write the test case in English in the **AI Prompt** section and click on Generat
 Ensure that all the tables required for this test case are selected in the source section. This is necessary to generate SQL from English.
 {% endhint %}
 
-
-
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 184241.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -75,6 +73,8 @@ Below are examples to guide you in creating effective test cases for both single
     | 1        | Alice   | 25  | 5000          |
     | 2        | Bob     | 34  | 15000         |
     | 3        | Charlie | 29  | 7000          |
+
+
 2.  **Orders Table**
 
     | order\_id | user\_id | order\_amount | order\_date |
@@ -82,6 +82,8 @@ Below are examples to guide you in creating effective test cases for both single
     | 101       | 1        | 300           | 2024-01-15  |
     | 102       | 2        | 2200          | 2024-01-18  |
     | 103       | 1        | 450           | 2024-02-05  |
+
+
 
 #### English Inputs and Corresponding SQL
 

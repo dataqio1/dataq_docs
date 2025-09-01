@@ -20,7 +20,9 @@ This feature enhances the ability to maintain database integrity, comply with re
 
 1. Click on "New Test Case" on Top and select "Schema Monitoring"
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-17 173737.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+
 
 2. Select the connection name and schema name from the drop down.
 
