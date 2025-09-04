@@ -12,7 +12,7 @@ Data connections are used as a link to a database (DB) to retrieve data for test
 
 * Select a DB type to create a connection (User can connect to more than 20 types of DB)
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Select the type of DB from the shown options to use as data source.
 * Provide the required details for the connection, such as:

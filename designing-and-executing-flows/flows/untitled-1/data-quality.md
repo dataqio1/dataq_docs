@@ -8,7 +8,7 @@ Vexdata.io enables users to create and manage data quality rules applicable to v
 
 Navigate to the "New Test Case" button in the top right corner of the Vexdata.io interface and select "Data Quality" Test Case Type to start defining a new data quality test case.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Define the Source Data
 
@@ -51,7 +51,7 @@ In below screenshot, `TOTALPRICE > 0`&#x20;
 
 The records for which TOTALPRICE <= 0 will be reported as bad data.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Option 2: Data Quality Rules on Files(CSV, Excel, Json, XML) and No-SQL (Mongo)**
 
@@ -65,7 +65,7 @@ For data from files, MongoDB, or streaming sources, rules are executed in-memory
 * Example: Ensure that transaction amounts are positive. Refer to [section](data-quality/sql-rules.md) for writing rules in English.\
 
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Column Level Conditions**:
 
@@ -80,7 +80,7 @@ In below screenshot, `TOTALPRICE > 0`&#x20;
 
 The records for which TOTALPRICE <= 0 will be reported as bad data.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Foreign Key Validation**:
 

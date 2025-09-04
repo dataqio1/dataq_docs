@@ -58,7 +58,7 @@ Write the test case in English in the **AI Prompt** section and click on Generat
 Ensure that all the tables required for this test case are selected in the source section. This is necessary to generate SQL from English.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

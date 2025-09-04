@@ -34,6 +34,52 @@ For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on da
 
 <figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption><p>Create a static variable</p></figcaption></figure>
 
+#### Static Variables
+
+Static variables are further classified into two types:
+
+### **Project Level variable**
+
+* &#x20;These variables are defined at the projec
+* t scope and can be accessed by all test cases within the project. They are ideal for constants or configurations that remain the same throughout the project's lifecycle.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### Steps to create a project level variable :&#x20;
+
+1. **Navigate to the Project** : Select the project where user need to create a project level variable.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+2. **Click on the Project Level Icon**: Locate and click on the project level icon to access variable settings within the desired project.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+3. **Provide Variable Name and Value**: Enter the desired variable name and its corresponding value in the provided fields. Once entered, make sure to save the changes to finalize the variable creation.
+
+{% embed url="https://www.loom.com/share/30eeff63601544aa8b30afe58f91953d?sid=21bff5cc-99a8-4cc9-a267-6ac596fbaa98" %}
+
+* **Test Case Level**: These variables are specific to individual test cases. They can be used to store values that are only relevant within the scope of a single test execution, allowing for more granular control over variable use in different scenarios.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Steps to Create a Test Case Level Variable
+
+1. Open the test case where you want to add a variable.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+2. Click on the **Variables** the test case editor.
+3. Enter the desired variable name and its corresponding value in the provided fields. Once entered, make sure to save the changes to finalize the variable creation.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+These steps allow you to manage and utilize variables tailored to specific test case needs, ensuring flexibility and precision in your testing process.
+
+
+
 ## **Dynamic Variable** -&#x20;
 
 On the other hand, dynamic variables within the VexData platform are initialized by executing a SQL query. The query is executed as a first step before executing the test case. The SQL query should produce only one value which is initialized to the parameter.&#x20;
