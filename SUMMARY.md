@@ -69,4 +69,5 @@
 * [Reports](dashboard/README.md)
   * [User Reports](dashboard/user-reports.md)
   * [Admin Report or Manager Reports](dashboard/admin-report-or-manager-reports.md)
+* [SQL playground](sql-playground.md)
 * [Current Limitations](current-limitations.md)
