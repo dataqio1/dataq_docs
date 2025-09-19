@@ -12,6 +12,7 @@
       * [Pre-requisites](installation/cloud-installation/aws/pre-requisites.md)
       * [Manual Install on ec2](installation/cloud-installation/aws/manual-steps.md)
       * [Cloud Formation Scripts (command line)](installation/cloud-installation/aws/aws.md)
+  * [Active Directory Integration Using Azure](installation/active-directory-integration-using-azure.md)
   * [Admin Post Installation Setup](installation/post-install.md)
   * [User Post Installation Setup](installation/user-post-installation-setup.md)
   * [Server Improvement (Optional)](installation/improve-the-server.md)
