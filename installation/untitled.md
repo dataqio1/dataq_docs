@@ -138,7 +138,16 @@ openssl pkcs12 -export -inkey your-key.key -in your-certificate.crt -out keystor
 🔹 Remember this password—you’ll use it in app.properties.
 
 1. Copy the keystore.p12 file created above to **my\_data/keys/**
-2. Update the SSL\_PATH and SSL\_PWD in app.properties file with keystore path and the password created above.
+
+**Set below properties in app.properties file**
+
+1. Update the SSL\_PATH and SSL\_PWD in app.properties file with keystore path and the password created above.
+2. Update HOST\_URL and EXTERNAL\_HOST\_URL with the URL associated with the certificates.
+   1. Example : https://dq.mycompany.com
+3. Update port to EXTERNAL\_PORT=443
+4. Set TOTAL\_SYSTEM\_MEMORY= Total System Memory - 8GB
+
+
 
 
 
