@@ -17,7 +17,22 @@ unzip dataops_server.zip
 cd dataops_server
 ```
 
+```bash
+# For newer version of docker compose, we need to symlink to docker-compose 
+ sudo ln -sf /usr/local/bin/docker-compose /usr/libexec/docker/cli-plugins/docker-compose
+
+ 
+  # Note: If the plugins directory doesn't exist, create it first:
+  sudo mkdir -p /usr/libexec/docker/cli-plugins
+  sudo ln -sf /usr/local/bin/docker-compose /usr/libexec/docker/cli-plugins/docker-compose
+
+
+
+```
+
 ### Set License Name and License Key (<mark style="color:blue;">**Optional**</mark> <mark style="color:blue;">-for paid subscription</mark>) <a href="#mickey" id="mickey"></a>
+
+
 
 Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchasing Vexdata. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
 
