@@ -74,4 +74,12 @@ This section includes the steps to register DataQ software in Azure via App Regi
 * CLIENT\_ID=97b448d8-eebb-123d23-9311-e64009db6147
 * CLIENT\_SECRET=QWE#\~wd234@#wsdfsdfSdfKx288y2Q4H2fNmxyBMaUF
 
+
+
+### Test the connection
+
+https://\<dq.mycompany.com>&#x20;
+
+
+
 \
