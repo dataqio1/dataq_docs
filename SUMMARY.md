@@ -72,3 +72,4 @@
   * [Admin Report or Manager Reports](dashboard/admin-report-or-manager-reports.md)
 * [SQL playground](sql-playground.md)
 * [Current Limitations](current-limitations.md)
+* [Release Notes](release-notes.md)
