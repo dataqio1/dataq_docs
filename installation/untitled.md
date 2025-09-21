@@ -66,8 +66,8 @@ If https keys are provided, set the HOST\_URL to **https**://\<server URL>
 
 When running for the first time, get the latest software by running below command
 
-```
- ./update_software.sh
+```bash
+ ./update_software.sh <NEW_VERSION>
 ```
 
 Start the server either with the _sudo_ command, or by logging in as a user with admin privileges.
