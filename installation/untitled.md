@@ -1,157 +1,201 @@
 # Linux Installation
 
-## Software Download and Installation
+## Prerequisites
 
-The URL will be sent to you through email, along with your license key. After receiving it, use the _wget_ command to retrieve the URL.
+Before starting the installation, ensure your system meets the following requirements:
 
-```
+* Docker and Docker Compose installed
+* Administrative privileges (sudo access)
+* At least 8GB available RAM
+* Internet connectivity for downloading software
+
+### Download Software
+
+You will receive the download URL and license key via email after purchase. Use the provided URL to download the software package.
+
+```bash
+# Download the software package
 wget https://dataops-store.s3.amazonaws.com/dataops_server.zip
-```
 
-After retrieving the file, unzip it with the _unzip_ command.
-
-```
-# unzip the folder
+# Extract the downloaded file
 unzip dataops_server.zip
-# change to the folder 
+
+# Navigate to the installation directory
 cd dataops_server
 ```
 
-{% hint style="info" %}
-Since Docker-compose version V2,  docker-compose is changed to docker compose. Dollow below steps to apply symlink.
-{% endhint %}
+### Docker Compose Compatibility Fix
+
+Docker Compose V2 (introduced in 2021) changed the command from `docker-compose` to `docker compose`. If you're using a newer version of Docker, create a symlink for compatibility:
 
 ```bash
-# For newer version of docker compose, we need to symlink to docker-compose 
- sudo ln -sf /usr/local/bin/docker-compose /usr/libexec/docker/cli-plugins/docker-compose
+# Create the plugins directory if it doesn't exist
+sudo mkdir -p /usr/libexec/docker/cli-plugins
 
- 
-  # Note: If the plugins directory doesn't exist, create it first:
-  sudo mkdir -p /usr/libexec/docker/cli-plugins
-  sudo ln -sf /usr/local/bin/docker-compose /usr/libexec/docker/cli-plugins/docker-compose
-
-
-
+# Create symlink for docker-compose compatibility
+sudo ln -sf /usr/local/bin/docker-compose /usr/libexec/docker/cli-plugins/docker-compose
 ```
 
-### Set License Name and License Key (<mark style="color:blue;">**Optional**</mark> <mark style="color:blue;">-for paid subscription</mark>) <a href="#mickey" id="mickey"></a>
+**Note:** This step is only needed if you encounter `docker-compose` command not found errors.
 
+### Configuration
 
+#### License Configuration (Paid Subscriptions Only)
 
-Edit the .env file and update the following three properties using the licensing information values provided to you by email after purchasing Vexdata. Be certain to update the default value of the LICENSE\_NAME with the value shown in the email.
+**For Starter Version users:** Skip this section as licensing is not required.
 
-```
-LICENSE_COMPANY_NAME=<Name>
-LICENSE_NAME=<Name>
-LICENSE_KEY=<key>
-```
-
-{% hint style="success" %}
-Setting License Key and Name are not required for Starter\_Version
-{% endhint %}
-
-### Set Server URL (Optional -If running jobs on Hadoop cluster/Kubernetes)
-
-The default value for the server is _**http**://dq-nginx_. Set it to the server's URL if cluster (Hadoop, EMR, Databricks) is being used for jobs processing.
-
-```
-HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP addrress>
-```
-
-{% hint style="info" %}
-If https keys are provided, set the HOST\_URL to **https**://\<server URL>
-{% endhint %}
-
-## Starting the server
-
-When running for the first time, get the latest software by running below command
+**For paid subscriptions:** Edit the `.env` file and update the following properties with the values provided in your purchase confirmation email:
 
 ```bash
- ./update_software.sh <NEW_VERSION>
+LICENSE_COMPANY_NAME=<Your Company Name>
+LICENSE_NAME=<License Name from email>
+LICENSE_KEY=<License Key from email>
 ```
 
-Start the server either with the _sudo_ command, or by logging in as a user with admin privileges.
+#### Server URL Configuration (Optional)
 
+**Default setup:** VexData runs locally and no changes are needed.
+
+**For cluster deployments:** If you're running jobs on Hadoop clusters, EMR, Databricks, or Kubernetes, update the server URL:
+
+```bash
+HOST_URL=<your-server-url.com or IP address>
 ```
- ./start_server.sh
+
+**HTTPS deployments:** If you have SSL certificates, use:
+
+```bash
+HOST_URL=https://<your-server-url.com>
 ```
 
-Open an internet browser and go to your own host's URL : http://\<HOST\_URL>
+**Important:** Do not use `localhost` in the HOST\_URL as it may cause connectivity issues.
 
-If installing on the local machine, URL will be http://127.0.0.1
+### Installation
 
-**Note**: Host is the server's URL or the IP address.
+#### First-Time Installation
 
-{% hint style="warning" %}
-Do not use localhost in the URL.
-{% endhint %}
+1.  **Update to latest version:**
 
-## Update the software
-
-Follow the steps below to update the software with patches and upgrades.
-
-1.  **Update the Software** Replace `NEW_VERSION` with the provided version (e.g., `7_35`), and run the following command:
-
+    ```bash
+    ./update_software.sh <VERSION_NUMBER>
     ```
-    ./update_software.sh NEW_VERSION
-    ```
-2.  **Start the Server**
 
+    Replace `<VERSION_NUMBER>` with the version provided (e.g., `7_35`).
+2.  **Start the server:**
+
+    ```bash
+    ./start_server.sh
     ```
+3. **Access the application:** Open your web browser and navigate to:
+   * **Local installation:** `http://127.0.0.1`
+   * **Remote installation:** `http://<HOST_URL>`
+
+### Software Updates
+
+To update VexData with patches and new versions:
+
+1.  **Download and install updates:**
+
+    ```bash
+    ./update_software.sh <NEW_VERSION>
+    ```
+2.  **Restart the server:**
+
+    ```bash
     ./start_server.sh
     ```
 
+### HTTPS Setup (Optional)
 
+#### Prerequisites
 
-## HTTPS Setup
+* SSL certificate file (`.crt` or `.pem`)
+* Private key file (`.key`)
+* OpenSSL installed on your system
 
-You will need to have https [certificate and keys](https://www.knownhost.com/wiki/security/ssl).
+#### Create PKCS#12 Keystore
 
-## Create a `.p12` (PKCS#12) File for HTTPS from a Key File
+Convert your SSL certificate and private key into a `.p12` keystore file:
 
-To enable **HTTPS**, you need a **`.p12` (PKCS#12) keystore** that contains your SSL certificate and private key.
-
-***
-
-### **1️⃣ Convert Your Key File to a `.p12` Keystore**
-
-If you have a **private key (`.key`)** and a **certificate (`.crt` or `.pem`)**, use `openssl` to create a `.p12` file.
-
-#### **🔹 Convert `.key` + `.crt` to `.p12`**
-
-```sh
-openssl pkcs12 -export -inkey your-key.key -in your-certificate.crt -out keystore.p12 -name myalias
+```bash
+openssl pkcs12 -export -inkey your-private-key.key -in your-certificate.crt -out keystore.p12 -name vexdata
 ```
 
-&#x20;**Explanation**:
+**Parameters explained:**
 
-• -export → Creates an exportable keystore.
+* `-export`: Creates an exportable keystore
+* `-inkey`: Your private key file
+* `-in`: Your SSL certificate file
+* `-out`: Output keystore file name
+* `-name`: Alias for the certificate (use any descriptive name)
 
-• -inkey your-key.key → Specifies your private key.
+You'll be prompted to create an export password. **Remember this password** - you'll need it for configuration.
 
-• -in your-certificate.crt → Your SSL certificate.
+#### Install Keystore
 
-• -out keystore.p12 → Output .p12 file.
+Copy the generated keystore file to the keys directory on server :
 
-• -name myalias → Alias name for the key entry.
+```bash
+cp keystore.p12 dataops_server/my_data/keys/
+```
 
+#### Configure HTTPS Settings
 
+Edit the `app.properties` file and update the following settings:
 
-🔹 You’ll be prompted to enter an export password.
+```properties
+# SSL Configuration
+SSL_PATH=my_data/keys/keystore.p12
+SSL_PWD=<your_keystore_password>
 
-🔹 Remember this password—you’ll use it in app.properties.
+# URL Configuration
+HOST_URL=https://<your-domain.com>
+EXTERNAL_HOST_URL=https://<your-domain.com>
 
-1. Copy the keystore.p12 file created above to **my\_data/keys/**
+# Port Configuration
+EXTERNAL_PORT=443
 
-**Set below properties in app.properties file**
+# System Memory (Total RAM minus 8GB for VexData software)
+TOTAL_SYSTEM_MEMORY=<available_memory_in_GB>
+```
 
-1. Update the SSL\_PATH and SSL\_PWD in app.properties file with keystore path and the password created above.
-2. Update HOST\_URL and EXTERNAL\_HOST\_URL with the URL associated with the certificates.
-   1. Example : https://dq.mycompany.com
-3. Update port to EXTERNAL\_PORT=443
-4. Set TOTAL\_SYSTEM\_MEMORY= Total System Memory - 8GB
+**Example:**
 
+```properties
+SSL_PATH=my_data/keys/keystore.p12
+SSL_PWD=mySecurePassword123
+HOST_URL=https://vexdata.mycompany.com
+EXTERNAL_HOST_URL=https://vexdata.mycompany.com
+EXTERNAL_PORT=443
+TOTAL_SYSTEM_MEMORY=24
+```
 
+### Troubleshooting
 
+#### Common Issues
 
+**Docker Compose command not found:**
 
+* Ensure Docker is properly installed
+* Run the symlink commands in the Docker Compose Compatibility section
+
+**Permission denied errors:**
+
+* Ensure you have sudo privileges
+* Run installation commands with appropriate permissions
+
+**Server won't start:**
+
+* Check if ports 80/443 are available
+* Verify your `.env` and `app.properties` configurations
+* Check system memory requirements
+
+**HTTPS certificate errors:**
+
+* Verify certificate and key files are valid
+* Ensure the keystore password is correct
+* Check that the domain in HOST\_URL matches your certificate
+
+#### Support
+
+For additional support, consult the VexData documentation or contact support with specific error messages and system information.
