@@ -17,6 +17,10 @@ unzip dataops_server.zip
 cd dataops_server
 ```
 
+{% hint style="info" %}
+Since Docker-compose version V2,  docker-compose is changed to docker compose. Dollow below steps to apply symlink.
+{% endhint %}
+
 ```bash
 # For newer version of docker compose, we need to symlink to docker-compose 
  sudo ln -sf /usr/local/bin/docker-compose /usr/libexec/docker/cli-plugins/docker-compose
