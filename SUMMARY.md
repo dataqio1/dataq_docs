@@ -33,7 +33,7 @@
       * [Databases/Warehouses](getting-started/settings/untitled/redshift.md)
       * [Run On](getting-started/settings/untitled/databricks.md)
 * [Creating and Executing Test Cases](designing-and-executing-flows/README.md)
-  * [Test Case](designing-and-executing-flows/flows/README.md)
+  * [Test Cases](designing-and-executing-flows/flows/README.md)
     * [Create Test Cases](designing-and-executing-flows/flows/untitled-1/README.md)
       * [Define Data Source and Target](designing-and-executing-flows/flows/untitled-1/input-data-source/README.md)
         * [Configure Table/s from Database](designing-and-executing-flows/flows/untitled-1/input-data-source/input-table-s-from-database/README.md)
