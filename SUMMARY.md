@@ -74,5 +74,5 @@
 * [SQL playground](sql-playground.md)
 * [Current Limitations](current-limitations.md)
 * [Release Notes](release-notes.md)
-* [Page](page/README.md)
-  * [Data Quality Test Cases - Best Practices Guide](page/data-quality-test-cases-best-practices-guide.md)
+* [Best Practices](best-practices/README.md)
+  * [Data Quality Test Cases - Best Practices Guide](best-practices/data-quality-test-cases-best-practices-guide.md)
