@@ -66,6 +66,7 @@
     * [Variables](designing-and-executing-flows/flows/variables.md)
     * [Note](designing-and-executing-flows/flows/note.md)
     * [Labels](designing-and-executing-flows/flows/labels.md)
+    * [Import/Export Test Cases](designing-and-executing-flows/flows/import-export-test-cases.md)
   * [Batches](designing-and-executing-flows/batches.md)
   * [Test Runs](designing-and-executing-flows/executions.md)
 * [Reports](dashboard/README.md)
