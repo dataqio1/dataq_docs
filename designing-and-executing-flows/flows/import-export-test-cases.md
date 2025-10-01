@@ -12,13 +12,15 @@ description: >-
 
 Vexdata provides flexible import and export capabilities for test cases, allowing you to backup, share, and migrate your data validation configurations. You can export and import test cases either individually or in bulk.
 
-
-
 ### Export Test Cases
 
-
-
 #### Export Individual Test Case
+
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-30 at 10.36.22 PM.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
@@ -32,9 +34,15 @@ To export a single test case:
 4. Select **Export** from the dropdown menu
 5. The test case will be downloaded as a JSON file to your computer
 
+**Visual Guide:** The three-dot menu (⋮) appears in each test case row and includes options for Variables, Clone, Export, and Delete. The Export option will trigger an immediate download of the test case as a JSON file.
+
+
+
 #### Export Multiple Test Cases (Bulk Export)
 
 
+
+<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 To export multiple test cases at once:
 
@@ -52,11 +60,9 @@ To export multiple test cases at once:
 
 ### Import Test Cases
 
-
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
 #### Import Single Test Case
-
-
 
 To import a single test case:
 
@@ -70,8 +76,6 @@ To import a single test case:
 6. The test case will be added to your project
 
 #### Import Multiple Test Cases (Bulk Import)
-
-
 
 To import multiple test cases at once:
 
@@ -124,29 +128,12 @@ When test cases are selected, the **More** menu provides additional bulk operati
 
 
 
-1. **Naming Convention**: Use descriptive names for exported files to easily identify their contents
-2. **Version Control**: Include date or version numbers in exported file names
-3. **Regular Backups**: Export critical test cases regularly to prevent data loss
-4. **Validation After Import**: Review imported test cases to ensure all configurations are correct
-5. **File Organization**: Store exported test case files in a structured folder system
+1. **Ensure:** Replicate project-level variables from the source project in the target project. If these variables are utilized in the source project and present in the exported test cases, they must also be created in the target project.
+2. The test case level variables will be exported and imported in the new project.
 
 ### Important Notes
 
 
 
 * Exported test cases retain their original Test Case IDsWhen importing, ensure the source and target datasets referenced in the test cases exist in your projectIf datasets don't exist, you may need to update the test case configurations after importBulk operations are more efficient when working with large numbers of test cases
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+
