@@ -34,14 +34,12 @@ For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on da
 
 <figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Create a static variable</p></figcaption></figure>
 
-#### Static Variables
+####
 
-Static variables are further classified into two types:
+## **Project Level variable**
 
-### **Project Level variable**
-
-* &#x20;These variables are defined at the projec
-* t scope and can be accessed by all test cases within the project. They are ideal for constants or configurations that remain the same throughout the project's lifecycle.
+* &#x20;These variables are defined at the project level.
+* &#x20;These variables can be accessed by all test cases within the project. They are ideal for constants or configurations that remain the same throughout the project's lifecycle.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
