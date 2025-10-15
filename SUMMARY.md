@@ -61,6 +61,7 @@
         * [SQL Rules](designing-and-executing-flows/flows/untitled-1/data-quality/sql-rules.md)
         * [Column Level Rules](designing-and-executing-flows/flows/untitled-1/data-quality/column-level-rules.md)
         * [Duplicates](designing-and-executing-flows/flows/untitled-1/data-quality/duplicates.md)
+        * [Import Export Rules](designing-and-executing-flows/flows/untitled-1/data-quality/import-export-rules.md)
     * [Executing Test Cases](designing-and-executing-flows/flows/execute-flows.md)
     * [Defining Test Case Settings](designing-and-executing-flows/flows/defining-flow-settings.md)
     * [Variables](designing-and-executing-flows/flows/variables.md)
