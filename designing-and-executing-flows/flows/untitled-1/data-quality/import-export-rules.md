@@ -1,10 +1,8 @@
-# Import Export Rules
+# Import/Export Rules
 
 ### Overview
 
-
-
-The Import/Export Rules feature allows you to manage Data Quality rules efficiently by importing rules from Excel templates and exporting existing rules for backup, sharing, or migration purposes.
+The Import/Export Rules feature lets you efficiently manage Data Quality rules by importing them from Excel templates and exporting existing rules for backup, sharing, or migration.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-10-15 at 2.16.48 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -96,7 +94,7 @@ Before importing rules, ensure you have:
 
 
 
-## Import Template Structure :
+## Excel/SQL Template Structure :
 
 **Test Case Structure Guide**
 
