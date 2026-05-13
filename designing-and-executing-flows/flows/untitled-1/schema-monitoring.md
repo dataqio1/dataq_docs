@@ -46,7 +46,7 @@ This feature enhances the ability to maintain database integrity, comply with re
 
 
 
-{% video %}https://www.loom.com/embed/3bb9113945dd49dfa57f875c0ce0cade{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/3bb9113945dd49dfa57f875c0ce0cade" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>
 Video to create Schema Monitoring Test case
 
 

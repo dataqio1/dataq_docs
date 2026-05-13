@@ -15,4 +15,4 @@ Schema comparison is a process that identifies differences between database obje
 * Speeds up deployment and migration processes.
 * Helps in detecting and fixing schema drift (unintended changes).
 
-{% video %}https://www.loom.com/embed/331002f3b00c445f9d3eada8490042d2{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/331002f3b00c445f9d3eada8490042d2" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>

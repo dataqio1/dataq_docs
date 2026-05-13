@@ -8,4 +8,4 @@ Record counts compare involves detailing the number of rows (records) in dataset
 
 How to create a Counts compare Test Case -
 
-{% video %}https://www.loom.com/embed/4fa029413ed4492c8df44177caa81ef3{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/4fa029413ed4492c8df44177caa81ef3" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>

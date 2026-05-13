@@ -57,7 +57,7 @@ For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on da
 
 3. **Provide Variable Name and Value**: Enter the desired variable name and its corresponding value in the provided fields. Once entered, make sure to save the changes to finalize the variable creation.
 
-{% video %}https://www.loom.com/embed/30eeff63601544aa8b30afe58f91953d{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/30eeff63601544aa8b30afe58f91953d" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>
 
 * **Test Case Level**: These variables are specific to individual test cases. They can be used to store values that are only relevant within the scope of a single test execution, allowing for more granular control over variable use in different scenarios.
 

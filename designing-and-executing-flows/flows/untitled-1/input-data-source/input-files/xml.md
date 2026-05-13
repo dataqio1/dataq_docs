@@ -13,5 +13,5 @@ We also have option&#x20;
 * Flatten Data of XML  - Flattening the data involves converting complex and nested XML structures into a table-like format, making it easier to handle and analyze. This can be achieved through various tools and libraries that support XML flattening, allowing you to specify parameters for the transformation process.
 * Drop All Null Records - Selecting this option will ignore all Null records in dataset.
 
-{% video %}https://www.loom.com/embed/9f1ccd2052794e4285361459f84e8a4d{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/9f1ccd2052794e4285361459f84e8a4d" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>
 

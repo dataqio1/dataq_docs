@@ -12,7 +12,7 @@ his interface can be accessed by going to the \_Settings _tab and then clicking 
 
 To setup the email server, you will have to provide the following information.
 
-{% video %}https://www.loom.com/embed/9635c10668bc48ba8b822f040f1cd93a{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/9635c10668bc48ba8b822f040f1cd93a" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-13 202010.png" alt=""><figcaption><p>Email Setup</p></figcaption></figure>
 
@@ -20,7 +20,7 @@ To setup the email server, you will have to provide the following information.
 
 The default time zone can be changed by selecting your choice from the drop-down list that is located under "Default Time zone".
 
-{% video %}https://www.loom.com/embed/22ff88be23414e26931b0c90633c1cce{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/22ff88be23414e26931b0c90633c1cce" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>
 
 ## Setup LDAP
 

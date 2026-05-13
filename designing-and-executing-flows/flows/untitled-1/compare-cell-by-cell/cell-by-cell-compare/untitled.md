@@ -13,7 +13,7 @@ There are three options for mapping datasets and columns from source to target.
 
 
 
-{% video %}https://www.loom.com/embed/7d13d4eff9254390a4e93d4408443050{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/7d13d4eff9254390a4e93d4408443050" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>
 
 
 

@@ -61,7 +61,7 @@ This action allows the user to delete the selected Test Case .
 
 The updated UI now allows users to **rename multiple test cases simultaneously**, eliminating the need to edit each one individually.
 
-{% video %}https://www.loom.com/embed/e28768c07df84d779c91ad67b4882cc7{% endvideo %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"><iframe src="https://www.loom.com/embed/e28768c07df84d779c91ad67b4882cc7" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>
 
 #### Export&#x20;
 
