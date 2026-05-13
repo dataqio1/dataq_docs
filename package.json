@@ -12,6 +12,10 @@
     "honkit": "^5.1.0"
   },
   "dependencies": {
-    "gitbook-plugin-expandable-chapters-small": "^0.1.7"
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-copy-code-button": "^0.0.2",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-video": "^0.0.3"
   }
 }
