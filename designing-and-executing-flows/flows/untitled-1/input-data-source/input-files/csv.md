@@ -5,11 +5,11 @@ There are two ways to provide an _Excel_ or _CSV_ file as the input files:
 * Upload files (supports both _CSV_ and _ZIP_ files).
 * Provide an _s3_ location : **s3a**://\<file\_path>.
 
-{% hint style="warning" %}
+> **Warning:**
 If you're providing an _s3_ file path, ensure that the Vexdata server _IAMRole_ has permission to read from the _s3_ bucket. The file size limit for uploads is 50MB.
 
 
-{% endhint %}
+
 
 <figure><img src="../../../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 

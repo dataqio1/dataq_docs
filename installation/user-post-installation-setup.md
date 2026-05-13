@@ -26,5 +26,5 @@ Add “Name” and “Description” of the project to create a new project.
 
 A new project will be created and shown as a tab.
 
-{% embed url="https://www.loom.com/share/729ca32c1bc445ac8700ab0d465c4778?sid=59850a95-fcab-4533-b0a9-1f1376c633ca" %}
+[Video Link](https://www.loom.com/share/729ca32c1bc445ac8700ab0d465c4778?sid=59850a95-fcab-4533-b0a9-1f1376c633ca)
 

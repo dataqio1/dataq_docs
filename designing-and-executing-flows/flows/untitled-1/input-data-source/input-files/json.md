@@ -24,6 +24,6 @@ Multi-line _True_ sample:
 ]
 ```
 
-{% hint style="info" %}
+> **Info:**
 Root level columns can be selected above in a multi-root JSON structure. For selection of nested columns, use the _Select Columns_ shape from the palette.
-{% endhint %}
+

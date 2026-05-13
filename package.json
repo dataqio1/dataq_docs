@@ -1,0 +1,14 @@
+{
+  "name": "dataq-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vexdata Documentation",
+  "scripts": {
+    "serve": "honkit serve",
+    "build": "honkit build",
+    "pdf": "honkit pdf"
+  },
+  "devDependencies": {
+    "honkit": "^5.1.0"
+  }
+}

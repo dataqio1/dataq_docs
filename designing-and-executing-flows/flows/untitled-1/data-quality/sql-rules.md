@@ -54,9 +54,9 @@ Write the test case in English in the **AI Prompt** section and click on Generat
 
 
 
-{% hint style="warning" %}
+> **Warning:**
 Ensure that all the tables required for this test case are selected in the source section. This is necessary to generate SQL from English.
-{% endhint %}
+
 
 <figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -153,8 +153,8 @@ These examples provide a clear demonstration of how English test case inputs can
 
 
 
-{% hint style="warning" %}
+> **Warning:**
 Do not include a LIMIT clause in your SQL queries. The engine automatically applies a LIMIT operation to retrieve sample data. For failure counts, the full query is executed as a subquery to accurately calculate the number of failed records.
-{% endhint %}
+
 
 [^1]: 

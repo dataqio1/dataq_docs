@@ -17,8 +17,8 @@ LICENSE_NAME
 IPAddress
 ```
 
-{% hint style="info" %}
+> **Info:**
 **We never collect your organization's raw data. **
-{% endhint %}
+
 
 If your organization would like to opt out of this process, open the _.env_ file and set the flag _STORE_CENTRAL_FLAG=2_.

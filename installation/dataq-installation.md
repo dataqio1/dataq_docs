@@ -10,7 +10,7 @@ Enable linux containers ([Documentation](https://docs.microsoft.com/en-us/virtua
 
 
 
-{% hint style="info" %}
+> **Info:**
 Validate docker linux containers is enabled by executing the below commands
 
 Run below command to validate linux containers are enabled. Below command should ouput "Hello World"
@@ -18,7 +18,7 @@ Run below command to validate linux containers are enabled. Below command should
 ```
 docker run --rm busybox echo hello_world
 ```
-{% endhint %}
+
 
 ```
 docker -version
@@ -63,9 +63,9 @@ The default value for the server is _**http**://dq-nginx_. Set it to the server'
 HOST_URL=< URL ex: dv.example.com or, if there is no URL, you can also set IP addrress>
 ```
 
-{% hint style="info" %}
+> **Info:**
 If https keys are provided, set the HOST\_URL to **https**://\<server URL>&#x20;
-{% endhint %}
+
 
 ### Increase  Memory, CPU, Swap space for better performance (Running docker first time)
 
@@ -86,9 +86,9 @@ To stop the server : stop\_server.bat
 
 
 
-{% hint style="warning" %}
+> **Warning:**
 Do not use localhost in the URL.
-{% endhint %}
+
 
 ## HTTPS Setup(Optional)
 

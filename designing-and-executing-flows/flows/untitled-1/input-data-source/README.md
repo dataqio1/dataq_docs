@@ -10,11 +10,11 @@ After dropping any of these two shapes into the canvas and clicking on them, a w
 
 
 
-{% hint style="warning" %}
+> **Warning:**
 Always prefix schema name before the table name as a good practice.&#x20;
 
 Example : select \* from marketing.users where marketing is the schema name.
-{% endhint %}
+
 
 [**File Input**](input-files/) **:** This tab can be used if the data has to be taken from a file which is in one of the following formats: \_Parquet, AVRO, JSON, CSV \_or _Excel._
 

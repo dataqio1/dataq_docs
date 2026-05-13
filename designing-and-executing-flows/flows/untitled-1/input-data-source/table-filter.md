@@ -18,15 +18,15 @@ The "Data Filter" functionality is a critical enhancement designed to address th
 
 
 
-{% hint style="info" %}
+> **Info:**
 To filter records with an ID greater than 500, enter the condition: \
 `id > 500`
-{% endhint %}
 
-{% hint style="info" %}
+
+> **Info:**
 For a more complex filter, such as selecting records where the ID is greater than 599924 and the age is over 70, enter:\
 `id > 599924 and age > 70.`
-{% endhint %}
+
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-06-06 at 12.15.30 PM.png" alt=""><figcaption><p>Apply Filter Screenshot</p></figcaption></figure>
 
@@ -34,4 +34,4 @@ For a more complex filter, such as selecting records where the ID is greater tha
 
 By following these steps, you can efficiently focus your testing efforts on specific, relevant subsets of data, making your testing process more precise and effective.
 
-{% embed url="https://www.loom.com/share/d824b612184f4a718934affaa7a12ca8?sid=bca7ce9b-e0c0-48ec-a27c-0f14d1290e08" %}
+[Video Link](https://www.loom.com/share/d824b612184f4a718934affaa7a12ca8?sid=bca7ce9b-e0c0-48ec-a27c-0f14d1290e08)

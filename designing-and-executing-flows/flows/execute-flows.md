@@ -17,9 +17,9 @@ To run a new test case immediately upon creation:
 * After saving, click the **Save & Run** button to execute the Test Case.
 * The execution results will be automatically added to the **Test Runs** tab.
 
-{% hint style="info" %}
+> **Info:**
 Click on Save and the test case is saved and is visible in the "Test Case" page.
-{% endhint %}
+
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 9.29.23 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,7 +39,7 @@ For executing multiple test cases in a batch:
 
 
 
-{% embed url="https://www.youtube.com/watch?v=1yEwIfclzIw" %}
+[Video Link](https://www.youtube.com/watch?v=1yEwIfclzIw)
 
 #### 3. Re-executing Previous Batches
 

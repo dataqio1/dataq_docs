@@ -71,13 +71,13 @@ AWS_EMR_S3_LOG_URI=<s3://aws-logs-865515016503-us-east-1/elasticmapreduce/>
 
 
 
-{% hint style="info" %}
+> **Info:**
 ```
 EC2_INSTANCE_COST_TYPE can be SPOT if cost is important 
 however it is recommended to have it ON_DEMAND for time
 critical jobs.
 ```
-{% endhint %}
+
 
 ## Databricks
 

@@ -30,8 +30,8 @@ This comparison type compares the total source and destination total count of co
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 164505.png" alt=""><figcaption><p>Table Counts Matched/Mismatched Results</p></figcaption></figure>
 
-{% hint style="info" %}
+> **Info:**
 There is an option to the top right corner to\*\* \*\*share the link for this test case, and send it to other team members to examine the results.
-{% endhint %}
+
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-12-17 165219.png" alt=""><figcaption><p>Share Results</p></figcaption></figure>

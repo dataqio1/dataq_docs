@@ -30,17 +30,17 @@ Steps to write the requirement in English
 
 
 
-{% hint style="info" %}
+> **Info:**
 **Example** : select all records from customers table who have placed orders from orders table after year 2023
-{% endhint %}
 
-{% hint style="info" %}
+
+> **Info:**
 This is **beta** feature and there could be issues with generated SQL
-{% endhint %}
 
 
 
-{% embed url="https://www.loom.com/share/6b7c5804f5a446bbb225960fb8e26345?sid=4b48aca7-0033-4510-99b9-938d1fb9408d" %}
+
+[Video Link](https://www.loom.com/share/6b7c5804f5a446bbb225960fb8e26345?sid=4b48aca7-0033-4510-99b9-938d1fb9408d)
 
 
 

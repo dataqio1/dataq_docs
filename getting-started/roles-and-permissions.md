@@ -21,9 +21,9 @@ This documentation aims to provide a comprehensive understanding of the roles an
 
 
 
-{% hint style="info" %}
+> **Info:**
 Admin can be set only on the server properties file.&#x20;
-{% endhint %}
+
 
 ### Project Owner
 
@@ -37,11 +37,11 @@ Admin can be set only on the server properties file.&#x20;
 
 
 
-{% hint style="info" %}
+> **Info:**
 While a project can have multiple owners, it is highly recommended to designate a single owner as a best practice.
-{% endhint %}
 
-{% embed url="https://www.loom.com/share/943d42dc670b433bafbb53b63ff7a7fa?sid=70deb8ea-d694-478e-b1e0-0d7f8d88240f" %}
+
+[Video Link](https://www.loom.com/share/943d42dc670b433bafbb53b63ff7a7fa?sid=70deb8ea-d694-478e-b1e0-0d7f8d88240f)
 
 ### Regular User
 

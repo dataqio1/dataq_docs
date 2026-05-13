@@ -6,9 +6,9 @@ To provide an API as data input:
 * The output location will be passed as first argumen&#x74;**.**
 * Provide a sample output JSON for the schema.
 
-{% hint style="warning" %}
+> **Warning:**
 Ensure the sample output (few records) represents all of the columns.
-{% endhint %}
+
 
 Sample Python code snippet for an API\_:\_
 
@@ -32,6 +32,6 @@ if __name__ == "__main__":
     write_to_csv(data, output_path)
 ```
 
-{% file src="../../../../.gitbook/assets/conversation.json" %}
+[Download File](../../../../.gitbook/assets/conversation.json)
 Sample API output file(json)
-{% endfile %}
+

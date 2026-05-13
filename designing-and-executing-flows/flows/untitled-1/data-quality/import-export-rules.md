@@ -63,7 +63,7 @@ There are primarily three formats to import the Data Quality Rules.
 
 **Excel**: Whether you’re using SQL or Excel, the data format needs to be consistent. Refer to the attached Excel template.
 
-{% file src="../../../../.gitbook/assets/template.xlsx" %}
+[Download File](../../../../.gitbook/assets/template.xlsx)
 
 
 

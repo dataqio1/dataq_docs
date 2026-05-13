@@ -42,9 +42,9 @@ To use the variable in the test case, use <mark style="color:blue;">${id5}</mark
 
 The variable can be used as a table name, inside a sql query, schema name.
 
-{% hint style="info" %}
+> **Info:**
 The SQL query should output only one value.
-{% endhint %}
+
 
 <figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,6 +52,6 @@ The validate button validates the sql query and ensure the sql query is returnin
 
 **How to create and use Static and Dynamic Variable in a test case**
 
-{% embed url="https://vimeo.com/831207546/9803611d77?share=copy" %}
+[Video Link](https://vimeo.com/831207546/9803611d77?share=copy)
 
 \\

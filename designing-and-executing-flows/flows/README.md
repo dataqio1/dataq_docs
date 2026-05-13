@@ -33,10 +33,14 @@ These actions are:
 
 #### **Feature Overview**
 
-\
-Previously, clicking on a test case action redirected users to the edit canvas of that\
-specific test case. With the latest UI update, users can now seamlessly access and\
-switch between the canvas views of multiple test cases—enabling faster review, editing,\
+
+\
+Previously, clicking on a test case action redirected users to the edit canvas of that
+\
+specific test case. With the latest UI update, users can now seamlessly access and
+\
+switch between the canvas views of multiple test cases—enabling faster review, editing,
+\
 and comparison.
 
 #### Clone&#x20;
@@ -57,7 +61,7 @@ This action allows the user to delete the selected Test Case .
 
 The updated UI now allows users to **rename multiple test cases simultaneously**, eliminating the need to edit each one individually.
 
-{% embed url="https://www.loom.com/share/e28768c07df84d779c91ad67b4882cc7?sid=7671e3aa-5b5f-46a5-9e8b-8ce245cdd87e" %}
+[Video Link](https://www.loom.com/share/e28768c07df84d779c91ad67b4882cc7?sid=7671e3aa-5b5f-46a5-9e8b-8ce245cdd87e)
 
 #### Export&#x20;
 

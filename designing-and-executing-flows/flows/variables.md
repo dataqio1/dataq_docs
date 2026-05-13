@@ -57,7 +57,7 @@ For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on da
 
 3. **Provide Variable Name and Value**: Enter the desired variable name and its corresponding value in the provided fields. Once entered, make sure to save the changes to finalize the variable creation.
 
-{% embed url="https://www.loom.com/share/30eeff63601544aa8b30afe58f91953d?sid=21bff5cc-99a8-4cc9-a267-6ac596fbaa98" %}
+[Video Link](https://www.loom.com/share/30eeff63601544aa8b30afe58f91953d?sid=21bff5cc-99a8-4cc9-a267-6ac596fbaa98)
 
 * **Test Case Level**: These variables are specific to individual test cases. They can be used to store values that are only relevant within the scope of a single test execution, allowing for more granular control over variable use in different scenarios.
 
@@ -96,9 +96,9 @@ To use the variable in the test case, use <mark style="color:blue;">${id5}</mark
 
 The variable can be used as a table name, inside a sql query, schema name.&#x20;
 
-{% hint style="info" %}
+> **Info:**
 The SQL query should output only one value.
-{% endhint %}
+
 
 The validate button validates the sql query and ensure the sql query is returning only one value. If the sql query is returning multiple records or multiple columns, the error message is displayed and sql query has to be fixed.
 
@@ -110,7 +110,7 @@ The validate button validates the sql query and ensure the sql query is returnin
 
 
 
-{% embed url="https://vimeo.com/831207546/9803611d77?share=copy" %}
+[Video Link](https://vimeo.com/831207546/9803611d77?share=copy)
 
 
 

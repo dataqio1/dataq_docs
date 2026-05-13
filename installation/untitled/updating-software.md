@@ -12,15 +12,15 @@ run below command to update the server
 
 _Command :_ `./update_software.sh <version>`
 
-{% hint style="warning" %}
+> **Warning:**
 Depending on the permission granted to the current user, sudo may have to be prepended to all the commands.
 
 ex : sudo `./update_software.sh`
-{% endhint %}
 
-{% hint style="info" %}
+
+> **Info:**
 Run the command from dataops\_server folder
-{% endhint %}
+
 
 #### 2. Start the server
 

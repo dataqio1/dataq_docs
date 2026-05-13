@@ -13,7 +13,7 @@ There are three options for mapping datasets and columns from source to target.
 
 
 
-{% embed url="https://www.loom.com/share/7d13d4eff9254390a4e93d4408443050?sid=60541601-75a3-44e8-ae80-2dd632190e75" %}
+[Video Link](https://www.loom.com/share/7d13d4eff9254390a4e93d4408443050?sid=60541601-75a3-44e8-ae80-2dd632190e75)
 
 
 
@@ -46,9 +46,9 @@ The CSV file should contain the following headers:
 
 
 
-{% hint style="warning" %}
+> **Warning:**
 Mapping file is case sensitive. Ensure the table names, and column names have the same case as in the database.&#x20;
-{% endhint %}
+
 
 ## SQL Transformation
 
