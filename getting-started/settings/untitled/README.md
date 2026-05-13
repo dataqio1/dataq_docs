@@ -22,6 +22,6 @@ Data connections are used as a link to a database (DB) to retrieve data for test
   * \*\*Password : \*\*Password.
 * Click on _Test Connection_ and then _Create Source_ when the connection's details have been validated.
 
-[Video Link](https://vimeo.com/1104138524/b3899be641?ts=0&share=copy)
+{% video %}https://player.vimeo.com/video/1104138524?h=b3899be641{% endvideo %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-16 135159.png" alt=""><figcaption><p>Create Connection</p></figcaption></figure>

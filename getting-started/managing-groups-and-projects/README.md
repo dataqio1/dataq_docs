@@ -12,4 +12,4 @@ To change between groups and/or projects:
 2. Use the drop-down menu next to _Group_ to select a group that has been assigned to your profile.
 3. Use the drop-down menu next to _Project_ to select a project within the selected group.
 
-[Video Link](https://www.loom.com/share/b52f7ffb6ef3479f819574e1d734fb35?sid=3ac8e659-40b3-425d-8cc9-a53f247229a7)
+{% video %}https://www.loom.com/embed/b52f7ffb6ef3479f819574e1d734fb35{% endvideo %}

@@ -25,4 +25,4 @@ Admin Reports has following (in a given interval of time range) -
 
     This shows the Manager how many unit tests being created by each user.
 
-[Video Link](https://vimeo.com/1042739155/e6e3259307)
+{% video %}https://player.vimeo.com/video/1042739155?h=e6e3259307{% endvideo %}

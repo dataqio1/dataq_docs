@@ -8,4 +8,4 @@ Steps to create reports are -&#x20;
 2. Select test cases we need to create reports.
 3. Write a new name for reports and then Click on Create Report.
 
-[Video Link](https://vimeo.com/1042729713/829fdea498)
+{% video %}https://player.vimeo.com/video/1042729713?h=829fdea498{% endvideo %}

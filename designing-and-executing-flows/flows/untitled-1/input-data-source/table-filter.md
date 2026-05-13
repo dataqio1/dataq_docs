@@ -34,4 +34,4 @@ For a more complex filter, such as selecting records where the ID is greater tha
 
 By following these steps, you can efficiently focus your testing efforts on specific, relevant subsets of data, making your testing process more precise and effective.
 
-[Video Link](https://www.loom.com/share/d824b612184f4a718934affaa7a12ca8?sid=bca7ce9b-e0c0-48ec-a27c-0f14d1290e08)
+{% video %}https://www.loom.com/embed/d824b612184f4a718934affaa7a12ca8{% endvideo %}

@@ -52,6 +52,6 @@ The validate button validates the sql query and ensure the sql query is returnin
 
 **How to create and use Static and Dynamic Variable in a test case**
 
-[Video Link](https://vimeo.com/831207546/9803611d77?share=copy)
+{% video %}https://player.vimeo.com/video/831207546?h=9803611d77{% endvideo %}
 
 \\

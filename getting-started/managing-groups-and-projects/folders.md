@@ -10,5 +10,5 @@ To group similar kinds of test cases of different projects , we can create a fol
 
 Only Admin is allowed to create a folder and merge projects in the folder.
 
-[Video Link](https://vimeo.com/1103796426/562aa8dd45?share=copy&ts=0)
+{% video %}https://player.vimeo.com/video/1103796426?h=562aa8dd45{% endvideo %}
 

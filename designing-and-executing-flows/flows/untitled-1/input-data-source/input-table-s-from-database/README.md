@@ -26,4 +26,4 @@ For large tables, it is recommended to provide a partition column so Vexdata can
 
 
 
-[Video Link](https://youtu.be/fUi9JzBE0oQ)
+{% video %}https://www.youtube.com/embed/fUi9JzBE0oQ{% endvideo %}

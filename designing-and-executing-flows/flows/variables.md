@@ -57,7 +57,7 @@ For eg - ${YYYY-MM-DD hh-mm-ss} will be replaced by actual date at runtime on da
 
 3. **Provide Variable Name and Value**: Enter the desired variable name and its corresponding value in the provided fields. Once entered, make sure to save the changes to finalize the variable creation.
 
-[Video Link](https://www.loom.com/share/30eeff63601544aa8b30afe58f91953d?sid=21bff5cc-99a8-4cc9-a267-6ac596fbaa98)
+{% video %}https://www.loom.com/embed/30eeff63601544aa8b30afe58f91953d{% endvideo %}
 
 * **Test Case Level**: These variables are specific to individual test cases. They can be used to store values that are only relevant within the scope of a single test execution, allowing for more granular control over variable use in different scenarios.
 
@@ -110,7 +110,7 @@ The validate button validates the sql query and ensure the sql query is returnin
 
 
 
-[Video Link](https://vimeo.com/831207546/9803611d77?share=copy)
+{% video %}https://player.vimeo.com/video/831207546?h=9803611d77{% endvideo %}
 
 
 

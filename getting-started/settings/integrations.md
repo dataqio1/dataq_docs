@@ -5,9 +5,9 @@ Slack
 * Slack integration refers to the process of connecting the application with the Slack messaging platform.
 * This integration enables communication between the application and Slack, allowing users to receive quick notifications regarding Test Case Status updates directly within their Slack workspace channels.
 
-[Video Link](https://vimeo.com/1104064473/b82b6ccdbd?share=copy&ts=14080)
+{% video %}https://player.vimeo.com/video/1104064473?h=b82b6ccdbd{% endvideo %}
 
-[Video Link](https://vimeo.com/1104064473/b82b6ccdbd?ts=0&share=copy)
+{% video %}https://player.vimeo.com/video/1104064473?h=b82b6ccdbd{% endvideo %}
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,9 +20,9 @@ Email
 * Email Integration allows users to receive Email notification of Test Case.
 * This feature streamlines communication by ensuring that pertinent updates, status changes, and essential information regarding test cases are promptly delivered to users' email inboxes, facilitating quick and convenient access to test results.
 
-[Video Link](https://vimeo.com/1104065310/7fcc33f9a6?ts=15901&share=copy)
+{% video %}https://player.vimeo.com/video/1104065310?h=7fcc33f9a6{% endvideo %}
 
-[Video Link](https://vimeo.com/1104065310/7fcc33f9a6?ts=0&share=copy)
+{% video %}https://player.vimeo.com/video/1104065310?h=7fcc33f9a6{% endvideo %}
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

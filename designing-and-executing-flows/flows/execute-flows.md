@@ -39,7 +39,7 @@ For executing multiple test cases in a batch:
 
 
 
-[Video Link](https://www.youtube.com/watch?v=1yEwIfclzIw)
+{% video %}https://www.youtube.com/embed/1yEwIfclzIw{% endvideo %}
 
 #### 3. Re-executing Previous Batches
 

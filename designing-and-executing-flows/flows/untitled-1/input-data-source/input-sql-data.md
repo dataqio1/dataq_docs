@@ -40,7 +40,7 @@ This is **beta** feature and there could be issues with generated SQL
 
 
 
-[Video Link](https://www.loom.com/share/6b7c5804f5a446bbb225960fb8e26345?sid=4b48aca7-0033-4510-99b9-938d1fb9408d)
+{% video %}https://www.loom.com/embed/6b7c5804f5a446bbb225960fb8e26345{% endvideo %}
 
 
 
