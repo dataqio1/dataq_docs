@@ -2,6 +2,7 @@
   "title": "Vexdata Documentation",
   "description": "Vexdata automates Data Testing - No Code/Low Code Data Testing Platform",
   "author": "Vexdata",
-  "language": "en"
+  "language": "en",
+  "plugins": ["expandable-chapters-small"]
 }
 
